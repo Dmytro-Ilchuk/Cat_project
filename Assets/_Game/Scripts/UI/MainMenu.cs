@@ -14,6 +14,9 @@ namespace NineLives
         {
             InputSystem.actions.FindActionMap("Gameplay", true).Disable();
             Time.timeScale = 1f;
+#if UNITY_WEBGL && !UNITY_EDITOR
+            quitButton.gameObject.SetActive(false);
+#endif
             EventSystem.current.SetSelectedGameObject(playButton.gameObject);
             Debug.Log("NineLives: MainMenu ready.");
         }
@@ -24,7 +27,7 @@ namespace NineLives
         {
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
-#else
+#elif !UNITY_WEBGL
             Application.Quit();
 #endif
         }

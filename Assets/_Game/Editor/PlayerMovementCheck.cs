@@ -34,9 +34,9 @@ namespace NineLives.Editor
             bool enabled = move.enabled;
             var background = InputSystem.settings.backgroundBehavior;
             bool runInBackground = Application.runInBackground;
-            var pad = InputSystem.AddDevice<Gamepad>();
+            var keyboard = InputSystem.AddDevice<Keyboard>();
             running = true;
-            void Input(float x) => InputSystem.QueueStateEvent(pad, new GamepadState { leftStick = new Vector2(x, 0) });
+            void Input(float x) => InputSystem.QueueStateEvent(keyboard, new KeyboardState(x < 0 ? new[] { Key.A } : x > 0 ? new[] { Key.D } : Array.Empty<Key>()));
             void Check(bool condition, string message)
             {
                 if (!condition) throw new InvalidOperationException("Player movement: " + message);
@@ -91,7 +91,7 @@ namespace NineLives.Editor
             }
             finally
             {
-                InputSystem.RemoveDevice(pad);
+                InputSystem.RemoveDevice(keyboard);
                 InputSystem.settings.backgroundBehavior = background;
                 Application.runInBackground = runInBackground;
                 if (!enabled) move.Disable(); else move.Enable();

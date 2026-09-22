@@ -31,12 +31,16 @@ namespace NineLives.Editor
             bool wasPaused = pause.IsPaused;
             bool background = Application.runInBackground;
             var focus = InputSystem.settings.backgroundBehavior;
-            var pad = InputSystem.AddDevice<Gamepad>();
+            var keyboard = InputSystem.AddDevice<Keyboard>();
             void Input(float x = 0, bool jump = false, bool dash = false, bool start = false)
             {
-                var state = new GamepadState { leftStick = new Vector2(x, 0) };
-                state = state.WithButton(GamepadButton.South, jump).WithButton(GamepadButton.RightShoulder, dash).WithButton(GamepadButton.Start, start);
-                InputSystem.QueueStateEvent(pad, state);
+                var keys = new System.Collections.Generic.List<Key>();
+                if (x < 0) keys.Add(Key.A);
+                if (x > 0) keys.Add(Key.D);
+                if (jump) keys.Add(Key.Space);
+                if (dash) keys.Add(Key.LeftShift);
+                if (start) keys.Add(Key.Escape);
+                InputSystem.QueueStateEvent(keyboard, new KeyboardState(keys.ToArray()));
             }
             void Check(bool ok, string message)
             {
@@ -130,7 +134,7 @@ namespace NineLives.Editor
                 Check(body.position.x > 34.8f && body.position.y < 0.6f, "narrow passage is traversable");
 
                 await Reset(); Input(1, true, true, true); await Task.Delay(150);
-                Check(pause.IsPaused && player.InputBlocked && Time.timeScale == 0, "Start pauses and blocks gameplay");
+                Check(pause.IsPaused && player.InputBlocked && Time.timeScale == 0, "Escape pauses and blocks gameplay");
                 Vector2 pausedPosition = body.position;
                 Input(1, true, true); await Task.Delay(150);
                 Check(body.position == pausedPosition && !player.IsDashing, "paused body stays still");
@@ -150,7 +154,7 @@ namespace NineLives.Editor
             finally
             {
                 floor.SetActive(true);
-                InputSystem.RemoveDevice(pad);
+                InputSystem.RemoveDevice(keyboard);
                 InputSystem.settings.backgroundBehavior = focus;
                 Application.runInBackground = background;
                 if (player != null)
