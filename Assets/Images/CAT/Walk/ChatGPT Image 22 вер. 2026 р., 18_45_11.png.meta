@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 754d74ca8115ee04d811c3f0613871ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3563035947684713431
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_0"
+  - first:
+      213: 2031057730783207517
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_1"
+  - first:
+      213: 8771441812306694005
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_2"
+  - first:
+      213: -7814687080705766258
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_3"
+  - first:
+      213: 247587107578388405
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_4"
+  - first:
+      213: -9079775168398166332
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_5"
+  - first:
+      213: 8573886506352417718
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_6"
+  - first:
+      213: -5726136561008740271
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_7"
+  - first:
+      213: 8750415753076223662
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_8"
+  - first:
+      213: 2184031023533560288
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_9"
+  - first:
+      213: -6439733211803105894
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_10"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatWalk_00
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 238
+        width: 263
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fedf38a178ef243a41ec6b2626d031
+      internalID: -760353907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_01
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 246
+        width: 270
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9421ab14f4d17f54386314847430a638
+      internalID: -393401081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_02
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 245
+        width: 284
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30beeb57155dbfe488fc46b556f238fd
+      internalID: 1712794659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_03
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 257
+        width: 264
+        height: 190
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c221f5b5b671c47bfe2940da9c38e9
+      internalID: 126953706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_04
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 249
+        width: 255
+        height: 202
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c9d0f783b9b454abf6ccac6fb15e1b
+      internalID: -2067187121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_05
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 249
+        width: 270
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48398a636a1c6b458cee16d8d3b64e3
+      internalID: 1212362842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_0"
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 260
+        width: 265
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b374db59549234ababded48fe4dd84
+      internalID: -2055445570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_1"
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 245
+        width: 274
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8478b50f22acfda4d9e33222cf0e16be
+      internalID: -2092343697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6d83cab7739d7c84eb03500807eb0409
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CatWalk_00: -760353907
+      CatWalk_01: -393401081
+      CatWalk_02: 1712794659
+      CatWalk_03: 126953706
+      CatWalk_04: -2067187121
+      CatWalk_05: 1212362842
+      "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_0": -2055445570
+      "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_45_11_1": -2092343697
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

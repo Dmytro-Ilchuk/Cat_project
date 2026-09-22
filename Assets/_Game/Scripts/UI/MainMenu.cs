@@ -21,7 +21,13 @@ namespace NineLives
             Debug.Log("NineLives: MainMenu ready.");
         }
 
-        public void Play() => UnityEngine.SceneManagement.SceneManager.LoadScene("PlatformTest");
+        public void Play()
+        {
+            var cycle = CycleController.Ensure();
+            if (cycle.Cycle.IsComplete) cycle.StartNewCat();
+            cycle.StartRun();
+            UnityEngine.SceneManagement.SceneManager.LoadScene("PlatformTest");
+        }
 
         public void Quit()
         {

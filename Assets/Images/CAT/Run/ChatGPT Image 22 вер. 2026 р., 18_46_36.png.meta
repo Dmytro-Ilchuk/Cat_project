@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: a689de3f1b539ef4bbe0360b778a44bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8678893060410260936
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_0"
+  - first:
+      213: 6412142217154447635
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_1"
+  - first:
+      213: 1865489553096171933
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_2"
+  - first:
+      213: -7270872881446679769
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_3"
+  - first:
+      213: 3852843232022168815
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_4"
+  - first:
+      213: 6415940377314761095
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_5"
+  - first:
+      213: -4064953800535306501
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_6"
+  - first:
+      213: 2458463130982504418
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_7"
+  - first:
+      213: 6882440777986815446
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_8"
+  - first:
+      213: -9163364286448136314
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_9"
+  - first:
+      213: 312368368485592561
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_10"
+  - first:
+      213: 8031114528403019046
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_11"
+  - first:
+      213: -6323968578585497321
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_12"
+  - first:
+      213: -3528894267275648860
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_13"
+  - first:
+      213: -6299157687684456981
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_14"
+  - first:
+      213: 5555536331499237819
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_15"
+  - first:
+      213: -8797062789743944909
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_16"
+  - first:
+      213: 7648496131330043432
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_17"
+  - first:
+      213: -6606088569392020819
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_18"
+  - first:
+      213: 8008926341870891169
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_36_19"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatRun_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 615
+        width: 337
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1943be58ef184d1479f383b0c122b5ee
+      internalID: -2052614134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRun_01
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 615
+        width: 357
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb60b9ee2f0dfd4784ebb226f56dea7
+      internalID: -1984352770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRun_02
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 616
+        width: 362
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdcf9ef78c86ba47ab1d8ec869f7d12
+      internalID: 1437070047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRun_03
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 631
+        width: 343
+        height: 177
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd9fb55dc817834a9613eb9bd5de5c5
+      internalID: 807970257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRun_04
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 294
+        width: 338
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460c1113c9c58b24a8b3ba2ea2255c7a
+      internalID: -1792358800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRun_05
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 293
+        width: 356
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054d2de8bf2b9124aa4d5361b37182f0
+      internalID: 1767059846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRun_06
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 294
+        width: 360
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972bcb031d6ec3146a092b157c9a1861
+      internalID: -782354900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatRun_07
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 294
+        width: 343
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397b964b3e39b2444803ebc2e9c26cb8
+      internalID: -182110140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d0b2620593a502e408446401d4260086
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CatRun_00: -2052614134
+      CatRun_01: -1984352770
+      CatRun_02: 1437070047
+      CatRun_03: 807970257
+      CatRun_04: -1792358800
+      CatRun_05: 1767059846
+      CatRun_06: -782354900
+      CatRun_07: -182110140
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

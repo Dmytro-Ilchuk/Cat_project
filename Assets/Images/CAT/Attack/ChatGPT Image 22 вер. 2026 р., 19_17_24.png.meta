@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 906409c7910aa84459f89f67f5602537
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1118817346568615904
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_0"
+  - first:
+      213: 5611990139986816385
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_1"
+  - first:
+      213: -5215360894478189059
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_2"
+  - first:
+      213: -7786170843302546906
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_3"
+  - first:
+      213: 4540918155142709010
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_4"
+  - first:
+      213: -8149704865460882269
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_5"
+  - first:
+      213: -4626457216371781810
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_6"
+  - first:
+      213: -9063763819172205874
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_7"
+  - first:
+      213: -3042822658115241923
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_8"
+  - first:
+      213: 4769614036974797549
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_9"
+  - first:
+      213: -3756950198465970122
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_10"
+  - first:
+      213: -4325056369454987829
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_11"
+  - first:
+      213: -2788791955176307422
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_12"
+  - first:
+      213: -3769820990504383256
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_13"
+  - first:
+      213: -5413730109096074129
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_14"
+  - first:
+      213: -8401970799827805964
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_15"
+  - first:
+      213: -4177713339438855241
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_16"
+  - first:
+      213: 7960564286022945530
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_17"
+  - first:
+      213: -3794575552582416501
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_18"
+  - first:
+      213: -2313370973252847185
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_19"
+  - first:
+      213: 1124807395038616091
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_20"
+  - first:
+      213: 2858628457996948563
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_21"
+  - first:
+      213: -6005544519782483857
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_22"
+  - first:
+      213: -2640687054257046086
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_23"
+  - first:
+      213: 9112808613911209115
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_24"
+  - first:
+      213: -8574502567506370060
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_25"
+  - first:
+      213: 6711642109578525346
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_26"
+  - first:
+      213: -3159729886433297213
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_27"
+  - first:
+      213: 6278820925883656193
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_28"
+  - first:
+      213: -2776661281883301658
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_29"
+  - first:
+      213: 8273584903454522174
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_30"
+  - first:
+      213: 8327685129559535350
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_31"
+  - first:
+      213: 7905273360730673253
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_32"
+  - first:
+      213: -3870669919029566528
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_33"
+  - first:
+      213: 1798743787508495516
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_34"
+  - first:
+      213: 275442323804085009
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_35"
+  - first:
+      213: -2437275357478243887
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_36"
+  - first:
+      213: 6416191019145158169
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_37"
+  - first:
+      213: -5405868461462191917
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_38"
+  - first:
+      213: -4944215289548727367
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_39"
+  - first:
+      213: -7134200223584224267
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_40"
+  - first:
+      213: 115769803316434598
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_41"
+  - first:
+      213: 9218737075581991309
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_42"
+  - first:
+      213: -8331741674902813903
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_17_24_43"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatAttack_00
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 587
+        width: 342
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0149c0f429827634795d930e6f8b208a
+      internalID: -1156671796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatAttack_01
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 593
+        width: 334
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f70845759ab7043890a0e735694dab
+      internalID: 1394417101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatAttack_02
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 583
+        width: 362
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf55ef6bd74ba04495dedde1dc2089f
+      internalID: 2053435982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatAttack_03
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 586
+        width: 350
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6a0d8d57a3ea24b9a808c1cb420dfc
+      internalID: 1368339283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatAttack_04
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 235
+        width: 416
+        height: 226
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7251e3ed6a5f22b459326f3d1d6c9894
+      internalID: 220229497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatAttack_05
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 234
+        width: 318
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871d6764786de134e884a103270791cf
+      internalID: 112802345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatAttack_06
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 233
+        width: 321
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cadab0611f88c34584938764d38a05d
+      internalID: -184885431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatAttack_07
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 232
+        width: 320
+        height: 242
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e545d36c6d4c1b54b9ec3bb1f04e245a
+      internalID: 1565155024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 419980a400bb17a4fa45de3d429d5dfb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CatAttack_00: -1156671796
+      CatAttack_01: 1394417101
+      CatAttack_02: 2053435982
+      CatAttack_03: 1368339283
+      CatAttack_04: 220229497
+      CatAttack_05: 112802345
+      CatAttack_06: -184885431
+      CatAttack_07: 1565155024
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

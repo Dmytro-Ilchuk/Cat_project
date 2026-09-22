@@ -13,7 +13,7 @@ namespace NineLives
         [SerializeField, Min(0)] private float speed = 6f;
         [SerializeField, Min(0)] private float acceleration = 35f;
         [SerializeField, Min(0)] private float braking = 50f;
-        [SerializeField, Min(0)] private float jumpSpeed = 11f;
+        [SerializeField, Min(0)] private float jumpSpeed = 14f;
         [SerializeField, Range(0f, 1f)] private float jumpCut = 0.45f;
         [SerializeField, Min(0)] private float coyoteTime = 0.12f;
         [SerializeField, Min(0)] private float jumpBuffer = 0.12f;
@@ -23,6 +23,7 @@ namespace NineLives
         [SerializeField] private float fallY = -6f;
 
         private Rigidbody2D body;
+        private Health health;
         private ContactFilter2D groundFilter;
         private Vector3 visualScale;
         private InputAction jumpAction, dashAction;
@@ -35,10 +36,12 @@ namespace NineLives
         public bool IsGrounded => body != null && body.IsTouching(groundFilter);
         public bool IsDashing { get; private set; }
         public bool InputBlocked { get; private set; }
+        public float FacingDirection => Mathf.Sign(visual.localScale.x == 0f ? 1f : visual.localScale.x);
 
         private void Awake()
         {
             body = GetComponent<Rigidbody2D>();
+            health = GetComponent<Health>();
             spawnPosition = body.position;
             gravity = body.gravityScale;
             jumpAction = moveAction.action.actionMap.FindAction("Jump", true);
@@ -114,7 +117,11 @@ namespace NineLives
 
         private void FixedUpdate()
         {
-            if (body.position.y < fallY) Respawn();
+            if (body.position.y < fallY)
+            {
+                health?.TakeDamage(10, Vector2.zero);
+                Respawn();
+            }
             if (InputBlocked) return;
             bool grounded = IsGrounded;
             if (grounded && !IsDashing && body.linearVelocity.y <= 0.01f)

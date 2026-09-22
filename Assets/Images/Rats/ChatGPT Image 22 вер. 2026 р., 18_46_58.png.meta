@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: d7f97e1db0296a34095258081446e11d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2910923351354998226
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_0"
+  - first:
+      213: -8518955509289155869
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_1"
+  - first:
+      213: 4243542870389412205
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_2"
+  - first:
+      213: 7941006155528154031
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_3"
+  - first:
+      213: -6095688425737727323
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_4"
+  - first:
+      213: -2847876081635047393
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_5"
+  - first:
+      213: -5592916896747697333
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_6"
+  - first:
+      213: 4573135726136158271
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_7"
+  - first:
+      213: -3962897386154120861
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_8"
+  - first:
+      213: -3216742856330320644
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_9"
+  - first:
+      213: 3606504167449140644
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_10"
+  - first:
+      213: 6759591655073728755
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_11"
+  - first:
+      213: 8360184042165291685
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_12"
+  - first:
+      213: -1076545163768019964
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_13"
+  - first:
+      213: 1313542074865283497
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_14"
+  - first:
+      213: 2572773135535056348
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_15"
+  - first:
+      213: 5686957256310831584
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_16"
+  - first:
+      213: -3351423113032555706
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_17"
+  - first:
+      213: 1751389129758929794
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_18"
+  - first:
+      213: -6898419432020762793
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_19"
+  - first:
+      213: -1892578284520521908
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_20"
+  - first:
+      213: 2131638053979290018
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_21"
+  - first:
+      213: 6738406562528770206
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 18_46_58_22"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rat_00
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 567
+        width: 332
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73f4d36ee922eb458288582968a4428
+      internalID: -1849578336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_01
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 567
+        width: 362
+        height: 239
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7142ef25c0297d04fa75dedb1c410777
+      internalID: 1960984810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_02
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 567
+        width: 362
+        height: 214
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce02c46a527a4341bda604606bc1695
+      internalID: 933625423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_03
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 567
+        width: 362
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5e6be958ff1ed4bb01120eadc814bb
+      internalID: -2016980273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_04
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 242
+        width: 343
+        height: 211
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0451e5e5f5fc77843b8aa088c87f5ea2
+      internalID: -642103635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_05
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 245
+        width: 362
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2caac8e679ca1b9409c588189ac6611b
+      internalID: -672510735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_06
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 243
+        width: 362
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c119cf6342c453428d4b4b670faad7c
+      internalID: 595851991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rat_07
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 241
+        width: 362
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02462ec3a6468cc4eb13679f9b41a9e4
+      internalID: 332968672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4c463efc8525c744297b237233c7d031
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rat_00: -1849578336
+      Rat_01: 1960984810
+      Rat_02: 933625423
+      Rat_03: -2016980273
+      Rat_04: -642103635
+      Rat_05: -672510735
+      Rat_06: 595851991
+      Rat_07: 332968672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

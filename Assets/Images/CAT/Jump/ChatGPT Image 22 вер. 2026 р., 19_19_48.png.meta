@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 8f62e1ed6b2c72e4292b0c7a1d7a72b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9205040759069743828
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_0"
+  - first:
+      213: 2298879802795312384
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_1"
+  - first:
+      213: 3788780772349990655
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_2"
+  - first:
+      213: -8444047794754625886
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_3"
+  - first:
+      213: -6874422111838298697
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_4"
+  - first:
+      213: -3750300220943862921
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_5"
+  - first:
+      213: 8873631806675703718
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_6"
+  - first:
+      213: 1038685885139225397
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_7"
+  - first:
+      213: -262437095388483671
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_8"
+  - first:
+      213: 1012330592461738594
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_9"
+  - first:
+      213: -6112034108624928203
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_10"
+  - first:
+      213: 4242889950274084673
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_11"
+  - first:
+      213: -8546403937127584184
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_12"
+  - first:
+      213: -1032373303462826349
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_13"
+  - first:
+      213: -4561362052836339082
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_14"
+  - first:
+      213: -6092514981260999825
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_15"
+  - first:
+      213: 3755282244712175572
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_16"
+  - first:
+      213: 6955248790347376171
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_17"
+  - first:
+      213: -5477467447596958805
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_18"
+  - first:
+      213: 1885478716058300170
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_19"
+  - first:
+      213: -1885688441774105679
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_20"
+  - first:
+      213: -3755046736728750621
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_21"
+  - first:
+      213: 5063242038501783176
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_22"
+  - first:
+      213: -3396192885165400457
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_23"
+  - first:
+      213: -6766007809111289465
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_24"
+  - first:
+      213: 7247863861863634677
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_25"
+  - first:
+      213: 2856283460982172209
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_26"
+  - first:
+      213: 4137959782967778821
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_27"
+  - first:
+      213: 2338563233016995027
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_19_48_28"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatJump_00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 599
+        width: 343
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fdfc28c993bd64886e2fc230454645
+      internalID: 700387303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatJump_01
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 598
+        width: 323
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7068314e08c369448999e761f98bd688
+      internalID: 1734081276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatJump_02
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 599
+        width: 330
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85dabde882b38c4eae490e92b39f219
+      internalID: 914588801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatJump_03
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 665
+        width: 346
+        height: 199
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f066c74bb8be3a6478c04523c7abe01e
+      internalID: -78375883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatJump_04
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 322
+        width: 347
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e25bbc2ec04a54bba30d11b989ddb3
+      internalID: -2144404856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatJump_05
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 255
+        width: 306
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763f4ebd6d7dbd241bb00e7f65105ec3
+      internalID: 693686944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatJump_06
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 215
+        width: 337
+        height: 233
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26eb1a1062f2cce47b6d440915bbdcdf
+      internalID: 303144393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatJump_07
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 212
+        width: 350
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddc28751b73fa04085160d140628b1e
+      internalID: 703977739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d41278cb15c0eca47ac12e2d86f7b69c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CatJump_00: 700387303
+      CatJump_01: 1734081276
+      CatJump_02: 914588801
+      CatJump_03: -78375883
+      CatJump_04: -2144404856
+      CatJump_05: 693686944
+      CatJump_06: 303144393
+      CatJump_07: 703977739
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: 8e8bfcc8126eb9a4a896bb2cb1985985
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1599799648882792214
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_0"
+  - first:
+      213: 8235245397530092095
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_1"
+  - first:
+      213: -2164111876977010400
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_2"
+  - first:
+      213: -756124796186062584
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_3"
+  - first:
+      213: -7968518174915616503
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_4"
+  - first:
+      213: 7017050963990004516
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_5"
+  - first:
+      213: -1163221255669413900
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_6"
+  - first:
+      213: -3990477158766815125
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_7"
+  - first:
+      213: 3907685438809047337
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_8"
+  - first:
+      213: 648511449533309092
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_9"
+  - first:
+      213: -6092446009463290103
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_10"
+  - first:
+      213: -833940850286704223
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_11"
+  - first:
+      213: 2570532350473233626
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_12"
+  - first:
+      213: 5542114389962297534
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_13"
+  - first:
+      213: 7463353499398392970
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_14"
+  - first:
+      213: 8929620130159310952
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_15"
+  - first:
+      213: -183197085808063063
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_16"
+  - first:
+      213: -576403735852989579
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_17"
+  - first:
+      213: 7536952485968127581
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_18"
+  - first:
+      213: -2508333981482251717
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_19"
+  - first:
+      213: -2913274795094464683
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_20"
+  - first:
+      213: -5231078608831960195
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_21"
+  - first:
+      213: 4873420701127069616
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_22"
+  - first:
+      213: 7497377963368737907
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_23"
+  - first:
+      213: -6420317345441863302
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_24"
+  - first:
+      213: -2144574944478902279
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_25"
+  - first:
+      213: 9047772532872712109
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_26"
+  - first:
+      213: 6683473222066371425
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_27"
+  - first:
+      213: -4993675746795347247
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_28"
+  - first:
+      213: -3545387193543504796
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_29"
+  - first:
+      213: -2412778727504436547
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_30"
+  - first:
+      213: -849315949814966370
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_31"
+  - first:
+      213: -5528715292758866450
+    second: "ChatGPT Image 22 \u0432\u0435\u0440. 2026 \u0440., 19_21_06_32"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatDodge_00
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 585
+        width: 344
+        height: 237
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035f512d5ddfac843ad0679f2ea768a7
+      internalID: 928917584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatDodge_01
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 588
+        width: 362
+        height: 234
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e54593b1fb5284782b98f3c234eb31
+      internalID: -944468243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatDodge_02
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 588
+        width: 362
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77d41f3466434c4cab4f8666cfa157e
+      internalID: -1747800937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatDodge_03
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 582
+        width: 343
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bfaeed0ae5fc44398a4d6dd5b8bac9
+      internalID: 1856039635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatDodge_04
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 223
+        width: 342
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a2891aeb723564d90fb925338cde33
+      internalID: 1127766985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatDodge_05
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 220
+        width: 362
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef7a7338db270a419959ae00aa4638b
+      internalID: 1672872922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatDodge_06
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 209
+        width: 362
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae40d80b95c6c946ba4f2c70d007697
+      internalID: 1047115541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatDodge_07
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 223
+        width: 331
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab5fb8d0c09b31438b650a4da64ee35
+      internalID: 468988604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 73f92604a09ee1242a31b90adcd54731
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CatDodge_00: 928917584
+      CatDodge_01: -944468243
+      CatDodge_02: -1747800937
+      CatDodge_03: 1856039635
+      CatDodge_04: 1127766985
+      CatDodge_05: 1672872922
+      CatDodge_06: 1047115541
+      CatDodge_07: 468988604
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
