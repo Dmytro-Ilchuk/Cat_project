@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 
 namespace NineLives
 {
@@ -27,9 +26,11 @@ namespace NineLives
         private SpriteRenderer visual;
         private Collider2D hitbox;
         private Color baseColor;
-        private Vector3 baseScale;
 
-        public bool IsAttacking => state == State.WindingUp;
+        public bool IsAttacking => state == State.WindingUp || state == State.Recovering;
+        public float AttackProgress => state == State.WindingUp
+            ? .5f * Mathf.Clamp01(1 - (stateUntil - Time.time) / windUpDuration)
+            : .5f + .5f * Mathf.Clamp01(1 - (stateUntil - Time.time) / recoveryDuration);
 
         private void Awake()
         {
@@ -38,7 +39,6 @@ namespace NineLives
             visual = GetComponent<SpriteRenderer>();
             hitbox = GetComponent<Collider2D>();
             baseColor = visual.color;
-            baseScale = transform.localScale;
             SnapToGround();
             // The prototype arena has pits. Rats move only horizontally, so they keep their authored lane.
             body.gravityScale = 0f;
@@ -47,13 +47,11 @@ namespace NineLives
             playerHealth = player != null ? player.GetComponent<Health>() : null;
             playerHitbox = player != null ? player.GetComponent<Collider2D>() : null;
             health.Died += HandleDeath;
-            health.Damaged += HandleDamage;
         }
 
         private void OnDestroy()
         {
             health.Died -= HandleDeath;
-            health.Damaged -= HandleDamage;
         }
 
         private void FixedUpdate()
@@ -78,7 +76,6 @@ namespace NineLives
                 case State.WindingUp:
                     Attack();
                     visual.color = baseColor;
-                    transform.localScale = baseScale;
                     state = State.Recovering;
                     stateUntil = Time.time + recoveryDuration;
                     break;
@@ -103,14 +100,8 @@ namespace NineLives
         {
             if (HorizontalGapToPlayer() > attackRange) return;
             Vector2 direction = Mathf.Sign(player.transform.position.x - transform.position.x) * Vector2.right;
-            CombatVfx.Spawn(visual.sprite, (Vector2)transform.position + direction * 0.85f, new Vector3(0.95f, 0.14f, 1f), new Color(1f, 0.25f, 0.2f, 0.85f));
+            CombatVfx.Slash((Vector2)transform.position + direction * .6f, direction.x, true);
             playerHealth.TakeDamage(attackDamage, direction * attackKnockback + Vector2.up * 0.25f);
-        }
-
-        private void HandleDamage(Health _, int __)
-        {
-            CombatVfx.Spawn(visual.sprite, transform.position, new Vector3(0.7f, 0.7f, 1f), new Color(1f, 1f, 1f, 0.9f));
-            StartCoroutine(FlashDamage());
         }
 
         private void HandleDeath(Health _)
@@ -119,16 +110,9 @@ namespace NineLives
             body.linearVelocity = Vector2.zero;
             body.simulated = false;
             hitbox.enabled = false;
-            visual.color = new Color(0.2f, 0.05f, 0.05f, 1f);
-            transform.localScale = new Vector3(transform.localScale.x * 1.2f, 0.08f, 1f);
-            Destroy(gameObject, 0.55f);
-        }
-
-        private IEnumerator FlashDamage()
-        {
-            visual.color = Color.white;
-            yield return new WaitForSeconds(0.1f);
-            if (state != State.Dead) visual.color = baseColor;
+            visual.color = baseColor;
+            CombatVfx.Death(visual.bounds.center);
+            Destroy(gameObject, .65f);
         }
 
         private void SnapToGround()

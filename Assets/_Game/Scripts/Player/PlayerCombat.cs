@@ -27,16 +27,16 @@ namespace NineLives
         private float nextClawTime;
         private float nextHissTime;
         private Coroutine attackRoutine;
-        private Sprite hissSprite;
+        private float attackStarted;
 
         public bool IsAttacking => attackRoutine != null;
+        public float AttackProgress => Mathf.Clamp01((Time.time - attackStarted) / clawCooldown);
         public float HissCooldownRemaining => Mathf.Max(0f, nextHissTime - Time.time);
 
         private void Awake()
         {
             health = GetComponent<Health>();
             controller = GetComponent<PlayerController>();
-            hissSprite = GetComponentInChildren<SpriteRenderer>()?.sprite;
             var gameplay = InputSystem.actions.FindActionMap("Gameplay", true);
             attackAction = gameplay.FindAction("Attack", true).Clone();
             hissAction = gameplay.FindAction("Hiss", true).Clone();
@@ -58,7 +58,12 @@ namespace NineLives
 
         private void Update()
         {
-            if (!health.IsAlive || controller.InputBlocked || Time.timeScale == 0f) return;
+            if (!health.IsAlive || controller.InputBlocked || Time.timeScale == 0f)
+            {
+                if (attackRoutine != null) StopCoroutine(attackRoutine);
+                attackRoutine = null;
+                return;
+            }
             if (attackAction.WasPressedThisFrame() && !IsAttacking && Time.time >= nextClawTime)
                 attackRoutine = StartCoroutine(ClawAttack());
             if (hissAction.WasPressedThisFrame() && Time.time >= nextHissTime)
@@ -68,10 +73,13 @@ namespace NineLives
         private IEnumerator ClawAttack()
         {
             nextClawTime = Time.time + clawCooldown;
+            attackStarted = Time.time;
             hitTargets.Clear();
-            var direction = Vector2.right * controller.FacingDirection;
+            yield return new WaitForSeconds(0.07f);
+            if (!health.IsAlive || controller.InputBlocked) { attackRoutine = null; yield break; }
+            CombatVfx.Slash((Vector2)transform.position + Vector2.right * controller.FacingDirection * .6f, controller.FacingDirection);
             float finishTime = Time.time + clawActiveTime;
-            while (Time.time < finishTime)
+            while (Time.time < finishTime && health.IsAlive && !controller.InputBlocked)
             {
                 Vector2 attackDirection = Vector2.right * controller.FacingDirection;
                 Vector2 centre = (Vector2)transform.position + attackDirection * clawRange;
@@ -83,6 +91,7 @@ namespace NineLives
                 }
                 yield return null;
             }
+            while (Time.time < nextClawTime && health.IsAlive && !controller.InputBlocked) yield return null;
             attackRoutine = null;
         }
 
@@ -90,7 +99,8 @@ namespace NineLives
         {
             nextHissTime = Time.time + hissCooldown;
             Vector2 direction = Vector2.right * controller.FacingDirection;
-            CombatVfx.Spawn(hissSprite, (Vector2)transform.position + direction * 1.1f, new Vector3(2.2f, 0.22f, 1f), new Color(0.35f, 0.9f, 1f, 0.75f), 0.28f);
+            CombatVfx.Slash((Vector2)transform.position + direction * .9f, controller.FacingDirection);
+            CombatVfx.Burst((Vector2)transform.position + direction, new Color(.35f, .9f, 1), 8, 3);
             foreach (var hit in Physics2D.OverlapCircleAll(transform.position, hissRange))
             {
                 var rat = hit.GetComponentInParent<RatController>();

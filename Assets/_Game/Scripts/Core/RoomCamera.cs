@@ -10,8 +10,14 @@ namespace NineLives
         [SerializeField] private Rect room = new Rect(-9, -2, 52, 14);
         [SerializeField] private Vector2 offset = new Vector2(0, 2);
         private PixelPerfectCamera pixels;
+        private static float shake;
 
-        private void Awake() => pixels = GetComponent<PixelPerfectCamera>();
+        public static void Impulse(float amount)
+        {
+            if (PlayerPrefs.GetInt("ScreenShake", 1) != 0) shake = Mathf.Max(shake, amount);
+        }
+
+        private void Awake() { pixels = GetComponent<PixelPerfectCamera>(); shake = 0; }
 
         private void LateUpdate()
         {
@@ -23,6 +29,12 @@ namespace NineLives
             position.x = room.width <= halfWidth * 2 ? room.center.x : Mathf.Clamp(position.x, room.xMin + halfWidth, room.xMax - halfWidth);
             position.y = room.height <= halfHeight * 2 ? room.center.y : Mathf.Clamp(position.y, room.yMin + halfHeight, room.yMax - halfHeight);
             position.z = transform.position.z;
+            if (shake > 0 && Time.timeScale > 0)
+            {
+                position += (Vector3)(Random.insideUnitCircle * shake);
+                position = pixels.RoundToPixel(position);
+                shake = Mathf.MoveTowards(shake, 0, Time.deltaTime);
+            }
             transform.position = position;
         }
     }

@@ -88,7 +88,7 @@ namespace NineLives
 
         public void SetInputBlocked(bool blocked)
         {
-            InputBlocked = blocked;
+            InputBlocked = blocked || (health != null && !health.IsAlive);
             jumpUntil = float.NegativeInfinity;
             dashRequested = cutJump = jumpArmed = dashArmed = false;
             EndDash();
