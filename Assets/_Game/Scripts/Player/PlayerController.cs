@@ -107,6 +107,13 @@ namespace NineLives
             visual.localScale = visualScale;
         }
 
+        public void SetSpawn(Vector2 position)
+        {
+            spawnPosition = position;
+            Respawn();
+            transform.position = position;
+        }
+
         private void EndDash()
         {
             if (!IsDashing) return;

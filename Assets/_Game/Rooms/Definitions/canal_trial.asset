@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1ec4ac860a0f741888689a075de0a4, type: 3}
+  m_Name: canal_trial
+  m_EditorClassIdentifier: Assembly-CSharp::NineLives.RoomDefinition
+  stableId: canal_trial
+  kind: 2
+  biome: 1
+  difficulty: 3
+  prefab: {fileID: 7048844518841769719, guid: 43c94ec70206eab4a9445cc304b5e951, type: 3}

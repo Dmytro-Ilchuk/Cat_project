@@ -17,6 +17,8 @@ namespace NineLives
             if (PlayerPrefs.GetInt("ScreenShake", 1) != 0) shake = Mathf.Max(shake, amount);
         }
 
+        public void SetBounds(Bounds bounds) => room = new Rect(bounds.min.x, bounds.min.y, bounds.size.x, bounds.size.y);
+
         private void Awake() { pixels = GetComponent<PixelPerfectCamera>(); shake = 0; }
 
         private void LateUpdate()

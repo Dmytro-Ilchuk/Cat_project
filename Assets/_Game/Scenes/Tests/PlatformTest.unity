@@ -1842,8 +1842,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0.64444447}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.8444444, y: 1.3222222}
+    pivot: {x: 0.57, y: 0.07421875}
+    oldSize: {x: 2.5, y: 2.5}
     newSize: {x: 1.8444444, y: 1.3222222}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2896,8 +2896,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0.64444447}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.8444444, y: 1.3222222}
+    pivot: {x: 0.57, y: 0.07421875}
+    oldSize: {x: 2.5, y: 2.5}
     newSize: {x: 1.8444444, y: 1.3222222}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3178,9 +3178,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.041666668
+    width: 0.25
+    height: 0.25
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

@@ -120,8 +120,7 @@ namespace NineLives
             foreach (var hit in Physics2D.RaycastAll(transform.position + Vector3.up * 0.5f, Vector2.down, 20f))
             {
                 if (hit.collider == hitbox || hit.collider.isTrigger) continue;
-                float halfHeight = hitbox.bounds.extents.y;
-                transform.position = new Vector3(transform.position.x, hit.point.y + halfHeight, transform.position.z);
+                transform.position += Vector3.up * (hit.point.y - hitbox.bounds.min.y);
                 return;
             }
         }

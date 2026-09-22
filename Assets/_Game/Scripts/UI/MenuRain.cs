@@ -6,7 +6,7 @@ namespace NineLives
     // One UI mesh, no per-drop GameObjects. Runs even when gameplay is paused.
     public sealed class MenuRain : MaskableGraphic
     {
-        [SerializeField, Range(20, 240)] private int drops = 130;
+        [SerializeField, Range(20, 240)] private int drops = 170;
         protected override void Awake() { base.Awake(); raycastTarget = false; }
         private void Update() => SetVerticesDirty();
 
@@ -24,7 +24,7 @@ namespace NineLives
                 float y = Mathf.Repeat(i * 137.3f - now * speed, rect.height + 40) - 20 + rect.yMin;
                 float x = Mathf.Repeat(seed * rect.width - now * 36 * depth, rect.width) + rect.xMin;
                 float length = 9 + depth * 24;
-                var c = new Color(.55f, .73f, 1, .07f + .16f * depth);
+                var c = new Color(.55f, .73f, 1, .09f + .2f * depth);
                 int start = vh.currentVertCount;
                 vh.AddVert(new Vector3(x, y), c, Vector2.zero);
                 vh.AddVert(new Vector3(x + 1.2f, y), c, Vector2.zero);

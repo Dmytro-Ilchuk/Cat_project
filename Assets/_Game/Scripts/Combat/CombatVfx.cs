@@ -30,7 +30,7 @@ namespace NineLives
             Color color = enemy ? new Color(1, .3f, .42f) : new Color(.6f, .95f, 1);
             for (int claw = 0; claw < 3; claw++)
             {
-                var go = new GameObject("Claw arc"); go.transform.position = position;
+                var go = new GameObject("Claw arc"); go.transform.position = position + Vector2.up * .38f;
                 var fx = go.AddComponent<CombatVfx>();
                 fx.tint = color; fx.lifetime = .14f + claw * .025f;
                 fx.line = go.AddComponent<LineRenderer>();

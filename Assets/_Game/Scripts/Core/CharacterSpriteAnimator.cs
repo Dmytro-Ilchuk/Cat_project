@@ -54,6 +54,7 @@ namespace NineLives
             else if (frames == deathFrames || frames == hurtFrames) frame = Mathf.Min(frames.Length - 1, (int)(elapsed * (frames == deathFrames ? 12 : 30)));
             else frame = (int)(elapsed * (frames == idleFrames ? 6 : framesPerSecond)) % frames.Length;
             visual.sprite = frames[Mathf.Clamp(frame, 0, frames.Length - 1)];
+            if (properties == null) properties = new MaterialPropertyBlock();
             visual.GetPropertyBlock(properties);
             properties.SetFloat(Flash, Time.time < hurtUntil ? Mathf.Clamp01((hurtUntil - Time.time) / .16f) : 0);
             visual.SetPropertyBlock(properties);
