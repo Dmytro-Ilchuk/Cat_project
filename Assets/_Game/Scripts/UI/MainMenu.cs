@@ -8,13 +8,17 @@ namespace NineLives
     public sealed class MainMenu : MonoBehaviour
     {
         [SerializeField] private Button quitButton;
+        [SerializeField] private Button playButton;
 
         private void Start()
         {
             InputSystem.actions.FindActionMap("Gameplay", true).Disable();
-            EventSystem.current.SetSelectedGameObject(quitButton.gameObject);
+            Time.timeScale = 1f;
+            EventSystem.current.SetSelectedGameObject(playButton.gameObject);
             Debug.Log("NineLives: MainMenu ready.");
         }
+
+        public void Play() => UnityEngine.SceneManagement.SceneManager.LoadScene("PlatformTest");
 
         public void Quit()
         {

@@ -1,6 +1,6 @@
 # NineLives
 
-Студентська 2D гра про кота з дев’ятьма життями. Поточний етап: v0.0.1 — запуск Bootstrap → MainMenu і кнопка виходу. Ігрових механік ще немає.
+Студентська 2D гра про кота з дев’ятьма життями. Прототип v0.1: рух, стрибок змінної висоти, ривок, тестова кімната, повернення після падіння, Pixel Perfect камера та пауза.
 
 ## Відкрити проєкт
 
@@ -8,20 +8,49 @@
 2. У Unity Hub додати кореневу папку репозиторію. Назва папки `Cat_project` не заважає: назва продукту в Unity — `NineLives`.
 3. Використовувати **Unity 6000.6.1f1**. Це погоджена версія всієї команди; попередню пропозицію 6.3 LTS скасовано. Не відкривати проєкт старішою версією.
 4. Дочекатися імпорту пакетів. Windows x64 збираємо через **Mono**; IL2CPP та його C++ toolchain на цьому етапі не потрібні.
-5. Відкрити `Assets/_Game/Scenes/Bootstrap.unity` і натиснути Play. Має з’явитися MainMenu. «Вийти» закриває гру; в Editor — зупиняє Play Mode. Кнопка працює мишею та через Enter / gamepad Submit.
+5. Відкрити `Assets/_Game/Scenes/Bootstrap.unity` і натиснути Play. У MainMenu вибрати «Грати». «Вийти» закриває гру; в Editor — зупиняє Play Mode. Меню працює мишею та через стрілки / Enter / gamepad Submit.
 
 ## Збірка Windows
 
-У File → Build Profiles вибрати **Windows Development**, натиснути Switch Profile, якщо профіль не активний. Development Build і Script Debugging увімкнені. Сцени: Bootstrap, потім MainMenu.
+У File → Build Profiles вибрати **Windows Development**, натиснути Switch Profile, якщо профіль не активний. Development Build і Script Debugging увімкнені. Сцени: Bootstrap, MainMenu, PlatformTest.
 
 Збирати в `Builds/WindowsDevelopment/NineLives.exe`. Передавати іншому учаснику **всю папку збірки**, включно з `NineLives_Data`, `UnityPlayer.dll` та рештою файлів. Unity Editor для запуску готової гри не потрібний.
 
 Через підключений Unity CLI:
 
 ```powershell
-unity command build --target StandaloneWindows64 --profileName "Windows Development" --outputPath Builds/WindowsDevelopment/NineLives.exe --options '["Development","AllowDebugging","DetailedBuildReport"]' --confirm true
-unity command build_status
+unity command build --caller plugin --skill unity-cli --target StandaloneWindows64 --profileName "Windows Development" --outputPath Builds/WindowsDevelopment/NineLives.exe --options '["Development","AllowDebugging","DetailedBuildReport"]' --confirm true
+unity command build_status --caller plugin --skill unity-cli
 ```
+
+## Перевірити рух героя
+
+Відкрити `Assets/_Game/Scenes/Tests/MovementTest.unity`, натиснути Play і клацнути у Game View. Рух ліворуч/праворуч: **A/D, стрілки, лівий стік або D-pad**. Відпустити напрямок для гальмування. У сцені є шов між двома ділянками підлоги та стіни. Play запускає поточну відкриту сцену; для меню відкрити Bootstrap.
+
+`Assets/_Game/Prefabs/Player.prefab` містить Rigidbody2D, CapsuleCollider2D, дочірній Visual і PlayerController. У компоненті налаштовуються Speed (6 одиниць/с), Acceleration (35) і Braking (50). Поворот змінює лише Visual. `IsGrounded` перевіряє контакти з Ground із нормальною вгору, тому бокова стіна не дає стану «на землі». Фізичний матеріал героя має нульове тертя.
+
+Для автоматичної перевірки зі стандартними параметрами: у Play Mode цієї сцени вибрати **NineLives → Check Player Movement (Play Mode)** і не натискати кнопки приблизно 4 секунди. Очікується `PASS` у Console. Перевіряються розгін, швидкість, гальмування, зміна напрямку, поворот, шов, вимкнення Move і стіна. Тест використовує тимчасовий віртуальний геймпад і відновлює позицію та налаштування після завершення.
+
+MovementTest — коротка перевірка базового руху; запускається окремо в Editor і не входить до Windows Build Profile.
+
+## Повна кімната етапу 2
+
+Запуск: **Bootstrap → Грати**, або відкрити `Assets/_Game/Scenes/Tests/PlatformTest.unity` безпосередньо. Маршрут веде праворуч до жовтого прапорця: сходинки з підйомом 1,25 одиниці, верхній майданчик, ями завширшки 4 і 6 одиниць, прохід заввишки 1,25 одиниці. Широку яму долати стрибком і ривком біля вершини стрибка. Падіння нижче Y = −6 повертає до початку без шкоди.
+
+| Механіка | Початкові параметри |
+| --- | --- |
+| Стрибок | Speed 11; раннє відпускання скорочує швидкість до 45%; висота приблизно 0,9–2 одиниці |
+| Допуск після краю / буфер до землі | По 0,12 с |
+| Ривок | Speed 16; тривалість 0,16 с; перезарядка 0,65 с від початку |
+| Повітряний ривок | Один до приземлення; очікування перезарядки в повітрі не відновлює його |
+| Фізика / камера | 60 Гц; Rigidbody2D Interpolate; стеження в LateUpdate з межами кімнати |
+| Графіка | 16 PPU, 320×180, URP Pixel Perfect, Pixel Snapping, Windowbox; AA вимкнено |
+
+Усі параметри руху доступні в PlayerController на prefab. Силует тимчасовий: Point, без mipmaps і стиснення. Один світовий блок відповідає 16 пікселям; фізичний габарит героя — 1,6×0,9 одиниці. На 1280×720 масштаб зображення 4×; інші пропорції додають поля без розтягування пікселів.
+
+**Space / South** — стрибок, утримання дає більшу висоту; **Left Shift / RB** — горизонтальний ривок у бік погляду. **Esc / Start** відкриває й закриває паузу. Втрата фокусу також ставить гру на паузу. Меню дозволяє продовжити, повернутися на початок або в головне меню. Пауза зупиняє час, вимикає Gameplay і скасовує поточний ривок та буфер натискань. Після повернення для нового стрибка/ривка потрібно відпустити й натиснути кнопку заново.
+
+Автоматична перевірка: у Play Mode кімнати вибрати **NineLives → Check Stage 2 (Play Mode)**. Приблизно 17 секунд не натискати кнопки. Очікується `PASS` у Console. Перевіряються стрибки, допуск, буфер, усі верхні платформи, широка яма, ривок та його відновлення, стіна, вузький прохід, пауза, повернення після падіння й камера. Перевірка працює зі стандартними параметрами prefab.
 
 ## Перевірка
 
@@ -32,11 +61,11 @@ unity command build_status
 
 ## Структура та пакети
 
-- `Assets/_Game/Scenes` — Bootstrap, MainMenu.
+- `Assets/_Game/Scenes` — Bootstrap, MainMenu, Tests/MovementTest, Tests/PlatformTest.
 - `Assets/_Game/Scripts` — ігровий код; початкові папки систем із плану.
 - `Assets/_Game/Settings/NineLives.inputactions` — Gameplay/UI.
-- `Assets/_Game/Editor` — перевірка етапу 1, не потрапляє в гру.
-- `Assets/_Game/Art`, `Audio`, `Data`, `Prefabs` — майбутній контент.
+- `Assets/_Game/Editor` — перевірки етапів 1–2 та базового руху, не потрапляють у гру.
+- `Assets/_Game/Art/Prototype`, `Prefabs/Player.prefab` — тимчасова графіка й герой; `Audio`, `Data` — майбутній контент.
 - `Assets/Settings` — налаштування URP, 2D Renderer і Build Profile.
 - `Docs` — дизайн і план розробки.
 
@@ -56,7 +85,7 @@ unity command build_status
 | Interact | E | East |
 | Pause | Escape | Start |
 
-Gameplay — підготовлені прив’язки для наступних етапів; у меню вони не керують грою. UI використовує окрему карту із шаблону Input System.
+Працюють Move, Jump, Dash та Pause (у PlatformTest). Attack, Hiss та Interact підготовлені для наступних етапів. У меню Gameplay вимкнено. UI використовує окрему карту із шаблону Input System.
 
 ## Фізика 2D
 

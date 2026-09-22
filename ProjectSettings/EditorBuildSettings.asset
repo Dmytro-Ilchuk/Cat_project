@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/MainMenu.unity
     guid: 3eb96797a6f58064cab41f15b34ce72c
+  - enabled: 1
+    path: Assets/_Game/Scenes/Tests/PlatformTest.unity
+    guid: 4d19656562382c94e9ea2d69a4d02456
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: e7f86eff4b9f4f048aaccd1c56a842e3, type: 3}

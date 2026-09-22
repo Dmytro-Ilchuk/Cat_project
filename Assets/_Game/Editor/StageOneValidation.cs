@@ -26,7 +26,7 @@ namespace NineLives.Editor
             Require(PlayerSettings.GetScriptingBackend(NamedBuildTarget.Standalone) == ScriptingImplementation.Mono2x, "Expected Mono backend.");
             var pipeline = GraphicsSettings.defaultRenderPipeline as UniversalRenderPipelineAsset;
             Require(pipeline != null && pipeline.scriptableRenderer.GetType().Name == "Renderer2D", "Expected URP 2D Renderer.");
-            string[] scenes = { "Assets/_Game/Scenes/Bootstrap.unity", "Assets/_Game/Scenes/MainMenu.unity" };
+            string[] scenes = { "Assets/_Game/Scenes/Bootstrap.unity", "Assets/_Game/Scenes/MainMenu.unity", "Assets/_Game/Scenes/Tests/PlatformTest.unity" };
             Require(EditorBuildSettings.scenes.Where(s => s.enabled).Select(s => s.path).SequenceEqual(scenes), "Build scenes/order changed.");
             var profile = BuildProfile.GetAllBuildProfiles().Single(p => p.name == "Windows Development");
             Require(profile.GetScenesForBuild().Where(s => s.enabled).Select(s => s.path).SequenceEqual(scenes), "Profile scenes/order changed.");
@@ -54,15 +54,18 @@ namespace NineLives.Editor
             if (opened)
             {
                 Require(!EditorApplication.isPlaying, "Run from MainMenu in Play Mode, or stop Play Mode.");
-                menuScene = EditorSceneManager.OpenScene(scenes[1], OpenSceneMode.Additive);
+                menuScene = EditorSceneManager.OpenPreviewScene(scenes[1]);
             }
             try
             {
                 var roots = menuScene.GetRootGameObjects();
-                var button = roots.SelectMany(r => r.GetComponentsInChildren<Button>(true)).Single();
+                var buttons = roots.SelectMany(r => r.GetComponentsInChildren<Button>(true)).ToArray();
+                var button = buttons.Single(b => b.name == "Quit Button");
                 Require(button.onClick.GetPersistentEventCount() == 1 &&
                     button.onClick.GetPersistentMethodName(0) == nameof(MainMenu.Quit) &&
                     button.onClick.GetPersistentTarget(0) is MainMenu, "Quit button is not wired.");
+                var play = buttons.Single(b => b.name == "Play Button");
+                Require(play.onClick.GetPersistentEventCount() == 1 && play.onClick.GetPersistentMethodName(0) == nameof(MainMenu.Play), "Play button is not wired.");
                 var events = roots.SelectMany(r => r.GetComponentsInChildren<EventSystem>(true)).Single();
                 var module = events.GetComponent<InputSystemUIInputModule>();
                 Require(module != null && module.actionsAsset == input && module.submit.action != null && module.leftClick.action != null,
@@ -70,7 +73,7 @@ namespace NineLives.Editor
             }
             finally
             {
-                if (opened) EditorSceneManager.CloseScene(menuScene, true);
+                if (opened) EditorSceneManager.ClosePreviewScene(menuScene);
             }
             Debug.Log("NineLives: Stage 1 validation passed.");
         }
