@@ -50,6 +50,11 @@ namespace NineLives
             IsInvulnerable = false;
         }
 
+        public void Heal(int amount)
+        {
+            if (IsAlive && amount > 0) CurrentHealth = Mathf.Min(maximumHealth, CurrentHealth + amount);
+        }
+
         private void Update() => IsInvulnerable = Time.time < invulnerableUntil;
     }
 }

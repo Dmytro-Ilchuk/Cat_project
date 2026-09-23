@@ -43,7 +43,10 @@ namespace NineLives.Editor
             try
             {
                 var roots = arena.GetRootGameObjects();
-                Check(roots.SelectMany(o => o.GetComponentsInChildren<RatController>(true)).Count(r => r.enabled) == 2, "rat AI enabled");
+                var rats = roots.SelectMany(o => o.GetComponentsInChildren<RatController>(true)).ToArray();
+                Check(rats.Length == 2 && rats.All(r => r.enabled &&
+                    r.gameObject.layer == LayerMask.NameToLayer("Enemy") &&
+                    r.GetComponent<Rigidbody2D>().gravityScale > 0), "rat physics and AI enabled");
                 var player = roots.SelectMany(o => o.GetComponentsInChildren<PlayerController>(true)).Single();
                 var visual = player.transform.Find("Visual");
                 var animator = visual.GetComponent<CharacterSpriteAnimator>();

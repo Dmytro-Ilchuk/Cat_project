@@ -35,14 +35,14 @@ namespace NineLives.Editor
         public static void Check()
         {
             var library = LoadLibrary();
-            if (library.Length != 10 || library.Select(c => c.StableId).Distinct().Count() != library.Length)
-                throw new InvalidOperationException("Expected ten unique chunk IDs.");
+            if (library.Length < 10 || library.Select(c => c.StableId).Distinct().Count() != library.Length)
+                throw new InvalidOperationException("Expected at least ten unique chunk IDs.");
             foreach (RoomBiome biome in Enum.GetValues(typeof(RoomBiome)))
             {
                 var group = library.Where(c => c.Biome == biome).ToArray();
                 if (group.Count(c => c.Role == ChunkRole.Entry) != 1 ||
                     group.Count(c => c.Role == ChunkRole.Exit) != 1 ||
-                    group.Count(c => c.Role == ChunkRole.Encounter) != 3)
+                    group.Count(c => c.Role == ChunkRole.Encounter) < 3)
                     throw new InvalidOperationException(biome + ": invalid chunk roles.");
                 var room = AssetDatabase.LoadAssetAtPath<RoomDefinition>(
                     "Assets/_Game/Rooms/Definitions/" + (biome == RoomBiome.CityStreet ? "street_crosswalk" : "canal_steps") + ".asset");
@@ -63,6 +63,15 @@ namespace NineLives.Editor
                             Vector2.Distance(first.SafeSpawn.position, first.EnemySpawns[0].position) < 6f)
                             throw new InvalidOperationException("Invalid assembled room: " + sequence);
                         Physics2D.SyncTransforms();
+                        foreach (var point in first.EnemySpawns)
+                        {
+                            var ground = Physics2D.RaycastAll(point.position + Vector3.up * .5f, Vector2.down, 3f)
+                                .FirstOrDefault(h => h.collider != null && !h.collider.isTrigger &&
+                                    h.collider.gameObject.layer == LayerMask.NameToLayer("Ground") &&
+                                    h.collider.transform.IsChildOf(first.transform));
+                            if (ground.collider == null || Mathf.Abs(ground.point.y) > .1f)
+                                throw new InvalidOperationException("Enemy point is not on the main floor: " + sequence);
+                        }
                         var floors = first.GetComponentsInChildren<BoxCollider2D>()
                             .Where(c => c.gameObject.layer == LayerMask.NameToLayer("Ground") &&
                                 Mathf.Abs(c.bounds.max.y) < .1f)
@@ -80,7 +89,7 @@ namespace NineLives.Editor
                         UnityEngine.Object.DestroyImmediate(second.gameObject);
                     }
                 }
-                if (variants.Count < 3) throw new InvalidOperationException(biome + ": insufficient variation.");
+                if (variants.Count < 6) throw new InvalidOperationException(biome + ": expected all six encounter orders.");
             }
             Debug.Log("Stage 5 chunks PASS: 64 seeded rooms, stable choices, unique pieces and safe floor gaps.");
         }
@@ -130,7 +139,7 @@ namespace NineLives.Editor
                 Block(root.transform, square, "High ledge", 2.5f, 2.6f, 4, .35f, detail, true);
             }
             var enemy = name == "entry" || name == "exit" ? Array.Empty<Transform>()
-                : new[] { Marker(root.transform, "Enemy point", canal && name != "steps" ? -3.5f : -3, 1) };
+                : new[] { Marker(root.transform, "Enemy point", name == "steps" ? 1 : canal ? -3.5f : -3, 1) };
             var data = new SerializedObject(chunk);
             data.FindProperty("stableId").stringValue = id;
             data.FindProperty("biome").enumValueIndex = (int)biome;

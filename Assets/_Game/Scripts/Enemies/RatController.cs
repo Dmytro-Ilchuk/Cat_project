@@ -15,6 +15,7 @@ namespace NineLives
         [SerializeField, Min(1)] private int attackDamage = 10;
         [SerializeField, Min(0f)] private float attackKnockback = 7f;
         [SerializeField, Range(0f, 1f)] private float controlResistance;
+        [SerializeField] private float fallY = -5f;
 
         private Health health;
         private Rigidbody2D body;
@@ -26,6 +27,7 @@ namespace NineLives
         private SpriteRenderer visual;
         private Collider2D hitbox;
         private Color baseColor;
+        private int groundMask;
 
         public bool IsAttacking => state == State.WindingUp || state == State.Recovering;
         public float AttackProgress => state == State.WindingUp
@@ -39,10 +41,8 @@ namespace NineLives
             visual = GetComponent<SpriteRenderer>();
             hitbox = GetComponent<Collider2D>();
             baseColor = visual.color;
+            groundMask = 1 << LayerMask.NameToLayer("Ground");
             SnapToGround();
-            // The prototype arena has pits. Rats move only horizontally, so they keep their authored lane.
-            body.gravityScale = 0f;
-            body.constraints |= RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
             player = FindAnyObjectByType<PlayerController>();
             playerHealth = player != null ? player.GetComponent<Health>() : null;
             playerHitbox = player != null ? player.GetComponent<Collider2D>() : null;
@@ -56,7 +56,13 @@ namespace NineLives
 
         private void FixedUpdate()
         {
-            if (state == State.Dead || player == null || playerHealth == null || !playerHealth.IsAlive) return;
+            if (state == State.Dead) return;
+            if (body.position.y < fallY)
+            {
+                health.TakeDamage(health.MaximumHealth, Vector2.zero);
+                return;
+            }
+            if (player == null || playerHealth == null || !playerHealth.IsAlive) return;
             if (Time.time < stateUntil) return;
 
             float distance = Mathf.Abs(player.transform.position.x - transform.position.x);
@@ -68,9 +74,14 @@ namespace NineLives
                     break;
                 case State.Approaching:
                     if (distance > engageRange) { state = State.Waiting; body.linearVelocity = Vector2.zero; break; }
-                    if (contactGap <= attackRange) { state = State.WindingUp; stateUntil = Time.time + windUpDuration; body.linearVelocity = Vector2.zero; visual.color = new Color(1f, 0.8f, 0.55f); break; }
+                    if (contactGap <= attackRange && CanHitPlayer()) { state = State.WindingUp; stateUntil = Time.time + windUpDuration; body.linearVelocity = Vector2.zero; visual.color = new Color(1f, 0.8f, 0.55f); break; }
                     float direction = Mathf.Sign(player.transform.position.x - transform.position.x);
                     visual.flipX = direction < 0f;
+                    if (!GroundBelow() || !GroundAhead(direction) || WallAhead(direction))
+                    {
+                        body.linearVelocity = new Vector2(0, body.linearVelocity.y);
+                        break;
+                    }
                     body.linearVelocity = new Vector2(direction * speed, body.linearVelocity.y);
                     break;
                 case State.WindingUp:
@@ -98,7 +109,7 @@ namespace NineLives
 
         private void Attack()
         {
-            if (HorizontalGapToPlayer() > attackRange) return;
+            if (HorizontalGapToPlayer() > attackRange || !CanHitPlayer()) return;
             Vector2 direction = Mathf.Sign(player.transform.position.x - transform.position.x) * Vector2.right;
             CombatVfx.Slash((Vector2)transform.position + direction * .6f, direction.x, true);
             playerHealth.TakeDamage(attackDamage, direction * attackKnockback + Vector2.up * 0.25f);
@@ -117,12 +128,31 @@ namespace NineLives
 
         private void SnapToGround()
         {
-            foreach (var hit in Physics2D.RaycastAll(transform.position + Vector3.up * 0.5f, Vector2.down, 20f))
+            foreach (var hit in Physics2D.RaycastAll(transform.position + Vector3.up * 0.5f, Vector2.down, 20f, groundMask))
             {
-                if (hit.collider == hitbox || hit.collider.isTrigger) continue;
+                if (hit.collider.isTrigger) continue;
                 transform.position += Vector3.up * (hit.point.y - hitbox.bounds.min.y);
                 return;
             }
+        }
+
+        private bool GroundBelow() => Physics2D.Raycast(
+            new Vector2(hitbox.bounds.center.x, hitbox.bounds.min.y + .2f), Vector2.down, .45f, groundMask);
+
+        private bool GroundAhead(float direction) => Physics2D.Raycast(
+            new Vector2(hitbox.bounds.center.x + direction * (hitbox.bounds.extents.x + .18f), hitbox.bounds.min.y + .2f),
+            Vector2.down, .65f, groundMask);
+
+        private bool WallAhead(float direction) => Physics2D.Raycast(
+            new Vector2(hitbox.bounds.center.x + direction * hitbox.bounds.extents.x, hitbox.bounds.min.y + .55f),
+            Vector2.right * direction, .25f, groundMask);
+
+        private bool CanHitPlayer()
+        {
+            if (playerHitbox == null ||
+                playerHitbox.bounds.min.y > hitbox.bounds.max.y + .1f ||
+                playerHitbox.bounds.max.y < hitbox.bounds.min.y - .1f) return false;
+            return !Physics2D.Linecast(hitbox.bounds.center, playerHitbox.bounds.center, groundMask);
         }
 
         private float HorizontalGapToPlayer()

@@ -68,7 +68,7 @@ namespace NineLives
             var cycle = CycleController.Ensure();
             if (cycle.Cycle.IsComplete) cycle.StartNewCat();
             if (!cycle.StartRun()) return;
-            UnityEngine.SceneManagement.SceneManager.LoadScene("PlatformTest");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Run");
         }
 
         public void Quit()

@@ -42,10 +42,17 @@ namespace NineLives
         private void Load(int next)
         {
             if (rooms == null || rooms.Length == 0 || rooms[next] == null || rooms[next].Prefab == null) return;
+            bool assembled = chunkMode && rooms[next].Kind == RoomKind.Combat && chunks != null && chunks.Length > 0;
+            RoomLayout loaded;
+            try { loaded = assembled ? ChunkRoomBuilder.Build(rooms[next], seed, chunks) : Instantiate(rooms[next].Prefab); }
+            catch (System.Exception error)
+            {
+                Debug.LogError("Chunk room failed, using authored fallback: " + error.Message);
+                loaded = Instantiate(rooms[next].Prefab);
+            }
             if (active != null) { active.gameObject.SetActive(false); Destroy(active.gameObject); }
             index = next;
-            bool assembled = chunkMode && rooms[index].Kind == RoomKind.Combat && chunks != null && chunks.Length > 0;
-            active = assembled ? ChunkRoomBuilder.Build(rooms[index], seed, chunks) : Instantiate(rooms[index].Prefab);
+            active = loaded;
             roomCamera.SetBounds(active.CameraBounds);
             player.GetComponent<Health>().ResetToFull();
             player.SetInputBlocked(false);

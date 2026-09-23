@@ -136,7 +136,10 @@ namespace NineLives.Editor
             var rats = UnityEngine.Object.FindObjectsByType<RatController>(FindObjectsSortMode.None);
             Physics2D.SyncTransforms();
             if (assembled.GetComponentsInChildren<RoomChunk>().Length != 4 || rats.Length != 2 ||
-                rats.Any(r => Mathf.Abs(r.GetComponent<Collider2D>().bounds.min.y) > .1f))
+                rats.Any(r => Mathf.Abs(r.GetComponent<Collider2D>().bounds.min.y) > .1f ||
+                    r.gameObject.layer != LayerMask.NameToLayer("Enemy") ||
+                    r.GetComponent<Rigidbody2D>().gravityScale <= 0 ||
+                    (r.GetComponent<Rigidbody2D>().constraints & RigidbodyConstraints2D.FreezePositionY) != 0))
                 throw new InvalidOperationException("Room Lab: chunk assembly or enemy ground placement failed.");
             enemies.SetValue(lab, false);
             chunkMode.SetValue(lab, false);

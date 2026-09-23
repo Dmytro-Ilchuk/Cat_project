@@ -47,11 +47,12 @@ namespace NineLives
             StateChanged?.Invoke();
         }
 
-        public bool StartRun()
+        public bool StartRun(int? seed = null)
         {
             if (Cycle.IsComplete || Run.IsActive) return false;
             Run.ClearTemporaryState();
             Run.IsActive = true;
+            Run.Seed = seed ?? Environment.TickCount;
             StateChanged?.Invoke();
             return true;
         }
