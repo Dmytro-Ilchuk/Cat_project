@@ -1357,6 +1357,8 @@ GameObject:
   - component: {fileID: 1484878313}
   - component: {fileID: 1484878312}
   - component: {fileID: 1484878311}
+  - component: {fileID: 1484878317}
+  - component: {fileID: 1484878318}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1488,9 +1490,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.041666668
+    width: 0.25
+    height: 0.25
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1526,6 +1528,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1484878317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484878310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19b51bc77547507468494247f5f8f521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NineLives.RoomParallax
+  distantCity: {fileID: 21300000, guid: 9ea767156a5c0cd4aa0e63df15db33bd, type: 3}
+  buildings: {fileID: 21300000, guid: 6c3f356f2913c704684e37c7d96ad0c7, type: 3}
+  alternateBuildings: {fileID: 21300000, guid: f10e22f5134d88b4786b58970041cf25, type: 3}
+  foreground: {fileID: 21300000, guid: 040bc6a9fdab3fc4d926c3b845e8366d, type: 3}
+--- !u!114 &1484878318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484878310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab9aa11e73e64249a4adeea0372bb9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NineLives.RoomEnvironmentArt
+  wetStreetFloor: {fileID: 21300000, guid: ed6968dd37d0f4e4bad6503694579190, type: 3}
+  supportedPlatform: {fileID: 21300000, guid: 4b6a4c1c88ae4f4409c5bf32db64e47f, type: 3}
+  hangingPlatform: {fileID: 2800000, guid: 32417ed9eb1c70344a40839e0d948238, type: 3}
+  spikeStrip: {fileID: 2800000, guid: 3adb79a4062f7e64da19240e18b85c59, type: 3}
+  streetProps: {fileID: 2800000, guid: 56efafe5927b39d4a9c539083b92eea2, type: 3}
+  overheadProps: {fileID: 2800000, guid: 493d8fdcef15ae74c958e00907742af1, type: 3}
+  neonLamps: {fileID: 2800000, guid: b4ea86452f2d8ac4094976b014c97d6c, type: 3}
+  warmLamps: {fileID: 2800000, guid: d6822dd6f908cd045a30adada81734b2, type: 3}
 --- !u!114 &1519848107
 MonoBehaviour:
   m_ObjectHideFlags: 0

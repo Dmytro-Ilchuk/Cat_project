@@ -23,6 +23,10 @@ namespace NineLives
             quitButton.gameObject.SetActive(false);
 #endif
             EventSystem.current.SetSelectedGameObject(playButton.gameObject);
+            var rain = GetComponentInChildren<MenuRain>(true);
+            if (rain != null) rain.ConfigureStorm(270, 1.2f);
+            var atmosphere = GetComponent<MenuAtmosphere>();
+            if (atmosphere == null) atmosphere = gameObject.AddComponent<MenuAtmosphere>();
             Debug.Log("NineLives: MainMenu ready.");
         }
 
@@ -67,7 +71,7 @@ namespace NineLives
         {
             var cycle = CycleController.Ensure();
             if (cycle.Cycle.IsComplete) cycle.StartNewCat();
-            if (!cycle.StartRun()) return;
+            if (!cycle.Run.IsActive && !cycle.StartRun()) return;
             UnityEngine.SceneManagement.SceneManager.LoadScene("Run");
         }
 

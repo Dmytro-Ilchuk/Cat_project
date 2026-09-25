@@ -1,0 +1,977 @@
+fileFormatVersion: 2
+guid: 56efafe5927b39d4a9c539083b92eea2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8485751231613629931
+    second: GroundPropsUnifiedPixel_0
+  - first:
+      213: 1902824502414565977
+    second: GroundPropsUnifiedPixel_1
+  - first:
+      213: 190205600891460957
+    second: GroundPropsUnifiedPixel_2
+  - first:
+      213: 4407380000834652024
+    second: GroundPropsUnifiedPixel_3
+  - first:
+      213: 2789930267126233037
+    second: GroundPropsUnifiedPixel_4
+  - first:
+      213: 2065618010771922181
+    second: GroundPropsUnifiedPixel_5
+  - first:
+      213: -3969414907988341602
+    second: GroundPropsUnifiedPixel_6
+  - first:
+      213: 1472044986410380435
+    second: GroundPropsUnifiedPixel_7
+  - first:
+      213: -6235983177246031232
+    second: GroundPropsUnifiedPixel_8
+  - first:
+      213: -8881688146115218542
+    second: GroundPropsUnifiedPixel_9
+  - first:
+      213: -8059011034516536651
+    second: GroundPropsUnifiedPixel_10
+  - first:
+      213: 3889244770222326097
+    second: GroundPropsUnifiedPixel_11
+  - first:
+      213: 8801733331646332135
+    second: GroundPropsUnifiedPixel_12
+  - first:
+      213: -7697749543969536533
+    second: GroundPropsUnifiedPixel_13
+  - first:
+      213: 3449048038063376398
+    second: GroundPropsUnifiedPixel_14
+  - first:
+      213: 7085656217132027505
+    second: GroundPropsUnifiedPixel_15
+  - first:
+      213: -4199018928511151395
+    second: GroundPropsUnifiedPixel_16
+  - first:
+      213: 5336661117878681492
+    second: GroundPropsUnifiedPixel_17
+  - first:
+      213: 1064157830345163214
+    second: GroundPropsUnifiedPixel_18
+  - first:
+      213: 635970352075160026
+    second: GroundPropsUnifiedPixel_19
+  - first:
+      213: -8674862720066854857
+    second: GroundPropsUnifiedPixel_20
+  - first:
+      213: -5230276065633876466
+    second: GroundPropsUnifiedPixel_21
+  - first:
+      213: 4689962809414206793
+    second: GroundPropsUnifiedPixel_22
+  - first:
+      213: 6700021949694342023
+    second: GroundPropsUnifiedPixel_23
+  - first:
+      213: 6045893049169355182
+    second: GroundPropsUnifiedPixel_24
+  - first:
+      213: -1509045639240362079
+    second: GroundPropsUnifiedPixel_25
+  - first:
+      213: -1533736956224960733
+    second: GroundPropsUnifiedPixel_26
+  - first:
+      213: 953840012102366102
+    second: GroundPropsUnifiedPixel_27
+  - first:
+      213: 1254275071228369879
+    second: GroundPropsUnifiedPixel_28
+  - first:
+      213: -1849856986513164516
+    second: GroundPropsUnifiedPixel_29
+  - first:
+      213: 3376074410412875754
+    second: GroundPropsUnifiedPixel_30
+  - first:
+      213: 2435622977210478122
+    second: GroundPropsUnifiedPixel_31
+  - first:
+      213: 2049374588375647743
+    second: GroundPropsUnifiedPixel_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 433
+        width: 684
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a065bd63e8c3a80800000000000000
+      internalID: -8485751231613629931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1221
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9526458adc0386a10800000000000000
+      internalID: 1902824502414565977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1221
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ddc6b7cfeb3a200800000000000000
+      internalID: 190205600891460957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_3
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 618
+        width: 454
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87709eb62c82a2d30800000000000000
+      internalID: 4407380000834652024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_4
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1156
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc77b28dbc2d7b620800000000000000
+      internalID: 2789930267126233037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 714
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d95bdf2ac8aac10800000000000000
+      internalID: 2065618010771922181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 641
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c073b0c2ec9e8c0800000000000000
+      internalID: -3969414907988341602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 533
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ca26cad11cd6410800000000000000
+      internalID: 1472044986410380435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 547
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08240f607565579a0800000000000000
+      internalID: -6235983177246031232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_9
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 550
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293310530b7edb480800000000000000
+      internalID: -8881688146115218542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_10
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 0
+        width: 473
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b240be9924a82090800000000000000
+      internalID: -8059011034516536651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_11
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 536
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151c5ad238f59f530800000000000000
+      internalID: 3889244770222326097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_12
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 531
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecbe70e4d9062a70800000000000000
+      internalID: 8801733331646332135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_13
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 519
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be545cdf2991c2590800000000000000
+      internalID: -7697749543969536533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_14
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 485
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e088602baea7ddf20800000000000000
+      internalID: 3449048038063376398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_15
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 505
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e41beb9ce455260800000000000000
+      internalID: 7085656217132027505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_16
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 509
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd293f828861ab5c0800000000000000
+      internalID: -4199018928511151395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_17
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 471
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f3cc90301af0a40800000000000000
+      internalID: 5336661117878681492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 622
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec18ca698e5a4ce00800000000000000
+      internalID: 1064157830345163214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_19
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 146
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9be1b6aab63d800800000000000000
+      internalID: 635970352075160026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_20
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 162
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730e2274152bc9780800000000000000
+      internalID: -8674862720066854857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_21
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 156
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e064aa621a35a67b0800000000000000
+      internalID: -5230276065633876466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_22
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 120
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9454de0a358161140800000000000000
+      internalID: 4689962809414206793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_23
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 83
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783f9da07724bfc50800000000000000
+      internalID: 6700021949694342023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_24
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 61
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea12eb912b357e350800000000000000
+      internalID: 6045893049169355182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_25
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 63
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7d9338cface0be0800000000000000
+      internalID: -1509045639240362079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_26
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 47
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32782594d5217bae0800000000000000
+      internalID: -1533736956224960733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_27
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 47
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6937ae5ff68bc3d00800000000000000
+      internalID: 953840012102366102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_28
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 39
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbd1372884186110800000000000000
+      internalID: 1254275071228369879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17bb992fdcf356e0800000000000000
+      internalID: -1849856986513164516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_30
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 0
+        width: 76
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef12fff9c93ade20800000000000000
+      internalID: 3376074410412875754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_31
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 13
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ee86b71321dc120800000000000000
+      internalID: 2435622977210478122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsUnifiedPixel_32
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 18
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5c7df7457d07c10800000000000000
+      internalID: 2049374588375647743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GroundPropsUnifiedPixel_0: -8485751231613629931
+      GroundPropsUnifiedPixel_1: 1902824502414565977
+      GroundPropsUnifiedPixel_10: -8059011034516536651
+      GroundPropsUnifiedPixel_11: 3889244770222326097
+      GroundPropsUnifiedPixel_12: 8801733331646332135
+      GroundPropsUnifiedPixel_13: -7697749543969536533
+      GroundPropsUnifiedPixel_14: 3449048038063376398
+      GroundPropsUnifiedPixel_15: 7085656217132027505
+      GroundPropsUnifiedPixel_16: -4199018928511151395
+      GroundPropsUnifiedPixel_17: 5336661117878681492
+      GroundPropsUnifiedPixel_18: 1064157830345163214
+      GroundPropsUnifiedPixel_19: 635970352075160026
+      GroundPropsUnifiedPixel_2: 190205600891460957
+      GroundPropsUnifiedPixel_20: -8674862720066854857
+      GroundPropsUnifiedPixel_21: -5230276065633876466
+      GroundPropsUnifiedPixel_22: 4689962809414206793
+      GroundPropsUnifiedPixel_23: 6700021949694342023
+      GroundPropsUnifiedPixel_24: 6045893049169355182
+      GroundPropsUnifiedPixel_25: -1509045639240362079
+      GroundPropsUnifiedPixel_26: -1533736956224960733
+      GroundPropsUnifiedPixel_27: 953840012102366102
+      GroundPropsUnifiedPixel_28: 1254275071228369879
+      GroundPropsUnifiedPixel_29: -1849856986513164516
+      GroundPropsUnifiedPixel_3: 4407380000834652024
+      GroundPropsUnifiedPixel_30: 3376074410412875754
+      GroundPropsUnifiedPixel_31: 2435622977210478122
+      GroundPropsUnifiedPixel_32: 2049374588375647743
+      GroundPropsUnifiedPixel_4: 2789930267126233037
+      GroundPropsUnifiedPixel_5: 2065618010771922181
+      GroundPropsUnifiedPixel_6: -3969414907988341602
+      GroundPropsUnifiedPixel_7: 1472044986410380435
+      GroundPropsUnifiedPixel_8: -6235983177246031232
+      GroundPropsUnifiedPixel_9: -8881688146115218542
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1081 @@
+fileFormatVersion: 2
+guid: c121fcc3be2f01543b96066bdc2c5e56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7722815368172534676
+    second: CityFar_0
+  - first:
+      213: 1444773857183796358
+    second: CityFar_1
+  - first:
+      213: 2330336699771528906
+    second: CityFar_2
+  - first:
+      213: -5982358104621133938
+    second: CityFar_3
+  - first:
+      213: -1374195102398050308
+    second: CityFar_4
+  - first:
+      213: -7808009846093575270
+    second: CityFar_5
+  - first:
+      213: 6920870639494916766
+    second: CityFar_6
+  - first:
+      213: -8775792034222116404
+    second: CityFar_7
+  - first:
+      213: 1102670730007244026
+    second: CityFar_8
+  - first:
+      213: 1707603007078703969
+    second: CityFar_9
+  - first:
+      213: 5981350697473410675
+    second: CityFar_10
+  - first:
+      213: -4127904059081619738
+    second: CityFar_11
+  - first:
+      213: -9181064679695903042
+    second: CityFar_12
+  - first:
+      213: -806123607049196023
+    second: CityFar_13
+  - first:
+      213: -1106970985052335991
+    second: CityFar_14
+  - first:
+      213: 3823985130654565261
+    second: CityFar_15
+  - first:
+      213: 2635731998120291173
+    second: CityFar_16
+  - first:
+      213: 6826555409321330963
+    second: CityFar_17
+  - first:
+      213: -5885734570282027446
+    second: CityFar_18
+  - first:
+      213: 4553771559916518861
+    second: CityFar_19
+  - first:
+      213: 6981154567747924582
+    second: CityFar_20
+  - first:
+      213: 6421726343742363157
+    second: CityFar_21
+  - first:
+      213: -2108381558845661520
+    second: CityFar_22
+  - first:
+      213: -3364506589943145305
+    second: CityFar_23
+  - first:
+      213: -8448440432251088871
+    second: CityFar_24
+  - first:
+      213: -5278972503208687453
+    second: CityFar_25
+  - first:
+      213: 6908941267083391632
+    second: CityFar_26
+  - first:
+      213: -7379345604675260515
+    second: CityFar_27
+  - first:
+      213: 3789742658532738895
+    second: CityFar_28
+  - first:
+      213: 6046116299962408937
+    second: CityFar_29
+  - first:
+      213: 4775252314257689147
+    second: CityFar_30
+  - first:
+      213: 90329786829984279
+    second: CityFar_31
+  - first:
+      213: -1448739799981696398
+    second: CityFar_32
+  - first:
+      213: 2538075500865324674
+    second: CityFar_33
+  - first:
+      213: -1531979903843287234
+    second: CityFar_34
+  - first:
+      213: 2308117062188275294
+    second: CityFar_35
+  - first:
+      213: 3120486467429197855
+    second: CityFar_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CityFar_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 691
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c640622075c03d490800000000000000
+      internalID: -7722815368172534676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 699
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c063a1b2edc0410800000000000000
+      internalID: 1444773857183796358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 715
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac620fcb1e4075020800000000000000
+      internalID: 2330336699771528906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 675
+        width: 158
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fc0eeeff46afca0800000000000000
+      internalID: -5982358104621133938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_4
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 707
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff8b7dc5d0edece0800000000000000
+      internalID: -1374195102398050308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_5
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 695
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b07d0e96064a390800000000000000
+      internalID: -7808009846093575270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 689
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a6683ad2fdb0060800000000000000
+      internalID: 6920870639494916766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_7
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 685
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1fc7914af163680800000000000000
+      internalID: -8775792034222116404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_8
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 657
+        width: 69
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc6d4ecf297d4f00800000000000000
+      internalID: 1102670730007244026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_9
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 680
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163a05e33ef92b710800000000000000
+      internalID: 1707603007078703969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_10
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 692
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37600ffc4c6020350800000000000000
+      internalID: 5981350697473410675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_11
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 697
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e60c8bf02db6b6c0800000000000000
+      internalID: -4127904059081619738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_12
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 685
+        width: 96
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb617d2315e469080800000000000000
+      internalID: -9181064679695903042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_13
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 672
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ea6c4b9d210d4f0800000000000000
+      internalID: -806123607049196023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_14
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 683
+        width: 53
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9809a4b01cf33a0f0800000000000000
+      internalID: -1106970985052335991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 692
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d838a0b4736811530800000000000000
+      internalID: 3823985130654565261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 681
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b271f9940049420800000000000000
+      internalID: 2635731998120291173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_17
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 675
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3198e14e9fbccbe50800000000000000
+      internalID: 6826555409321330963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_18
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 673
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a467a10a79ba15ea0800000000000000
+      internalID: -5885734570282027446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_19
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 657
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdb9195b1f323f30800000000000000
+      internalID: 4553771559916518861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_20
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 673
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662f5b4771b02e060800000000000000
+      internalID: 6981154567747924582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_21
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 679
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516188bf51e8e1950800000000000000
+      internalID: 6421726343742363157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_22
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 659
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be150694268db2e0800000000000000
+      internalID: -2108381558845661520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_23
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 657
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac5af5151fde41d0800000000000000
+      internalID: -3364506589943145305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91050a9403c11ca80800000000000000
+      internalID: -8448440432251088871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 660
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8013f3a725db6b0800000000000000
+      internalID: -5278972503208687453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 609
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092fa8e2a7d71ef50800000000000000
+      internalID: 6908941267083391632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_27
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 657
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fad7e154c479990800000000000000
+      internalID: -7379345604675260515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_28
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 648
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f470df77eded79430800000000000000
+      internalID: 3789742658532738895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_29
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 582
+        width: 36
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef55f9bdbe18e350800000000000000
+      internalID: 6046116299962408937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_30
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 659
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a0130fdaa154240800000000000000
+      internalID: 4775252314257689147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_31
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 665
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71253a8667ae04100800000000000000
+      internalID: 90329786829984279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_32
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 659
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ade12e3da05ebe0800000000000000
+      internalID: -1448739799981696398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_33
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 642
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2860332883e093320800000000000000
+      internalID: 2538075500865324674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_34
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 638
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f326ce4605dbae0800000000000000
+      internalID: -1531979903843287234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_35
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 616
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5610c73d34180020800000000000000
+      internalID: 2308117062188275294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityFar_36
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 645
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18e789b8e13e4b20800000000000000
+      internalID: 3120486467429197855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CityFar_0: -7722815368172534676
+      CityFar_1: 1444773857183796358
+      CityFar_10: 5981350697473410675
+      CityFar_11: -4127904059081619738
+      CityFar_12: -9181064679695903042
+      CityFar_13: -806123607049196023
+      CityFar_14: -1106970985052335991
+      CityFar_15: 3823985130654565261
+      CityFar_16: 2635731998120291173
+      CityFar_17: 6826555409321330963
+      CityFar_18: -5885734570282027446
+      CityFar_19: 4553771559916518861
+      CityFar_2: 2330336699771528906
+      CityFar_20: 6981154567747924582
+      CityFar_21: 6421726343742363157
+      CityFar_22: -2108381558845661520
+      CityFar_23: -3364506589943145305
+      CityFar_24: -8448440432251088871
+      CityFar_25: -5278972503208687453
+      CityFar_26: 6908941267083391632
+      CityFar_27: -7379345604675260515
+      CityFar_28: 3789742658532738895
+      CityFar_29: 6046116299962408937
+      CityFar_3: -5982358104621133938
+      CityFar_30: 4775252314257689147
+      CityFar_31: 90329786829984279
+      CityFar_32: -1448739799981696398
+      CityFar_33: 2538075500865324674
+      CityFar_34: -1531979903843287234
+      CityFar_35: 2308117062188275294
+      CityFar_36: 3120486467429197855
+      CityFar_4: -1374195102398050308
+      CityFar_5: -7808009846093575270
+      CityFar_6: 6920870639494916766
+      CityFar_7: -8775792034222116404
+      CityFar_8: 1102670730007244026
+      CityFar_9: 1707603007078703969
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1419 @@
+fileFormatVersion: 2
+guid: 1257b7d353f09d34e881e4f981098147
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4018796790147780258
+    second: WetStreetFloor_0
+  - first:
+      213: -5379680509099825656
+    second: WetStreetFloor_1
+  - first:
+      213: 3430596122851217207
+    second: WetStreetFloor_2
+  - first:
+      213: 416899331635987470
+    second: WetStreetFloor_3
+  - first:
+      213: 7877603404624518453
+    second: WetStreetFloor_4
+  - first:
+      213: 4887874052656721013
+    second: WetStreetFloor_5
+  - first:
+      213: -31652931712877349
+    second: WetStreetFloor_6
+  - first:
+      213: 2004087674333479631
+    second: WetStreetFloor_7
+  - first:
+      213: 5821478314408243437
+    second: WetStreetFloor_8
+  - first:
+      213: -4611135953051059407
+    second: WetStreetFloor_9
+  - first:
+      213: -3407635767716016799
+    second: WetStreetFloor_10
+  - first:
+      213: 441660643460807319
+    second: WetStreetFloor_11
+  - first:
+      213: -5411515036189197013
+    second: WetStreetFloor_12
+  - first:
+      213: -5778815955530018034
+    second: WetStreetFloor_13
+  - first:
+      213: 3396867862735078784
+    second: WetStreetFloor_14
+  - first:
+      213: 4203036441232028427
+    second: WetStreetFloor_15
+  - first:
+      213: 5331226763204392480
+    second: WetStreetFloor_16
+  - first:
+      213: 7354440212571678379
+    second: WetStreetFloor_17
+  - first:
+      213: -4286893882011871167
+    second: WetStreetFloor_18
+  - first:
+      213: 3759079110013145949
+    second: WetStreetFloor_19
+  - first:
+      213: 3436298119122326235
+    second: WetStreetFloor_20
+  - first:
+      213: 4537019712750762374
+    second: WetStreetFloor_21
+  - first:
+      213: -7132400954813402235
+    second: WetStreetFloor_22
+  - first:
+      213: -5582557758220990285
+    second: WetStreetFloor_23
+  - first:
+      213: 6677093450081936220
+    second: WetStreetFloor_24
+  - first:
+      213: 8710176633368589786
+    second: WetStreetFloor_25
+  - first:
+      213: -3886229627943765047
+    second: WetStreetFloor_26
+  - first:
+      213: -3196412007560103323
+    second: WetStreetFloor_27
+  - first:
+      213: 1989565613466040823
+    second: WetStreetFloor_28
+  - first:
+      213: 3897319930348767452
+    second: WetStreetFloor_29
+  - first:
+      213: 6539991576612141641
+    second: WetStreetFloor_30
+  - first:
+      213: 4106906792005206785
+    second: WetStreetFloor_31
+  - first:
+      213: 2153580145804387574
+    second: WetStreetFloor_32
+  - first:
+      213: -6529803063463499928
+    second: WetStreetFloor_33
+  - first:
+      213: 6594037209777457020
+    second: WetStreetFloor_34
+  - first:
+      213: -5829316155006037283
+    second: WetStreetFloor_35
+  - first:
+      213: -1479435346982743521
+    second: WetStreetFloor_36
+  - first:
+      213: -3708028003162641106
+    second: WetStreetFloor_37
+  - first:
+      213: -6838790904621750625
+    second: WetStreetFloor_38
+  - first:
+      213: -8520705302600996539
+    second: WetStreetFloor_39
+  - first:
+      213: -7355419638223828430
+    second: WetStreetFloor_40
+  - first:
+      213: -1038611325749061458
+    second: WetStreetFloor_41
+  - first:
+      213: 151130149252010963
+    second: WetStreetFloor_42
+  - first:
+      213: 2133366902256938595
+    second: WetStreetFloor_43
+  - first:
+      213: 1383752806379224302
+    second: WetStreetFloor_44
+  - first:
+      213: 4339186728499518751
+    second: WetStreetFloor_45
+  - first:
+      213: 6379771559448718828
+    second: WetStreetFloor_46
+  - first:
+      213: 4209861285907236264
+    second: WetStreetFloor_47
+  - first:
+      213: 5520903479523569481
+    second: WetStreetFloor_48
+  - first:
+      213: -769584509398900226
+    second: WetStreetFloor_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WetStreetFloor_0
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 556
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51f2c2ac9d5a38c0800000000000000
+      internalID: -4018796790147780258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_1
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 538
+        width: 164
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806230a64198755b0800000000000000
+      internalID: -5379680509099825656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 578
+        width: 130
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f01666ffceb9f20800000000000000
+      internalID: 3430596122851217207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_3
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 586
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04c249bbbf19c500800000000000000
+      internalID: 416899331635987470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_4
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 626
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d5d062f8ed25d60800000000000000
+      internalID: 7877603404624518453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_5
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 586
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ce377cd8735d340800000000000000
+      internalID: 4887874052656721013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_6
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 530
+        width: 259
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc772983db8f8ff0800000000000000
+      internalID: -31652931712877349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_7
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 594
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2c2672f13ffcb10800000000000000
+      internalID: 2004087674333479631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_8
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 610
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de071f5feab0ac050800000000000000
+      internalID: 5821478314408243437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_9
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 556
+        width: 215
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bfb531844f100c0800000000000000
+      internalID: -4611135953051059407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_10
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 626
+        width: 158
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d0f5dd255a5b0d0800000000000000
+      internalID: -3407635767716016799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 2172
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a70c4e308112600800000000000000
+      internalID: 441660643460807319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_12
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 566
+        width: 122
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2df14bfebf66e4b0800000000000000
+      internalID: -5411515036189197013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 548
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03164481858dcfa0800000000000000
+      internalID: -5778815955530018034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 586
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085c343e259142f20800000000000000
+      internalID: 3396867862735078784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 578
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0338a9ef5f245a30800000000000000
+      internalID: 4203036441232028427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_16
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 562
+        width: 19
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0267addbe725cf940800000000000000
+      internalID: 5331226763204392480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_17
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 556
+        width: 13
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6ee286868301660800000000000000
+      internalID: 7354440212571678379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_18
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 522
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14813ec2ab4e184c0800000000000000
+      internalID: -4286893882011871167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_19
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 521
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53dceab88eea2430800000000000000
+      internalID: 3759079110013145949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_20
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 112
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd211acdeee20bf20800000000000000
+      internalID: 3436298119122326235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_21
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 124
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689347df36bb6fe30800000000000000
+      internalID: 4537019712750762374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_22
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583b0b4ee1f940d90800000000000000
+      internalID: -7132400954813402235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_23
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 95
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8032beb45c682b0800000000000000
+      internalID: -5582557758220990285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_24
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 110
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53a838bd1dc9ac50800000000000000
+      internalID: 6677093450081936220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_25
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 108
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5b7d2ef73c0e870800000000000000
+      internalID: 8710176633368589786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_26
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 101
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb30d65eb6511ac0800000000000000
+      internalID: -3886229627943765047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_27
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 97
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a3695e63014a3d0800000000000000
+      internalID: -3196412007560103323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 79
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9b9ff526b5c9b10800000000000000
+      internalID: 1989565613466040823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_29
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 97
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd80d78e3df061630800000000000000
+      internalID: 3897319930348767452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_30
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 96
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a730640b7b2ca50800000000000000
+      internalID: 6539991576612141641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_31
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 74
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1030c1fc7f9aef830800000000000000
+      internalID: 4106906792005206785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_32
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 79
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f421028bbd03ed10800000000000000
+      internalID: 2153580145804387574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_33
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 98
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867200dc5ba7165a0800000000000000
+      internalID: -6529803063463499928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_34
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 92
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c774e74d7e9b28b50800000000000000
+      internalID: 6594037209777457020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_35
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 81
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd25b6197db1a1fa0800000000000000
+      internalID: -5829316155006037283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_36
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 79
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12dfeae36df77be0800000000000000
+      internalID: -1479435346982743521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_37
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 94
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d2a465d207a8cc0800000000000000
+      internalID: -3708028003162641106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_38
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 93
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9629dcd7ebb711a0800000000000000
+      internalID: -6838790904621750625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_39
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 75
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5492ea20caf50c980800000000000000
+      internalID: -8520705302600996539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_40
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 78
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a8cb94fcc4ce990800000000000000
+      internalID: -7355419638223828430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_41
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea89705808c1691f0800000000000000
+      internalID: -1038611325749061458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_42
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 71
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3940de11ce81200800000000000000
+      internalID: 151130149252010963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_43
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 79
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ea99005ed3b9d10800000000000000
+      internalID: 2133366902256938595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_44
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecfe2198d3143310800000000000000
+      internalID: 1383752806379224302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_45
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 75
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d9d4ee653e73c30800000000000000
+      internalID: 4339186728499518751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_46
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceda41d8e60898850800000000000000
+      internalID: 6379771559448718828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_47
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 65
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a58b24e88e6c6a30800000000000000
+      internalID: 4209861285907236264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_48
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 49
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f6830b6703e9c40800000000000000
+      internalID: 5520903479523569481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WetStreetFloor_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1a2a457f2e155f0800000000000000
+      internalID: -769584509398900226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WetStreetFloor_0: -4018796790147780258
+      WetStreetFloor_1: -5379680509099825656
+      WetStreetFloor_10: -3407635767716016799
+      WetStreetFloor_11: 441660643460807319
+      WetStreetFloor_12: -5411515036189197013
+      WetStreetFloor_13: -5778815955530018034
+      WetStreetFloor_14: 3396867862735078784
+      WetStreetFloor_15: 4203036441232028427
+      WetStreetFloor_16: 5331226763204392480
+      WetStreetFloor_17: 7354440212571678379
+      WetStreetFloor_18: -4286893882011871167
+      WetStreetFloor_19: 3759079110013145949
+      WetStreetFloor_2: 3430596122851217207
+      WetStreetFloor_20: 3436298119122326235
+      WetStreetFloor_21: 4537019712750762374
+      WetStreetFloor_22: -7132400954813402235
+      WetStreetFloor_23: -5582557758220990285
+      WetStreetFloor_24: 6677093450081936220
+      WetStreetFloor_25: 8710176633368589786
+      WetStreetFloor_26: -3886229627943765047
+      WetStreetFloor_27: -3196412007560103323
+      WetStreetFloor_28: 1989565613466040823
+      WetStreetFloor_29: 3897319930348767452
+      WetStreetFloor_3: 416899331635987470
+      WetStreetFloor_30: 6539991576612141641
+      WetStreetFloor_31: 4106906792005206785
+      WetStreetFloor_32: 2153580145804387574
+      WetStreetFloor_33: -6529803063463499928
+      WetStreetFloor_34: 6594037209777457020
+      WetStreetFloor_35: -5829316155006037283
+      WetStreetFloor_36: -1479435346982743521
+      WetStreetFloor_37: -3708028003162641106
+      WetStreetFloor_38: -6838790904621750625
+      WetStreetFloor_39: -8520705302600996539
+      WetStreetFloor_4: 7877603404624518453
+      WetStreetFloor_40: -7355419638223828430
+      WetStreetFloor_41: -1038611325749061458
+      WetStreetFloor_42: 151130149252010963
+      WetStreetFloor_43: 2133366902256938595
+      WetStreetFloor_44: 1383752806379224302
+      WetStreetFloor_45: 4339186728499518751
+      WetStreetFloor_46: 6379771559448718828
+      WetStreetFloor_47: 4209861285907236264
+      WetStreetFloor_48: 5520903479523569481
+      WetStreetFloor_49: -769584509398900226
+      WetStreetFloor_5: 4887874052656721013
+      WetStreetFloor_6: -31652931712877349
+      WetStreetFloor_7: 2004087674333479631
+      WetStreetFloor_8: 5821478314408243437
+      WetStreetFloor_9: -4611135953051059407
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

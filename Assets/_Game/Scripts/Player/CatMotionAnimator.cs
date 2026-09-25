@@ -17,6 +17,9 @@ namespace NineLives
             body = GetComponent<Rigidbody2D>();
             baseScale = visual.localScale;
             basePosition = visual.localPosition;
+            var renderer = visual.GetComponent<SpriteRenderer>();
+            PuddleReflection.Ensure(renderer);
+            CatRimLight.Ensure(renderer);
         }
 
         private void LateUpdate()

@@ -122,6 +122,8 @@ namespace NineLives
             exitSign.sprite = exitSprite;
             exitSign.sortingOrder = 12;
             roomCamera.SetBounds(active.CameraBounds);
+            roomCamera.GetComponent<RoomParallax>()?.SetRoom(active);
+            roomCamera.GetComponent<RoomEnvironmentArt>()?.DressRoom(active);
             player.SetSpawn(active.SafeSpawn.position);
             Physics2D.SyncTransforms();
             trialStarted = false;
@@ -139,8 +141,11 @@ namespace NineLives
         private void SpawnEnemies()
         {
             if (ratPrefab == null) throw new System.InvalidOperationException("Run needs an enemy prefab.");
-            foreach (var point in active.EnemySpawns)
-                Instantiate(ratPrefab, point.position, Quaternion.identity, active.transform);
+            for (int i = 0; i < active.EnemySpawns.Length; i++)
+            {
+                var rat = Instantiate(ratPrefab, active.EnemySpawns[i].position, Quaternion.identity, active.transform);
+                if (active.EnemySpawns.Length > 1 && i % 2 == 1) rat.SetAttackStyle(RatAttackStyle.Spit);
+            }
         }
 
         private void Refresh()

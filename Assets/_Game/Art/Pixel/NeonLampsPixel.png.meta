@@ -1,0 +1,1185 @@
+fileFormatVersion: 2
+guid: b4ea86452f2d8ac4094976b014c97d6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4762895030248360740
+    second: NeonLampsPixel_0
+  - first:
+      213: 4182345805155648663
+    second: NeonLampsPixel_1
+  - first:
+      213: 3810698446588534902
+    second: NeonLampsPixel_2
+  - first:
+      213: 4180462446228899398
+    second: NeonLampsPixel_3
+  - first:
+      213: 8642972016251968321
+    second: NeonLampsPixel_4
+  - first:
+      213: 6110164288049090635
+    second: NeonLampsPixel_5
+  - first:
+      213: -2547028947400749097
+    second: NeonLampsPixel_6
+  - first:
+      213: 3561387153595704883
+    second: NeonLampsPixel_7
+  - first:
+      213: 296471834698185838
+    second: NeonLampsPixel_8
+  - first:
+      213: -4732080773274461988
+    second: NeonLampsPixel_9
+  - first:
+      213: -7273930353948609879
+    second: NeonLampsPixel_10
+  - first:
+      213: 5381845040242053166
+    second: NeonLampsPixel_11
+  - first:
+      213: 6862221241093603593
+    second: NeonLampsPixel_12
+  - first:
+      213: -4861909209235191377
+    second: NeonLampsPixel_13
+  - first:
+      213: -1320472901488605899
+    second: NeonLampsPixel_14
+  - first:
+      213: -591903475337163140
+    second: NeonLampsPixel_15
+  - first:
+      213: 4451615372631524359
+    second: NeonLampsPixel_16
+  - first:
+      213: 7345035321001891962
+    second: NeonLampsPixel_17
+  - first:
+      213: 581248533124950583
+    second: NeonLampsPixel_18
+  - first:
+      213: 4078094799258202538
+    second: NeonLampsPixel_19
+  - first:
+      213: -5828539444182380441
+    second: NeonLampsPixel_20
+  - first:
+      213: 8754716458454739752
+    second: NeonLampsPixel_21
+  - first:
+      213: -696359243322537205
+    second: NeonLampsPixel_22
+  - first:
+      213: -2674138474779188077
+    second: NeonLampsPixel_23
+  - first:
+      213: -3165038759107378103
+    second: NeonLampsPixel_24
+  - first:
+      213: 2371549591899097561
+    second: NeonLampsPixel_25
+  - first:
+      213: -282571105696247242
+    second: NeonLampsPixel_26
+  - first:
+      213: 6371511450806028287
+    second: NeonLampsPixel_27
+  - first:
+      213: 7642970645070050682
+    second: NeonLampsPixel_28
+  - first:
+      213: -4423622493145259123
+    second: NeonLampsPixel_29
+  - first:
+      213: -208919643311754069
+    second: NeonLampsPixel_30
+  - first:
+      213: -5769637912362833361
+    second: NeonLampsPixel_31
+  - first:
+      213: 8129476476115896635
+    second: NeonLampsPixel_32
+  - first:
+      213: -1095932746820855335
+    second: NeonLampsPixel_33
+  - first:
+      213: -5388768899909350568
+    second: NeonLampsPixel_34
+  - first:
+      213: 5215717067449653411
+    second: NeonLampsPixel_35
+  - first:
+      213: -1484793341227778403
+    second: NeonLampsPixel_36
+  - first:
+      213: -1750438758953496685
+    second: NeonLampsPixel_37
+  - first:
+      213: 5815731609446477867
+    second: NeonLampsPixel_38
+  - first:
+      213: -7979615363514227205
+    second: NeonLampsPixel_39
+  - first:
+      213: 5865511317680394706
+    second: NeonLampsPixel_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NeonLampsPixel_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 551
+        width: 431
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b4d6c8bc3391240800000000000000
+      internalID: 4762895030248360740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 0
+        width: 804
+        height: 1184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794c52cc95daa0a30800000000000000
+      internalID: 4182345805155648663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1015
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670ea071c0252e430800000000000000
+      internalID: 3810698446588534902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_3
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 996
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6468550227cf30a30800000000000000
+      internalID: 4180462446228899398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_4
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 993
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b1750a14102f770800000000000000
+      internalID: 8642972016251968321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 823
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4091740c0aabc450800000000000000
+      internalID: 6110164288049090635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_6
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 626
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df8a85caa227acd0800000000000000
+      internalID: -2547028947400749097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 623
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33626b54fb69c6130800000000000000
+      internalID: 3561387153595704883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 575
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cf71910974d1400800000000000000
+      internalID: 296471834698185838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 575
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8158cbb95445eb0800000000000000
+      internalID: -4732080773274461988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 27
+        width: 175
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a236fbc1eecd0b90800000000000000
+      internalID: -7273930353948609879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_11
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 575
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2053d3cc8720ba40800000000000000
+      internalID: 5381845040242053166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_12
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 583
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90146857cd18b3f50800000000000000
+      internalID: 6862221241093603593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_13
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 565
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9065d6557078cb0800000000000000
+      internalID: -4861909209235191377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 487
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5350e3b64ecbcade0800000000000000
+      internalID: -1320472901488605899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 487
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e853bdce229c7f0800000000000000
+      internalID: -591903475337163140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_16
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 26
+        width: 209
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704ce52889057cd30800000000000000
+      internalID: 4451615372631524359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_17
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 527
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78d30375becee560800000000000000
+      internalID: 7345035321001891962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 375
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a21271672011800800000000000000
+      internalID: 581248533124950583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 455
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1372efc9d489830800000000000000
+      internalID: 4078094799258202538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_20
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 447
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7601826a14edc1fa0800000000000000
+      internalID: -5828539444182380441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_21
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 329
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82be5770c300f7970800000000000000
+      internalID: 8754716458454739752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_22
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 393
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b43b925f80656f0800000000000000
+      internalID: -696359243322537205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_23
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 341
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394e492b93d83ead0800000000000000
+      internalID: -2674138474779188077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_24
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 355
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944cf0784068314d0800000000000000
+      internalID: -3165038759107378103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 329
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d94e50f9cf69e020800000000000000
+      internalID: 2371549591899097561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_26
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 341
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6329f25931b141cf0800000000000000
+      internalID: -282571105696247242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 289
+        width: 76
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff780a328e72c6850800000000000000
+      internalID: 6371511450806028287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_28
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 311
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a757328be49411a60800000000000000
+      internalID: 7642970645070050682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_29
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 310
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8326a3a7c22c92c0800000000000000
+      internalID: -4423622493145259123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 259
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba43dc9f0b4c91df0800000000000000
+      internalID: -208919643311754069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_31
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 289
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2aacf633e02eefa0800000000000000
+      internalID: -5769637912362833361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 189
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3948c088c3b1d070800000000000000
+      internalID: 8129476476115896635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 167
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9560829f67ac0f0800000000000000
+      internalID: -1095932746820855335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_34
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 226
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b0b388c3f3735b0800000000000000
+      internalID: -5388768899909350568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_35
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 215
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8574ee903f16840800000000000000
+      internalID: 5215717067449653411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_36
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 101
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9eb04ba254f46be0800000000000000
+      internalID: -1484793341227778403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_37
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 49
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f4083193135b7e0800000000000000
+      internalID: -1750438758953496685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_38
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 103
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b207112f511a5b050800000000000000
+      internalID: 5815731609446477867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_39
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 109
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf52c7dca16b24190800000000000000
+      internalID: -7979615363514227205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsPixel_40
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 183
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d19f54777b766150800000000000000
+      internalID: 5865511317680394706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NeonLampsPixel_0: 4762895030248360740
+      NeonLampsPixel_1: 4182345805155648663
+      NeonLampsPixel_10: -7273930353948609879
+      NeonLampsPixel_11: 5381845040242053166
+      NeonLampsPixel_12: 6862221241093603593
+      NeonLampsPixel_13: -4861909209235191377
+      NeonLampsPixel_14: -1320472901488605899
+      NeonLampsPixel_15: -591903475337163140
+      NeonLampsPixel_16: 4451615372631524359
+      NeonLampsPixel_17: 7345035321001891962
+      NeonLampsPixel_18: 581248533124950583
+      NeonLampsPixel_19: 4078094799258202538
+      NeonLampsPixel_2: 3810698446588534902
+      NeonLampsPixel_20: -5828539444182380441
+      NeonLampsPixel_21: 8754716458454739752
+      NeonLampsPixel_22: -696359243322537205
+      NeonLampsPixel_23: -2674138474779188077
+      NeonLampsPixel_24: -3165038759107378103
+      NeonLampsPixel_25: 2371549591899097561
+      NeonLampsPixel_26: -282571105696247242
+      NeonLampsPixel_27: 6371511450806028287
+      NeonLampsPixel_28: 7642970645070050682
+      NeonLampsPixel_29: -4423622493145259123
+      NeonLampsPixel_3: 4180462446228899398
+      NeonLampsPixel_30: -208919643311754069
+      NeonLampsPixel_31: -5769637912362833361
+      NeonLampsPixel_32: 8129476476115896635
+      NeonLampsPixel_33: -1095932746820855335
+      NeonLampsPixel_34: -5388768899909350568
+      NeonLampsPixel_35: 5215717067449653411
+      NeonLampsPixel_36: -1484793341227778403
+      NeonLampsPixel_37: -1750438758953496685
+      NeonLampsPixel_38: 5815731609446477867
+      NeonLampsPixel_39: -7979615363514227205
+      NeonLampsPixel_4: 8642972016251968321
+      NeonLampsPixel_40: 5865511317680394706
+      NeonLampsPixel_5: 6110164288049090635
+      NeonLampsPixel_6: -2547028947400749097
+      NeonLampsPixel_7: 3561387153595704883
+      NeonLampsPixel_8: 296471834698185838
+      NeonLampsPixel_9: -4732080773274461988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

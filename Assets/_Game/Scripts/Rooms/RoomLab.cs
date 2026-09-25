@@ -54,13 +54,18 @@ namespace NineLives
             index = next;
             active = loaded;
             roomCamera.SetBounds(active.CameraBounds);
+            roomCamera.GetComponent<RoomParallax>()?.SetRoom(active);
+            roomCamera.GetComponent<RoomEnvironmentArt>()?.DressRoom(active);
             player.GetComponent<Health>().ResetToFull();
             player.SetInputBlocked(false);
             player.SetSpawn(active.SafeSpawn.position);
             Physics2D.SyncTransforms();
             if (enemies && ratPrefab != null)
-                foreach (var point in active.EnemySpawns)
-                    Instantiate(ratPrefab, point.position, Quaternion.identity, active.transform);
+                for (int i = 0; i < active.EnemySpawns.Length; i++)
+                {
+                    var rat = Instantiate(ratPrefab, active.EnemySpawns[i].position, Quaternion.identity, active.transform);
+                    if (active.EnemySpawns.Length > 1 && i % 2 == 1) rat.SetAttackStyle(RatAttackStyle.Spit);
+                }
             if (status != null)
                 status.text = $"{rooms[index].StableId}  {rooms[index].Biome}  {index + 1}/{rooms.Length}  Seed {seed}\nN/B: кімната   R: знову   T: вороги {(enemies ? "ON" : "OFF")}   C: чанки {(chunkMode ? "ON" : "OFF")}   V: інший seed";
         }

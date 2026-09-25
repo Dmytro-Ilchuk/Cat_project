@@ -749,7 +749,7 @@ TextureImporter:
       name: Attack_1
       rect:
         serializedVersion: 2
-        x: 181
+        x: 189
         y: 543
         width: 181
         height: 181
@@ -771,8 +771,8 @@ TextureImporter:
       name: Attack_2
       rect:
         serializedVersion: 2
-        x: 362
-        y: 543
+        x: 376
+        y: 538
         width: 181
         height: 181
       alignment: 9
@@ -793,7 +793,7 @@ TextureImporter:
       name: Attack_3
       rect:
         serializedVersion: 2
-        x: 543
+        x: 554
         y: 543
         width: 181
         height: 181

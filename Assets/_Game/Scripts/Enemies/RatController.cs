@@ -2,6 +2,8 @@ using UnityEngine;
 
 namespace NineLives
 {
+    public enum RatAttackStyle { Claw, Spit }
+
     [RequireComponent(typeof(Health), typeof(Rigidbody2D))]
     public sealed class RatController : MonoBehaviour
     {
@@ -16,6 +18,12 @@ namespace NineLives
         [SerializeField, Min(0f)] private float attackKnockback = 7f;
         [SerializeField, Range(0f, 1f)] private float controlResistance;
         [SerializeField] private float fallY = -5f;
+        [SerializeField] private RatAttackStyle attackStyle;
+        [SerializeField, Min(.5f)] private float rangedAttackRange = 4.25f;
+        [SerializeField, Min(.1f)] private float rangedRetreatRange = 2.1f;
+        [SerializeField, Min(1f)] private float projectileSpeed = 9f;
+        [SerializeField, Min(1)] private int rangedDamage = 7;
+        [SerializeField, Min(0f)] private float rangedKnockback = 3.5f;
 
         private Health health;
         private Rigidbody2D body;
@@ -30,6 +38,7 @@ namespace NineLives
         private int groundMask;
 
         public bool IsAttacking => state == State.WindingUp || state == State.Recovering;
+        public bool IsRanged => attackStyle == RatAttackStyle.Spit;
         public float AttackProgress => state == State.WindingUp
             ? .5f * Mathf.Clamp01(1 - (stateUntil - Time.time) / windUpDuration)
             : .5f + .5f * Mathf.Clamp01(1 - (stateUntil - Time.time) / recoveryDuration);
@@ -40,7 +49,9 @@ namespace NineLives
             body = GetComponent<Rigidbody2D>();
             visual = GetComponent<SpriteRenderer>();
             hitbox = GetComponent<Collider2D>();
-            baseColor = visual.color;
+            PuddleReflection.Ensure(visual);
+            baseColor = attackStyle == RatAttackStyle.Spit ? new Color(.55f, .9f, .72f) : visual.color;
+            visual.color = baseColor;
             groundMask = 1 << LayerMask.NameToLayer("Ground");
             SnapToGround();
             player = FindAnyObjectByType<PlayerController>();
@@ -74,9 +85,13 @@ namespace NineLives
                     break;
                 case State.Approaching:
                     if (distance > engageRange) { state = State.Waiting; body.linearVelocity = Vector2.zero; break; }
-                    if (contactGap <= attackRange && CanHitPlayer()) { state = State.WindingUp; stateUntil = Time.time + windUpDuration; body.linearVelocity = Vector2.zero; visual.color = new Color(1f, 0.8f, 0.55f); break; }
+                    bool readyToAttack = attackStyle == RatAttackStyle.Spit
+                        ? distance <= rangedAttackRange && CanHitPlayer()
+                        : contactGap <= attackRange && CanHitPlayer();
+                    if (readyToAttack) { state = State.WindingUp; stateUntil = Time.time + windUpDuration; body.linearVelocity = Vector2.zero; visual.color = new Color(1f, 0.8f, 0.55f); break; }
                     float direction = Mathf.Sign(player.transform.position.x - transform.position.x);
                     visual.flipX = direction < 0f;
+                    if (attackStyle == RatAttackStyle.Spit && distance < rangedRetreatRange) direction = -direction;
                     if (!GroundBelow() || !GroundAhead(direction) || WallAhead(direction))
                     {
                         body.linearVelocity = new Vector2(0, body.linearVelocity.y);
@@ -107,10 +122,27 @@ namespace NineLives
             stateUntil = Time.time + duration * (1f - controlResistance);
         }
 
+        public void SetAttackStyle(RatAttackStyle style)
+        {
+            attackStyle = style;
+            gameObject.name = style == RatAttackStyle.Spit ? "Spitter Rat" : "Rat";
+            if (visual == null) return;
+            baseColor = style == RatAttackStyle.Spit ? new Color(.55f, .9f, .72f) : Color.white;
+            visual.color = baseColor;
+        }
+
         private void Attack()
         {
-            if (HorizontalGapToPlayer() > attackRange || !CanHitPlayer()) return;
             Vector2 direction = Mathf.Sign(player.transform.position.x - transform.position.x) * Vector2.right;
+            if (attackStyle == RatAttackStyle.Spit)
+            {
+                if (playerHitbox == null || Vector2.Distance(playerHitbox.bounds.center, hitbox.bounds.center) > rangedAttackRange || !CanHitPlayer()) return;
+                Vector2 origin = (Vector2)visual.bounds.center + direction * .55f;
+                Vector2 destination = playerHitbox.bounds.center;
+                RatProjectile.Launch(origin, destination, playerHealth, projectileSpeed, rangedDamage, rangedKnockback);
+                return;
+            }
+            if (HorizontalGapToPlayer() > attackRange || !CanHitPlayer()) return;
             CombatVfx.Slash((Vector2)transform.position + direction * .6f, direction.x, true);
             playerHealth.TakeDamage(attackDamage, direction * attackKnockback + Vector2.up * 0.25f);
         }

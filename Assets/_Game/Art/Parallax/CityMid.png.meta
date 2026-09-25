@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 756d995e5b77e0345846caf06e50225b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3652581728568838348
+    second: CityMid_0
+  - first:
+      213: -4860611056323776480
+    second: CityMid_1
+  - first:
+      213: 4229923943178892387
+    second: CityMid_2
+  - first:
+      213: 8988288411281087435
+    second: CityMid_3
+  - first:
+      213: 86681432183095182
+    second: CityMid_4
+  - first:
+      213: 5970598778940200072
+    second: CityMid_5
+  - first:
+      213: -5828745017595290036
+    second: CityMid_6
+  - first:
+      213: -1984857805625296652
+    second: CityMid_7
+  - first:
+      213: -1619064846471094521
+    second: CityMid_8
+  - first:
+      213: 7325899919844952491
+    second: CityMid_9
+  - first:
+      213: -7239846357394591797
+    second: CityMid_10
+  - first:
+      213: 8032737765809501784
+    second: CityMid_11
+  - first:
+      213: 1226176935169392815
+    second: CityMid_12
+  - first:
+      213: -9141082651466562004
+    second: CityMid_13
+  - first:
+      213: 2059143352095393623
+    second: CityMid_14
+  - first:
+      213: 5915657665234103935
+    second: CityMid_15
+  - first:
+      213: 5887783782235339755
+    second: CityMid_16
+  - first:
+      213: -1795742402427047748
+    second: CityMid_17
+  - first:
+      213: -2830709134481169526
+    second: CityMid_18
+  - first:
+      213: 4195940984095266526
+    second: CityMid_19
+  - first:
+      213: -3412996187898018369
+    second: CityMid_20
+  - first:
+      213: 3325730562097619049
+    second: CityMid_21
+  - first:
+      213: 1796544146625070971
+    second: CityMid_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CityMid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2172
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4377293254c6f4dc0800000000000000
+      internalID: -3652581728568838348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 711
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0203c743ff3ab8cb0800000000000000
+      internalID: -4860611056323776480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 709
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364f81c4a65b3ba30800000000000000
+      internalID: 4229923943178892387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_3
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 711
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb5b2520b0dcbc70800000000000000
+      internalID: 8988288411281087435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 699
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f35e5ad44f33100800000000000000
+      internalID: 86681432183095182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 689
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8849c13b4f3dbd250800000000000000
+      internalID: 5970598778940200072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_6
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 683
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e97ebd9432c1fa0800000000000000
+      internalID: -5828745017595290036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_7
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 699
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8fa0e875e5474e0800000000000000
+      internalID: -1984857805625296652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_8
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 689
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f94cda91de789e0800000000000000
+      internalID: -1619064846471094521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 677
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9cb6ea923daa560800000000000000
+      internalID: 7325899919844952491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 677
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfe617a816e68b90800000000000000
+      internalID: -7239846357394591797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 661
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856b0f050740a7f60800000000000000
+      internalID: 8032737765809501784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_12
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 677
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa08c8c0d61440110800000000000000
+      internalID: 1226176935169392815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_13
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 661
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2689d092c9542180800000000000000
+      internalID: -9141082651466562004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_14
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 677
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757c04b08fb839c10800000000000000
+      internalID: 2059143352095393623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_15
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 677
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e6815dd43a81250800000000000000
+      internalID: 5915657665234103935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_16
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 669
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb7176b72c95b150800000000000000
+      internalID: 5887783782235339755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_17
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 669
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0ba3b9ccd3417e0800000000000000
+      internalID: -1795742402427047748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_18
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 630
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83ebc83a0d47b8d0800000000000000
+      internalID: -2830709134481169526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_19
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 661
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6508f081afa3a30800000000000000
+      internalID: 4195940984095266526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_20
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 643
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb58398cc0a92a0d0800000000000000
+      internalID: -3412996187898018369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_21
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 23
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9602d74635e572e20800000000000000
+      internalID: 3325730562097619049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CityMid_22
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 17
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7705e2026b9ee810800000000000000
+      internalID: 1796544146625070971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CityMid_0: -3652581728568838348
+      CityMid_1: -4860611056323776480
+      CityMid_10: -7239846357394591797
+      CityMid_11: 8032737765809501784
+      CityMid_12: 1226176935169392815
+      CityMid_13: -9141082651466562004
+      CityMid_14: 2059143352095393623
+      CityMid_15: 5915657665234103935
+      CityMid_16: 5887783782235339755
+      CityMid_17: -1795742402427047748
+      CityMid_18: -2830709134481169526
+      CityMid_19: 4195940984095266526
+      CityMid_2: 4229923943178892387
+      CityMid_20: -3412996187898018369
+      CityMid_21: 3325730562097619049
+      CityMid_22: 1796544146625070971
+      CityMid_3: 8988288411281087435
+      CityMid_4: 86681432183095182
+      CityMid_5: 5970598778940200072
+      CityMid_6: -5828745017595290036
+      CityMid_7: -1984857805625296652
+      CityMid_8: -1619064846471094521
+      CityMid_9: 7325899919844952491
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
