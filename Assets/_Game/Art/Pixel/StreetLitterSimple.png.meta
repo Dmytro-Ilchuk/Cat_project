@@ -1,0 +1,1354 @@
+fileFormatVersion: 2
+guid: 86e90689dfa26dd47aca091057942131
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7464091125700592619
+    second: StreetLitterSimple_0
+  - first:
+      213: 97086012478972455
+    second: StreetLitterSimple_1
+  - first:
+      213: 8426833626042792106
+    second: StreetLitterSimple_2
+  - first:
+      213: 4564464595324577566
+    second: StreetLitterSimple_3
+  - first:
+      213: -434545373963045104
+    second: StreetLitterSimple_4
+  - first:
+      213: 7387588730337564355
+    second: StreetLitterSimple_5
+  - first:
+      213: 3185661594712328777
+    second: StreetLitterSimple_6
+  - first:
+      213: -2092013339246501061
+    second: StreetLitterSimple_7
+  - first:
+      213: -566174301154813732
+    second: StreetLitterSimple_8
+  - first:
+      213: 1535985364820884619
+    second: StreetLitterSimple_9
+  - first:
+      213: 1009710613808843288
+    second: StreetLitterSimple_10
+  - first:
+      213: -2017078690596398643
+    second: StreetLitterSimple_11
+  - first:
+      213: -8336957850388281926
+    second: StreetLitterSimple_12
+  - first:
+      213: 1135955414163182827
+    second: StreetLitterSimple_13
+  - first:
+      213: -5582358391825392550
+    second: StreetLitterSimple_14
+  - first:
+      213: 8744258249039488355
+    second: StreetLitterSimple_15
+  - first:
+      213: 6487631921655976275
+    second: StreetLitterSimple_16
+  - first:
+      213: -5956655775392599243
+    second: StreetLitterSimple_17
+  - first:
+      213: -5093177901077621814
+    second: StreetLitterSimple_18
+  - first:
+      213: 4342899139144069086
+    second: StreetLitterSimple_19
+  - first:
+      213: 2117432232143319380
+    second: StreetLitterSimple_20
+  - first:
+      213: 6845095854951452095
+    second: StreetLitterSimple_21
+  - first:
+      213: 8569157313459181158
+    second: StreetLitterSimple_22
+  - first:
+      213: 823250700940882285
+    second: StreetLitterSimple_23
+  - first:
+      213: -9200322252198699990
+    second: StreetLitterSimple_24
+  - first:
+      213: -3938799790527510064
+    second: StreetLitterSimple_25
+  - first:
+      213: 733582064499173749
+    second: StreetLitterSimple_26
+  - first:
+      213: 2181680466482251762
+    second: StreetLitterSimple_27
+  - first:
+      213: -6791137670529688886
+    second: StreetLitterSimple_28
+  - first:
+      213: 6388934457337230811
+    second: StreetLitterSimple_29
+  - first:
+      213: 7329768080057875980
+    second: StreetLitterSimple_30
+  - first:
+      213: -467546625591532923
+    second: StreetLitterSimple_31
+  - first:
+      213: 5361135774243952970
+    second: StreetLitterSimple_32
+  - first:
+      213: 8486948108272268012
+    second: StreetLitterSimple_33
+  - first:
+      213: -2761013885413740442
+    second: StreetLitterSimple_34
+  - first:
+      213: 1830947971104113940
+    second: StreetLitterSimple_35
+  - first:
+      213: -7055614442622827312
+    second: StreetLitterSimple_36
+  - first:
+      213: -6555671020132089547
+    second: StreetLitterSimple_37
+  - first:
+      213: -707367765892927505
+    second: StreetLitterSimple_38
+  - first:
+      213: 8342587142853717599
+    second: StreetLitterSimple_39
+  - first:
+      213: -6718398813310680191
+    second: StreetLitterSimple_40
+  - first:
+      213: -8245832333039897868
+    second: StreetLitterSimple_41
+  - first:
+      213: 5983083361091427479
+    second: StreetLitterSimple_42
+  - first:
+      213: -3068788607040770816
+    second: StreetLitterSimple_43
+  - first:
+      213: 7235206417941776167
+    second: StreetLitterSimple_44
+  - first:
+      213: 2461083069390696611
+    second: StreetLitterSimple_45
+  - first:
+      213: -1458952312770188899
+    second: StreetLitterSimple_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StreetLitterSimple_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 636
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c7879eaa83a6890800000000000000
+      internalID: -7464091125700592619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_1
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 346
+        width: 575
+        height: 856
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722e776c63be85100800000000000000
+      internalID: 97086012478972455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_2
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1028
+        width: 30
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8f89d198022f470800000000000000
+      internalID: 8426833626042792106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_3
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1050
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e172b2aad5c385f30800000000000000
+      internalID: 4564464595324577566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_4
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1035
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017b422e84f28f9f0800000000000000
+      internalID: -434545373963045104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_5
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1036
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c613722fccf58660800000000000000
+      internalID: 7387588730337564355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_6
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 758
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ace6f875eb53c20800000000000000
+      internalID: 3185661594712328777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_7
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 665
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3365d0b3fca7f2e0800000000000000
+      internalID: -2092013339246501061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_8
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 642
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd856ba097b8428f0800000000000000
+      internalID: -566174301154813732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_9
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 626
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cf8522d8ae05510800000000000000
+      internalID: 1535985364820884619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_10
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 626
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a840e1476330e00800000000000000
+      internalID: 1009710613808843288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_11
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 612
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9ddfa2e95e104e0800000000000000
+      internalID: -2017078690596398643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 576
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5c334910d2d4c80800000000000000
+      internalID: -8336957850388281926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_13
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 610
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4d0ed3e69b3cf00800000000000000
+      internalID: 1135955414163182827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_14
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 600
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c93568e9a7782b0800000000000000
+      internalID: -5582358391825392550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_15
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 610
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36527466c88d95970800000000000000
+      internalID: 8744258249039488355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_16
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 573
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3511acb1cd2b80a50800000000000000
+      internalID: 6487631921655976275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_17
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 600
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533f17ac125b55da0800000000000000
+      internalID: -5956655775392599243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_18
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 593
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3166c0fa56159b0800000000000000
+      internalID: -5093177901077621814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_19
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 580
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf2804e1c3154c30800000000000000
+      internalID: 4342899139144069086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_20
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 590
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4517dd08561a26d10800000000000000
+      internalID: 2117432232143319380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_21
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 600
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd41e7c96aaefe50800000000000000
+      internalID: 6845095854951452095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_22
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 596
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666dc2ddc23cbe670800000000000000
+      internalID: 8569157313459181158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 572
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d613ca69626cc6b00800000000000000
+      internalID: 823250700940882285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_24
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 586
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c139238a3e15080800000000000000
+      internalID: -9200322252198699990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_25
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 562
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9893c85729659c0800000000000000
+      internalID: -3938799790527510064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_26
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 578
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579221040053e2a00800000000000000
+      internalID: 733582064499173749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_27
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 576
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7451243d2e64e10800000000000000
+      internalID: 2181680466482251762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 570
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acadd47054801c1a0800000000000000
+      internalID: -6791137670529688886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_29
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 566
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5b6d6f90e0aa850800000000000000
+      internalID: 6388934457337230811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_30
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 578
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eb8d9eb3198b560800000000000000
+      internalID: 7329768080057875980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_31
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 562
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5822fa932d0f289f0800000000000000
+      internalID: -467546625591532923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_32
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 562
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4913780594966a40800000000000000
+      internalID: 5361135774243952970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 569
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2fdb4b652b7c570800000000000000
+      internalID: 8486948108272268012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_34
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 554
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6603efbef78eea9d0800000000000000
+      internalID: -2761013885413740442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 606
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41502eb9a75d86910800000000000000
+      internalID: 1830947971104113940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_36
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 457
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4c953fb0c651e90800000000000000
+      internalID: -7055614442622827312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_37
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 463
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53144bcc0f39505a0800000000000000
+      internalID: -6555671020132089547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_38
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 449
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefe364c3ccee26f0800000000000000
+      internalID: -707367765892927505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_39
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 345
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e69853ec2d6c370800000000000000
+      internalID: 8342587142853717599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1830639ffd373c2a0800000000000000
+      internalID: -6718398813310680191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_41
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 307
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2f9bf6e2be09d80800000000000000
+      internalID: -8245832333039897868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_42
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 55
+        width: 606
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c976ffd9e280350800000000000000
+      internalID: 5983083361091427479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_43
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 53
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00da19265097965d0800000000000000
+      internalID: -3068788607040770816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727cb0247ed986460800000000000000
+      internalID: 7235206417941776167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0b2c12306872220800000000000000
+      internalID: 2461083069390696611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLitterSimple_46
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 15
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d992915f992c0cbe0800000000000000
+      internalID: -1458952312770188899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StreetLitterSimple_0: -7464091125700592619
+      StreetLitterSimple_1: 97086012478972455
+      StreetLitterSimple_10: 1009710613808843288
+      StreetLitterSimple_11: -2017078690596398643
+      StreetLitterSimple_12: -8336957850388281926
+      StreetLitterSimple_13: 1135955414163182827
+      StreetLitterSimple_14: -5582358391825392550
+      StreetLitterSimple_15: 8744258249039488355
+      StreetLitterSimple_16: 6487631921655976275
+      StreetLitterSimple_17: -5956655775392599243
+      StreetLitterSimple_18: -5093177901077621814
+      StreetLitterSimple_19: 4342899139144069086
+      StreetLitterSimple_2: 8426833626042792106
+      StreetLitterSimple_20: 2117432232143319380
+      StreetLitterSimple_21: 6845095854951452095
+      StreetLitterSimple_22: 8569157313459181158
+      StreetLitterSimple_23: 823250700940882285
+      StreetLitterSimple_24: -9200322252198699990
+      StreetLitterSimple_25: -3938799790527510064
+      StreetLitterSimple_26: 733582064499173749
+      StreetLitterSimple_27: 2181680466482251762
+      StreetLitterSimple_28: -6791137670529688886
+      StreetLitterSimple_29: 6388934457337230811
+      StreetLitterSimple_3: 4564464595324577566
+      StreetLitterSimple_30: 7329768080057875980
+      StreetLitterSimple_31: -467546625591532923
+      StreetLitterSimple_32: 5361135774243952970
+      StreetLitterSimple_33: 8486948108272268012
+      StreetLitterSimple_34: -2761013885413740442
+      StreetLitterSimple_35: 1830947971104113940
+      StreetLitterSimple_36: -7055614442622827312
+      StreetLitterSimple_37: -6555671020132089547
+      StreetLitterSimple_38: -707367765892927505
+      StreetLitterSimple_39: 8342587142853717599
+      StreetLitterSimple_4: -434545373963045104
+      StreetLitterSimple_40: -6718398813310680191
+      StreetLitterSimple_41: -8245832333039897868
+      StreetLitterSimple_42: 5983083361091427479
+      StreetLitterSimple_43: -3068788607040770816
+      StreetLitterSimple_44: 7235206417941776167
+      StreetLitterSimple_45: 2461083069390696611
+      StreetLitterSimple_46: -1458952312770188899
+      StreetLitterSimple_5: 7387588730337564355
+      StreetLitterSimple_6: 3185661594712328777
+      StreetLitterSimple_7: -2092013339246501061
+      StreetLitterSimple_8: -566174301154813732
+      StreetLitterSimple_9: 1535985364820884619
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

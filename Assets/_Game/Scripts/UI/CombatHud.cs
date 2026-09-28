@@ -7,8 +7,17 @@ namespace NineLives
     {
         [SerializeField] private Health playerHealth;
         [SerializeField] private Text healthLabel;
+        [SerializeField] private Text foodLabel;
+        [SerializeField] private Text livesLabel;
+        [SerializeField] private Text mapLabel;
+        [SerializeField] private RawImage[] hearts;
+        [SerializeField] private RectTransform mapMarker;
+        [SerializeField] private RectTransform[] mapStops;
 
         private int displayedHealth = -1;
+        private int displayedFood = -1;
+        private int displayedLives = -1;
+        private int displayedPosition = -1;
         private CycleController cycle;
 
         private void OnEnable()
@@ -27,18 +36,39 @@ namespace NineLives
 
         private void Update()
         {
-            if (playerHealth != null && displayedHealth != playerHealth.CurrentHealth)
+            var state = CycleController.Instance;
+            if (playerHealth != null && (displayedHealth != playerHealth.CurrentHealth ||
+                (state != null && (displayedFood != state.Run.Food ||
+                displayedLives != state.Cycle.LivesRemaining || displayedPosition != state.Run.Position))))
                 Refresh();
         }
 
         private void Refresh()
         {
-            if (playerHealth == null || healthLabel == null) return;
+            if (playerHealth == null) return;
             displayedHealth = playerHealth.CurrentHealth;
-            var cycle = CycleController.Instance;
-            healthLabel.text = cycle == null
-                ? $"HP {playerHealth.CurrentHealth} / {playerHealth.MaximumHealth}"
-                : $"HP {playerHealth.CurrentHealth} / {playerHealth.MaximumHealth}   Життя: {cycle.Cycle.LivesRemaining}\nСпогади: {cycle.Cycle.Memories}";
+            if (healthLabel != null)
+                healthLabel.text = $"{displayedHealth}/{playerHealth.MaximumHealth}";
+            if (hearts != null)
+                for (int i = 0; i < hearts.Length; i++)
+                {
+                    float amount = Mathf.Clamp01(displayedHealth * hearts.Length /
+                        (float)playerHealth.MaximumHealth - i);
+                    if (hearts[i] != null)
+                        hearts[i].color = Color.Lerp(new Color(.22f, .2f, .29f, .9f),
+                            Color.white, amount);
+                }
+            var state = CycleController.Instance;
+            if (state == null) return;
+            displayedFood = state.Run.Food;
+            displayedLives = state.Cycle.LivesRemaining;
+            displayedPosition = state.Run.Position;
+            if (foodLabel != null) foodLabel.text = $"× {displayedFood}";
+            if (livesLabel != null) livesLabel.text = $"× {displayedLives}";
+            if (mapLabel != null) mapLabel.text = $"МАРШРУТ {displayedPosition + 1}/9";
+            if (mapMarker != null && mapStops != null && mapStops.Length > 0)
+                mapMarker.anchoredPosition = mapStops[Mathf.Clamp(displayedPosition, 0,
+                    mapStops.Length - 1)].anchoredPosition;
         }
     }
 }

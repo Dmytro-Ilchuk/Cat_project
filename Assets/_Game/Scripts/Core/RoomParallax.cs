@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 namespace NineLives
 {
@@ -11,10 +12,14 @@ namespace NineLives
         [SerializeField] private Sprite buildings;
         [SerializeField] private Sprite alternateBuildings;
         [SerializeField] private Sprite foreground;
+        [SerializeField] private Sprite nightSky;
+        [SerializeField] private Sprite lowerForeground;
 
         private readonly SpriteRenderer[,] tiles = new SpriteRenderer[3, 3];
+        private readonly SpriteRenderer[] lowerTiles = new SpriteRenderer[9];
         private readonly float[] factors = { .12f, .35f, .62f };
         private readonly float[] bottomY = { -1.1f, -2.1f, -5.6f };
+        private float lowerBottomY = -3.1f;
         private static Sprite roofCable;
 
         public void SetArt(Sprite distant, Sprite middle, Sprite near)
@@ -29,6 +34,7 @@ namespace NineLives
         public void SetRoom(RoomLayout room)
         {
             if (room == null) return;
+            lowerBottomY = room.SafeSpawn.position.y - 4f;
             foreach (var renderer in room.GetComponentsInChildren<SpriteRenderer>())
             {
                 string name = renderer.gameObject.name;
@@ -40,6 +46,19 @@ namespace NineLives
         private void Awake()
         {
             GetComponent<Camera>().backgroundColor = new Color(.018f, .025f, .043f);
+            if (nightSky != null)
+            {
+                var sky = new GameObject("Clouded night sky", typeof(SpriteRenderer));
+                sky.transform.SetParent(transform, false);
+                sky.transform.localPosition = new Vector3(0f, 0f, 10f);
+                var renderer = sky.GetComponent<SpriteRenderer>();
+                renderer.sprite = nightSky;
+                renderer.sortingOrder = -20;
+                var pixels = GetComponent<PixelPerfectCamera>();
+                sky.transform.localScale = new Vector3(
+                    pixels.refResolutionX / (float)pixels.assetsPPU / nightSky.bounds.size.x * 1.05f,
+                    pixels.refResolutionY / (float)pixels.assetsPPU / nightSky.bounds.size.y * 1.05f, 1f);
+            }
             Sprite[] art = { distantCity, buildings, foreground };
             for (int layer = 0; layer < art.Length; layer++)
             {
@@ -68,6 +87,17 @@ namespace NineLives
                     tiles[layer, tile] = renderer;
                 }
             }
+            if (lowerForeground != null)
+                for (int i = 0; i < lowerTiles.Length; i++)
+                {
+                    var part = new GameObject("Lower foreground parallax " + i, typeof(SpriteRenderer));
+                    part.transform.SetParent(transform, false);
+                    var renderer = part.GetComponent<SpriteRenderer>();
+                    renderer.sprite = lowerForeground;
+                    renderer.sortingOrder = 24;
+                    renderer.color = new Color(.78f, .83f, .84f, .78f);
+                    lowerTiles[i] = renderer;
+                }
             PositionTiles();
         }
 
@@ -109,6 +139,19 @@ namespace NineLives
                         centerY + transform.position.y * factors[layer] * .08f,
                         0f);
                 }
+            }
+            if (lowerForeground == null) return;
+            const float factor = -.15f;
+            float tileWidth = lowerForeground.bounds.size.x;
+            int middle = Mathf.RoundToInt(transform.position.x * (1f - factor) / tileWidth);
+            for (int i = 0; i < lowerTiles.Length; i++)
+            {
+                int index = middle + i - lowerTiles.Length / 2;
+                var renderer = lowerTiles[i];
+                renderer.flipX = (index & 1) != 0;
+                renderer.transform.position = new Vector3(
+                    index * tileWidth + transform.position.x * factor,
+                    lowerBottomY + lowerForeground.bounds.size.y * .5f, 0f);
             }
         }
 

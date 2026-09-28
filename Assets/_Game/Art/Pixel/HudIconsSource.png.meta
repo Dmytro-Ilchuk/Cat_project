@@ -1,0 +1,2394 @@
+fileFormatVersion: 2
+guid: a0b7ed3fec9f3b44aa613417f1e693e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4143743959358068037
+    second: HudIconsSource_0
+  - first:
+      213: 5639060724434833875
+    second: HudIconsSource_1
+  - first:
+      213: 3895678682485106184
+    second: HudIconsSource_2
+  - first:
+      213: 4116253917952196270
+    second: HudIconsSource_3
+  - first:
+      213: 3777453832364794107
+    second: HudIconsSource_4
+  - first:
+      213: -3602456754460543442
+    second: HudIconsSource_5
+  - first:
+      213: -4812770143400287209
+    second: HudIconsSource_6
+  - first:
+      213: 711944237135604344
+    second: HudIconsSource_7
+  - first:
+      213: -8764810268647837150
+    second: HudIconsSource_8
+  - first:
+      213: -8411330993540379938
+    second: HudIconsSource_9
+  - first:
+      213: 5260904865286373069
+    second: HudIconsSource_10
+  - first:
+      213: -2949490234492773338
+    second: HudIconsSource_11
+  - first:
+      213: -6478667736594119735
+    second: HudIconsSource_12
+  - first:
+      213: 6634956757853953177
+    second: HudIconsSource_13
+  - first:
+      213: -3580126336823721082
+    second: HudIconsSource_14
+  - first:
+      213: -1606649079802467056
+    second: HudIconsSource_15
+  - first:
+      213: 6985674523103448748
+    second: HudIconsSource_16
+  - first:
+      213: 3972812513303293945
+    second: HudIconsSource_17
+  - first:
+      213: 7785727118251973968
+    second: HudIconsSource_18
+  - first:
+      213: -5567228121122010382
+    second: HudIconsSource_19
+  - first:
+      213: -2564184287647583381
+    second: HudIconsSource_20
+  - first:
+      213: 5327242497185510633
+    second: HudIconsSource_21
+  - first:
+      213: -791195787997323603
+    second: HudIconsSource_22
+  - first:
+      213: -3760340146488863509
+    second: HudIconsSource_23
+  - first:
+      213: 8078350707990195914
+    second: HudIconsSource_24
+  - first:
+      213: -2501886409991148760
+    second: HudIconsSource_25
+  - first:
+      213: 1662792852580001033
+    second: HudIconsSource_26
+  - first:
+      213: 7938391672210601885
+    second: HudIconsSource_27
+  - first:
+      213: 4257981792410077631
+    second: HudIconsSource_28
+  - first:
+      213: -541954445613278462
+    second: HudIconsSource_29
+  - first:
+      213: 8098438191818427676
+    second: HudIconsSource_30
+  - first:
+      213: -2190668656364564116
+    second: HudIconsSource_31
+  - first:
+      213: -6592369430026327160
+    second: HudIconsSource_32
+  - first:
+      213: -2297168659660746833
+    second: HudIconsSource_33
+  - first:
+      213: 1776795938742816755
+    second: HudIconsSource_34
+  - first:
+      213: -7097895129501256751
+    second: HudIconsSource_35
+  - first:
+      213: 5364193464101890672
+    second: HudIconsSource_36
+  - first:
+      213: 7171881182478719706
+    second: HudIconsSource_37
+  - first:
+      213: -1628367025949510036
+    second: HudIconsSource_38
+  - first:
+      213: 8997244804827451315
+    second: HudIconsSource_39
+  - first:
+      213: -5988236004072922522
+    second: HudIconsSource_40
+  - first:
+      213: -1322383467030566809
+    second: HudIconsSource_41
+  - first:
+      213: 7456147634344225298
+    second: HudIconsSource_42
+  - first:
+      213: 6097088252714797761
+    second: HudIconsSource_43
+  - first:
+      213: -5232616184125543555
+    second: HudIconsSource_44
+  - first:
+      213: 1765615805643850862
+    second: HudIconsSource_45
+  - first:
+      213: -2055617858662178238
+    second: HudIconsSource_46
+  - first:
+      213: 4579898690529449463
+    second: HudIconsSource_47
+  - first:
+      213: -5391891945856971092
+    second: HudIconsSource_48
+  - first:
+      213: -7119354092777466881
+    second: HudIconsSource_49
+  - first:
+      213: -7133988058561442805
+    second: HudIconsSource_50
+  - first:
+      213: 7256493240630878699
+    second: HudIconsSource_51
+  - first:
+      213: 937571143934524722
+    second: HudIconsSource_52
+  - first:
+      213: -3384920752859213532
+    second: HudIconsSource_53
+  - first:
+      213: -2649324149123093320
+    second: HudIconsSource_54
+  - first:
+      213: -3136516985374897376
+    second: HudIconsSource_55
+  - first:
+      213: -2518209947677405266
+    second: HudIconsSource_56
+  - first:
+      213: 5505367519774532138
+    second: HudIconsSource_57
+  - first:
+      213: -3687889944372016892
+    second: HudIconsSource_58
+  - first:
+      213: -8849319464752387665
+    second: HudIconsSource_59
+  - first:
+      213: -5831323865974071413
+    second: HudIconsSource_60
+  - first:
+      213: 3278243723528364996
+    second: HudIconsSource_61
+  - first:
+      213: 8804376893527698389
+    second: HudIconsSource_62
+  - first:
+      213: -8340220709115670347
+    second: HudIconsSource_63
+  - first:
+      213: 3145499904801727480
+    second: HudIconsSource_64
+  - first:
+      213: 5815314758753772660
+    second: HudIconsSource_65
+  - first:
+      213: 4172976691453246315
+    second: HudIconsSource_66
+  - first:
+      213: -7143561683079206900
+    second: HudIconsSource_67
+  - first:
+      213: -8153688357064660725
+    second: HudIconsSource_68
+  - first:
+      213: 9204304736234114732
+    second: HudIconsSource_69
+  - first:
+      213: 4915185703722812848
+    second: HudIconsSource_70
+  - first:
+      213: 6516768016009357159
+    second: HudIconsSource_71
+  - first:
+      213: 3079932024321609826
+    second: HudIconsSource_72
+  - first:
+      213: 3584545577091952671
+    second: HudIconsSource_73
+  - first:
+      213: 3000492939138596566
+    second: HudIconsSource_74
+  - first:
+      213: -9103862211092543303
+    second: HudIconsSource_75
+  - first:
+      213: -694212353528254130
+    second: HudIconsSource_76
+  - first:
+      213: -1949208635829000167
+    second: HudIconsSource_77
+  - first:
+      213: 1631795259032588128
+    second: HudIconsSource_78
+  - first:
+      213: 8328749089682380872
+    second: HudIconsSource_79
+  - first:
+      213: 2959367295016893868
+    second: HudIconsSource_80
+  - first:
+      213: -6487890760457868177
+    second: HudIconsSource_81
+  - first:
+      213: -8083421983901553151
+    second: HudIconsSource_82
+  - first:
+      213: -2113029010609250914
+    second: HudIconsSource_83
+  - first:
+      213: 8914671159526437148
+    second: HudIconsSource_84
+  - first:
+      213: 4879877977748534602
+    second: HudIconsSource_85
+  - first:
+      213: 3130922285204976166
+    second: HudIconsSource_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HudIconsSource_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 789
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54555b13d29818930800000000000000
+      internalID: 4143743959358068037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1189
+        width: 198
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d19bc21ad7f14e40800000000000000
+      internalID: 5639060724434833875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_2
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 968
+        width: 182
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806269c1f1b301630800000000000000
+      internalID: 3895678682485106184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1159
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaeb9d8212fdf1930800000000000000
+      internalID: 4116253917952196270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_4
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1145
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0aa892f363c6430800000000000000
+      internalID: 3777453832364794107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 953
+        width: 77
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e263caf1ba0810ec0800000000000000
+      internalID: -3602456754460543442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_6
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1020
+        width: 67
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7142501cd0b953db0800000000000000
+      internalID: -4812770143400287209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_7
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1106
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87aaa5af28551e900800000000000000
+      internalID: 711944237135604344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_8
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1000
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222bc85af732d5680800000000000000
+      internalID: -8764810268647837150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_9
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1004
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edacac9c603f44b80800000000000000
+      internalID: -8411330993540379938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_10
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1003
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dceb48cf91d720940800000000000000
+      internalID: 5260904865286373069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_11
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1002
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c1390424e4117d0800000000000000
+      internalID: -2949490234492773338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_12
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 915
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3068ed4062716a0800000000000000
+      internalID: -6478667736594119735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_13
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 912
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c56fb840a141c50800000000000000
+      internalID: 6634956757853953177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_14
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 547
+        width: 383
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6830a92a016d05ec0800000000000000
+      internalID: -3580126336823721082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_15
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 827
+        width: 74
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d6aaf9c2904b9e0800000000000000
+      internalID: -1606649079802467056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_16
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 757
+        width: 55
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caec31297f912f060800000000000000
+      internalID: 6985674523103448748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_17
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 725
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff6ba69ee3422730800000000000000
+      internalID: 3972812513303293945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_18
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 713
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dd88140957c0c60800000000000000
+      internalID: 7785727118251973968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 694
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa05f0358b3db2b0800000000000000
+      internalID: -5567228121122010382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_20
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 707
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63b02cd9ff2a6cd0800000000000000
+      internalID: -2564184287647583381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_21
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 706
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e47b1583da2ee940800000000000000
+      internalID: 5327242497185510633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_22
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 690
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae52ac6f9b1505f0800000000000000
+      internalID: -791195787997323603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_23
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 666
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be414e55f8690dbc0800000000000000
+      internalID: -3760340146488863509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_24
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 654
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acee7c00b211c1070800000000000000
+      internalID: 8078350707990195914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_25
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 650
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ba910d093874dd0800000000000000
+      internalID: -2501886409991148760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_26
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 628
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905e6112a4d631710800000000000000
+      internalID: 1662792852580001033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_27
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 642
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97380e9a25da2e60800000000000000
+      internalID: 7938391672210601885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_28
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 586
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb90fa461e3671b30800000000000000
+      internalID: 4257981792410077631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_29
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 594
+        width: 37
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bd6c89d479a78f0800000000000000
+      internalID: -541954445613278462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_30
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 645
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d4bcac0ae636070800000000000000
+      internalID: 8098438191818427676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_31
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 610
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61dec4b67e2991e0800000000000000
+      internalID: -2190668656364564116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_32
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 633
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88be2276ee23384a0800000000000000
+      internalID: -6592369430026327160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_33
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 610
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafc2c36641de10e0800000000000000
+      internalID: -2297168659660746833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_34
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 626
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff4f1f0e7278a810800000000000000
+      internalID: 1776795938742816755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_35
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 626
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d33a196cf53f7d90800000000000000
+      internalID: -7097895129501256751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_36
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 632
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ae34ee881717a40800000000000000
+      internalID: 5364193464101890672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_37
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 597
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adad3fcefe3a78360800000000000000
+      internalID: 7171881182478719706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_38
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 606
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66f15e31d0e669e0800000000000000
+      internalID: -1628367025949510036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_39
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 577
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf08f40b72acdc70800000000000000
+      internalID: 8997244804827451315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_40
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 590
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6626702d41385eca0800000000000000
+      internalID: -5988236004072922522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_41
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 554
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7682bc63e33f5ade0800000000000000
+      internalID: -1322383467030566809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_42
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 553
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ae4f1e4ce897760800000000000000
+      internalID: 7456147634344225298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_43
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 540
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cac54b46753d9450800000000000000
+      internalID: 6097088252714797761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_44
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 564
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bac3bdd430267b0800000000000000
+      internalID: -5232616184125543555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_45
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 501
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e648739783ab08810800000000000000
+      internalID: 1765615805643850862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_46
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 546
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242ed7cd27af873e0800000000000000
+      internalID: -2055617858662178238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_47
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 551
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5d84cf7911f8f30800000000000000
+      internalID: 4579898690529449463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_48
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 520
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caec7ebb7d62c25b0800000000000000
+      internalID: -5391891945856971092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_49
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 525
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff396cd2c29f23d90800000000000000
+      internalID: -7119354092777466881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_50
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 468
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c019188abfefc90800000000000000
+      internalID: -7133988058561442805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_51
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 0
+        width: 528
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1a3d2e72e34b460800000000000000
+      internalID: 7256493240630878699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_52
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 49
+        width: 507
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dbfd9ecfbe20d00800000000000000
+      internalID: 937571143934524722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_53
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 391
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4219af462885601d0800000000000000
+      internalID: -3384920752859213532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_54
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 292
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc67ac19b5bb3bd0800000000000000
+      internalID: -2649324149123093320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_55
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 304
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b00c67b6ad874d0800000000000000
+      internalID: -3136516985374897376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_56
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 312
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf45d605658d0dd0800000000000000
+      internalID: -2518209947677405266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_57
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 308
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22622e279ef66c40800000000000000
+      internalID: 5505367519774532138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_58
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 320
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40988f682abf1dcc0800000000000000
+      internalID: -3687889944372016892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_59
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 160
+        width: 55
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9eb7f15d6e03580800000000000000
+      internalID: -8849319464752387665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f9b5ee6d9f21fa0800000000000000
+      internalID: -5831323865974071413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_61
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 130
+        width: 112
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3ef043c49ae7d20800000000000000
+      internalID: 3278243723528364996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_62
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 128
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db2067132e6f2a70800000000000000
+      internalID: 8804376893527698389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_63
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 114
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0ddc41475914c80800000000000000
+      internalID: -8340220709115670347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_64
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 95
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f36bb27f7f07ab20800000000000000
+      internalID: 3145499904801727480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_65
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 100
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474ea9456f524b050800000000000000
+      internalID: 5815314758753772660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_66
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 78
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b3e06013469e930800000000000000
+      internalID: 4172976691453246315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_67
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 109
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08e8f85f78fcdc90800000000000000
+      internalID: -7143561683079206900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_68
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 95
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b092ceba3a748de80800000000000000
+      internalID: -8153688357064660725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_69
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae0eaf14624cbf70800000000000000
+      internalID: 9204304736234114732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_70
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 63
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b50a731b5f363440800000000000000
+      internalID: 4915185703722812848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_71
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 65
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7676dd5bbf5307a50800000000000000
+      internalID: 6516768016009357159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_72
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2601a02abdd1eba20800000000000000
+      internalID: 3079932024321609826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_73
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 81
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1073cbe53ddeb130800000000000000
+      internalID: 3584545577091952671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_74
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 86
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de7c6c4e64e3a920800000000000000
+      internalID: 3000492939138596566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_75
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 77
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b80ab7ad8598a180800000000000000
+      internalID: -9103862211092543303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_76
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 83
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41b245ea89ad56f0800000000000000
+      internalID: -694212353528254130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_77
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918e944b21503f4e0800000000000000
+      internalID: -1949208635829000167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 69
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fcdc8742d45a610800000000000000
+      internalID: 1631795259032588128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_79
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 63
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84850e16b29a59370800000000000000
+      internalID: 8328749089682380872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_80
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 62
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadf36b10e8c11920800000000000000
+      internalID: 2959367295016893868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_81
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 0
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cae594ab166f5a0800000000000000
+      internalID: -6487890760457868177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_82
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 47
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ee6ff888ae1df80800000000000000
+      internalID: -8083421983901553151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_83
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 15
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d5a866f430da2e0800000000000000
+      internalID: -2113029010609250914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_84
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 8
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c113ef8003647bb70800000000000000
+      internalID: 8914671159526437148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_85
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 13
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45f3f28a2fc8b340800000000000000
+      internalID: 4879877977748534602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HudIconsSource_86
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 15
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6223ff4ea35437b20800000000000000
+      internalID: 3130922285204976166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HudIconsSource_0: 4143743959358068037
+      HudIconsSource_1: 5639060724434833875
+      HudIconsSource_10: 5260904865286373069
+      HudIconsSource_11: -2949490234492773338
+      HudIconsSource_12: -6478667736594119735
+      HudIconsSource_13: 6634956757853953177
+      HudIconsSource_14: -3580126336823721082
+      HudIconsSource_15: -1606649079802467056
+      HudIconsSource_16: 6985674523103448748
+      HudIconsSource_17: 3972812513303293945
+      HudIconsSource_18: 7785727118251973968
+      HudIconsSource_19: -5567228121122010382
+      HudIconsSource_2: 3895678682485106184
+      HudIconsSource_20: -2564184287647583381
+      HudIconsSource_21: 5327242497185510633
+      HudIconsSource_22: -791195787997323603
+      HudIconsSource_23: -3760340146488863509
+      HudIconsSource_24: 8078350707990195914
+      HudIconsSource_25: -2501886409991148760
+      HudIconsSource_26: 1662792852580001033
+      HudIconsSource_27: 7938391672210601885
+      HudIconsSource_28: 4257981792410077631
+      HudIconsSource_29: -541954445613278462
+      HudIconsSource_3: 4116253917952196270
+      HudIconsSource_30: 8098438191818427676
+      HudIconsSource_31: -2190668656364564116
+      HudIconsSource_32: -6592369430026327160
+      HudIconsSource_33: -2297168659660746833
+      HudIconsSource_34: 1776795938742816755
+      HudIconsSource_35: -7097895129501256751
+      HudIconsSource_36: 5364193464101890672
+      HudIconsSource_37: 7171881182478719706
+      HudIconsSource_38: -1628367025949510036
+      HudIconsSource_39: 8997244804827451315
+      HudIconsSource_4: 3777453832364794107
+      HudIconsSource_40: -5988236004072922522
+      HudIconsSource_41: -1322383467030566809
+      HudIconsSource_42: 7456147634344225298
+      HudIconsSource_43: 6097088252714797761
+      HudIconsSource_44: -5232616184125543555
+      HudIconsSource_45: 1765615805643850862
+      HudIconsSource_46: -2055617858662178238
+      HudIconsSource_47: 4579898690529449463
+      HudIconsSource_48: -5391891945856971092
+      HudIconsSource_49: -7119354092777466881
+      HudIconsSource_5: -3602456754460543442
+      HudIconsSource_50: -7133988058561442805
+      HudIconsSource_51: 7256493240630878699
+      HudIconsSource_52: 937571143934524722
+      HudIconsSource_53: -3384920752859213532
+      HudIconsSource_54: -2649324149123093320
+      HudIconsSource_55: -3136516985374897376
+      HudIconsSource_56: -2518209947677405266
+      HudIconsSource_57: 5505367519774532138
+      HudIconsSource_58: -3687889944372016892
+      HudIconsSource_59: -8849319464752387665
+      HudIconsSource_6: -4812770143400287209
+      HudIconsSource_60: -5831323865974071413
+      HudIconsSource_61: 3278243723528364996
+      HudIconsSource_62: 8804376893527698389
+      HudIconsSource_63: -8340220709115670347
+      HudIconsSource_64: 3145499904801727480
+      HudIconsSource_65: 5815314758753772660
+      HudIconsSource_66: 4172976691453246315
+      HudIconsSource_67: -7143561683079206900
+      HudIconsSource_68: -8153688357064660725
+      HudIconsSource_69: 9204304736234114732
+      HudIconsSource_7: 711944237135604344
+      HudIconsSource_70: 4915185703722812848
+      HudIconsSource_71: 6516768016009357159
+      HudIconsSource_72: 3079932024321609826
+      HudIconsSource_73: 3584545577091952671
+      HudIconsSource_74: 3000492939138596566
+      HudIconsSource_75: -9103862211092543303
+      HudIconsSource_76: -694212353528254130
+      HudIconsSource_77: -1949208635829000167
+      HudIconsSource_78: 1631795259032588128
+      HudIconsSource_79: 8328749089682380872
+      HudIconsSource_8: -8764810268647837150
+      HudIconsSource_80: 2959367295016893868
+      HudIconsSource_81: -6487890760457868177
+      HudIconsSource_82: -8083421983901553151
+      HudIconsSource_83: -2113029010609250914
+      HudIconsSource_84: 8914671159526437148
+      HudIconsSource_85: 4879877977748534602
+      HudIconsSource_86: 3130922285204976166
+      HudIconsSource_9: -8411330993540379938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

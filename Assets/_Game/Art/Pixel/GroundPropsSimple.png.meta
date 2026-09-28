@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 5e9feeda77269e54fa5db0b06ea5f918
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -160969810332901086
+    second: GroundPropsSimple_0
+  - first:
+      213: -8658372107771996991
+    second: GroundPropsSimple_1
+  - first:
+      213: -4051200079261582241
+    second: GroundPropsSimple_2
+  - first:
+      213: -9110344332345694397
+    second: GroundPropsSimple_3
+  - first:
+      213: 1589128817010997714
+    second: GroundPropsSimple_4
+  - first:
+      213: 6315624454471073461
+    second: GroundPropsSimple_5
+  - first:
+      213: 1940466137819579859
+    second: GroundPropsSimple_6
+  - first:
+      213: 4603403948159016866
+    second: GroundPropsSimple_7
+  - first:
+      213: -1034399022991855909
+    second: GroundPropsSimple_8
+  - first:
+      213: -7512887506824183761
+    second: GroundPropsSimple_9
+  - first:
+      213: 669737625084848560
+    second: GroundPropsSimple_10
+  - first:
+      213: -1294937422107124896
+    second: GroundPropsSimple_11
+  - first:
+      213: 6897830154035905777
+    second: GroundPropsSimple_12
+  - first:
+      213: -3593097340996072188
+    second: GroundPropsSimple_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 64
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GroundPropsSimple_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 471
+        width: 481
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221ab837fce14cdf0800000000000000
+      internalID: -160969810332901086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 676
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c49917217847d780800000000000000
+      internalID: -8658372107771996991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 393
+        width: 699
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c3499fdfe37c7c0800000000000000
+      internalID: -4051200079261582241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_3
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 513
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347aa01391e819180800000000000000
+      internalID: -9110344332345694397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_4
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 0
+        width: 474
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9f6405d38bd0610800000000000000
+      internalID: 1589128817010997714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 501
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beb48fcafa95a750800000000000000
+      internalID: 6315624454471073461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_6
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 497
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5096bdbabedea10800000000000000
+      internalID: 1940466137819579859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 702
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af16af308392ef30800000000000000
+      internalID: 4603403948159016866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_8
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 109
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde2f8ea19315a1f0800000000000000
+      internalID: -1034399022991855909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 71
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2046461e9cdcb790800000000000000
+      internalID: -7512887506824183761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_10
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 65
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b965e352d26b4900800000000000000
+      internalID: 669737625084848560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_11
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 55
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bd1f48645770ee0800000000000000
+      internalID: -1294937422107124896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_12
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 54
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4c9449af30abf50800000000000000
+      internalID: 6897830154035905777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundPropsSimple_13
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 0
+        width: 112
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d47826101c22ec0800000000000000
+      internalID: -3593097340996072188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GroundPropsSimple_0: -160969810332901086
+      GroundPropsSimple_1: -8658372107771996991
+      GroundPropsSimple_10: 669737625084848560
+      GroundPropsSimple_11: -1294937422107124896
+      GroundPropsSimple_12: 6897830154035905777
+      GroundPropsSimple_13: -3593097340996072188
+      GroundPropsSimple_2: -4051200079261582241
+      GroundPropsSimple_3: -9110344332345694397
+      GroundPropsSimple_4: 1589128817010997714
+      GroundPropsSimple_5: 6315624454471073461
+      GroundPropsSimple_6: 1940466137819579859
+      GroundPropsSimple_7: 4603403948159016866
+      GroundPropsSimple_8: -1034399022991855909
+      GroundPropsSimple_9: -7512887506824183761
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

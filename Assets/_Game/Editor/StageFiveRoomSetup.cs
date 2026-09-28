@@ -117,12 +117,58 @@ namespace NineLives.Editor
             var load = typeof(RoomLab).GetMethod("Load", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
             var data = new SerializedObject(lab).FindProperty("rooms");
             var player = UnityEngine.Object.FindAnyObjectByType<PlayerController>();
+            var foreground = UnityEngine.Object.FindAnyObjectByType<RoomParallax>()
+                .GetComponentsInChildren<SpriteRenderer>().Where(r => r.name.StartsWith("Lower foreground parallax")).ToArray();
+            if (foreground.Length != 9 || foreground.Any(r => r.sortingOrder <= 10 || r.GetComponent<Collider2D>() != null))
+                throw new InvalidOperationException("Room Lab: lower foreground parallax is missing or interactive.");
             for (int i = 0; i < data.arraySize; i++)
             {
                 load.Invoke(lab, new object[] { i });
                 var layouts = UnityEngine.Object.FindObjectsByType<RoomLayout>(FindObjectsSortMode.None);
                 if (layouts.Length != 1 || Vector2.Distance(player.GetComponent<Rigidbody2D>().position, layouts[0].SafeSpawn.position) > .01f)
                     throw new InvalidOperationException("Room Lab: transition or player spawn failed at index " + i);
+                int fog = layouts[0].GetComponentsInChildren<SpriteRenderer>().Count(renderer =>
+                    renderer.name == "Distant drifting fog" || renderer.name == "Thin foreground mist");
+                if (fog != 4)
+                    throw new InvalidOperationException("Room Lab: fog is not attached to the active room at index " + i);
+                foreach (var barrier in layouts[0].GetComponentsInChildren<Transform>().Where(t => t.name == "Street prop 2"))
+                    if (barrier.GetComponent<Collider2D>() != null || barrier.localScale.x < .4f)
+                        throw new InvalidOperationException("Room Lab: concrete barrier must be enlarged background art.");
+                var shadow = layouts[0].GetComponentsInChildren<Transform>();
+                if (shadow.Any(t => t.name == "Shadow street facade") ||
+                    !shadow.Any(t => t.name.StartsWith("Dark city utility prop")) ||
+                    shadow.Any(t => t.name.StartsWith("Dark city utility prop") && t.GetComponent<Collider2D>() != null))
+                    throw new InvalidOperationException("Room Lab: old facade or colliding utility prop.");
+                var debris = layouts[0].GetComponentsInChildren<WindblownDebris>();
+                if (debris.Length == 0 || debris.Any(item => item.GetComponent<Collider2D>() != null))
+                    throw new InvalidOperationException("Room Lab: missing or colliding wind debris.");
+                if (i == 0)
+                {
+                    var sample = debris[0];
+                    Vector3 start = sample.transform.position;
+                    sample.Initialize(start.x - 1f, start.x + 1f, 7);
+                    var step = typeof(WindblownDebris).GetMethod("Step",
+                        System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
+                    float travel = 0f;
+                    for (int frame = 0; frame < 180; frame++)
+                    {
+                        step.Invoke(sample, new object[] { .02f });
+                        Vector3 position = sample.transform.position;
+                        travel = Mathf.Max(travel, Mathf.Abs(position.x - start.x));
+                        if (position.x < start.x - 1.001f || position.x > start.x + 1.001f ||
+                            position.y < start.y - .001f)
+                            throw new InvalidOperationException("Room Lab: wind debris escaped its road or floor.");
+                    }
+                    if (travel < .1f)
+                        throw new InvalidOperationException("Room Lab: wind debris did not move in gusts.");
+                }
+                int poles = layouts[0].GetComponentsInChildren<Transform>().Count(t =>
+                    t.name == "Grounded street lamp" || t.name == "Grounded neon lamp");
+                var cables = layouts[0].GetComponentsInChildren<LineRenderer>()
+                    .Where(line => line.name == "Overhead power cable").ToArray();
+                if (poles >= 2 && cables.Length != (poles - 1) * 2 ||
+                    cables.Any(line => line.GetComponent<Collider2D>() != null))
+                    throw new InvalidOperationException("Room Lab: disconnected or colliding power lines at index " + i);
             }
             var enemies = typeof(RoomLab).GetField("enemies", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
             enemies.SetValue(lab, true);

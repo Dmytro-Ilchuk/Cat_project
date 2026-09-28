@@ -1,0 +1,1276 @@
+fileFormatVersion: 2
+guid: fc240961066969f4fb31b96c8dbd87ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5234804777964872756
+    second: WarmLampsSimple_0
+  - first:
+      213: 8602524403293476141
+    second: WarmLampsSimple_1
+  - first:
+      213: -5662852765262308984
+    second: WarmLampsSimple_2
+  - first:
+      213: 6808249601916294414
+    second: WarmLampsSimple_3
+  - first:
+      213: 1315445703126037674
+    second: WarmLampsSimple_4
+  - first:
+      213: -8285633872306456200
+    second: WarmLampsSimple_5
+  - first:
+      213: 6572659531083662203
+    second: WarmLampsSimple_6
+  - first:
+      213: -959704545390662513
+    second: WarmLampsSimple_7
+  - first:
+      213: -8927093334749463197
+    second: WarmLampsSimple_8
+  - first:
+      213: 87424987630406612
+    second: WarmLampsSimple_9
+  - first:
+      213: 2356342904446192341
+    second: WarmLampsSimple_10
+  - first:
+      213: -1238015426493542915
+    second: WarmLampsSimple_11
+  - first:
+      213: -7508721894032613245
+    second: WarmLampsSimple_12
+  - first:
+      213: 5898670851592658613
+    second: WarmLampsSimple_13
+  - first:
+      213: 1688180093198672851
+    second: WarmLampsSimple_14
+  - first:
+      213: -2238430133298026176
+    second: WarmLampsSimple_15
+  - first:
+      213: 5427370440208248462
+    second: WarmLampsSimple_16
+  - first:
+      213: -5801883248227475947
+    second: WarmLampsSimple_17
+  - first:
+      213: -4490913283502423526
+    second: WarmLampsSimple_18
+  - first:
+      213: 6896169939264510010
+    second: WarmLampsSimple_19
+  - first:
+      213: -3682873528988296078
+    second: WarmLampsSimple_20
+  - first:
+      213: -860868854266625172
+    second: WarmLampsSimple_21
+  - first:
+      213: 3722315926742564952
+    second: WarmLampsSimple_22
+  - first:
+      213: -7760396467008149722
+    second: WarmLampsSimple_23
+  - first:
+      213: 4006714066617035865
+    second: WarmLampsSimple_24
+  - first:
+      213: 269575869010850296
+    second: WarmLampsSimple_25
+  - first:
+      213: 5103841523426974464
+    second: WarmLampsSimple_26
+  - first:
+      213: -3423994299573125406
+    second: WarmLampsSimple_27
+  - first:
+      213: -4009931630748233307
+    second: WarmLampsSimple_28
+  - first:
+      213: -1077705573489474050
+    second: WarmLampsSimple_29
+  - first:
+      213: 4365718734379407601
+    second: WarmLampsSimple_30
+  - first:
+      213: 5989747336799664213
+    second: WarmLampsSimple_31
+  - first:
+      213: -4973985146046472858
+    second: WarmLampsSimple_32
+  - first:
+      213: -2359542912085248742
+    second: WarmLampsSimple_33
+  - first:
+      213: -3900565696441185492
+    second: WarmLampsSimple_34
+  - first:
+      213: 6297124848197854248
+    second: WarmLampsSimple_35
+  - first:
+      213: -6489862882415365929
+    second: WarmLampsSimple_36
+  - first:
+      213: 4850579988195637777
+    second: WarmLampsSimple_37
+  - first:
+      213: 55883680588685543
+    second: WarmLampsSimple_38
+  - first:
+      213: 4089602232378516294
+    second: WarmLampsSimple_39
+  - first:
+      213: -5309823552544518656
+    second: WarmLampsSimple_40
+  - first:
+      213: -7847643095141610236
+    second: WarmLampsSimple_41
+  - first:
+      213: -2139870638952960373
+    second: WarmLampsSimple_42
+  - first:
+      213: -5367483875088947933
+    second: WarmLampsSimple_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 64
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WarmLampsSimple_0
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 578
+        width: 359
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbd2e42acc3a57b0800000000000000
+      internalID: -5234804777964872756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_1
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1052
+        width: 297
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25dfeddd5e426770800000000000000
+      internalID: 8602524403293476141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_2
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1116
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889933fb9618961b0800000000000000
+      internalID: -5662852765262308984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_3
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1162
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e055a68f0f2cb7e50800000000000000
+      internalID: 6808249601916294414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_4
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1156
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa43420c5e6614210800000000000000
+      internalID: 1315445703126037674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_5
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1171
+        width: 213
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879ba3e64e3830d80800000000000000
+      internalID: -8285633872306456200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 765
+        width: 130
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73c3d32507c63b50800000000000000
+      internalID: 6572659531083662203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1131
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c69aafcc17ea2f0800000000000000
+      internalID: -959704545390662513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1028
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d3089e8e79c1480800000000000000
+      internalID: -8927093334749463197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_9
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1040
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db04342098963100800000000000000
+      internalID: 87424987630406612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_10
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 23
+        width: 606
+        height: 1065
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da078c136963b020800000000000000
+      internalID: 2356342904446192341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_11
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 982
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd0665678fa1dee0800000000000000
+      internalID: -1238015426493542915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1020
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380ecf46839abc790800000000000000
+      internalID: -7508721894032613245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_13
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 909
+        width: 124
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be912413e94cd150800000000000000
+      internalID: 5898670851592658613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_14
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 879
+        width: 76
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d32ef3b9de9d6710800000000000000
+      internalID: 1688180093198672851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_15
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 980
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049ad3a47af7fe0e0800000000000000
+      internalID: -2238430133298026176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_16
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 875
+        width: 29
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e6111f8a4e15b40800000000000000
+      internalID: 5427370440208248462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_17
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 859
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e9c19ece19b7fa0800000000000000
+      internalID: -5801883248227475947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_18
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 821
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1241cb99221da1c0800000000000000
+      internalID: -4490913283502423526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_19
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 612
+        width: 130
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a389694b50e14bf50800000000000000
+      internalID: 6896169939264510010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_20
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 787
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c96ffb90ec3ecc0800000000000000
+      internalID: -3682873528988296078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 581
+        width: 80
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c638d3f86549d04f0800000000000000
+      internalID: -860868854266625172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_22
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 30
+        width: 421
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850054b1d9258a330800000000000000
+      internalID: 3722315926742564952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 596
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62768c397888d4490800000000000000
+      internalID: -7760396467008149722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_24
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 609
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ce4411735ba9730800000000000000
+      internalID: 4006714066617035865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_25
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 600
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1b86813d9bdb300800000000000000
+      internalID: 269575869010850296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_26
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 660
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bd0c103dc74d640800000000000000
+      internalID: 5103841523426974464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 341
+        width: 102
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee3bfc53578b70d0800000000000000
+      internalID: -3423994299573125406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_28
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 471
+        width: 80
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a116a76d6cd958c0800000000000000
+      internalID: -4009931630748233307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_29
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 497
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef583b7ad783b01f0800000000000000
+      internalID: -1077705573489474050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_30
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 465
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8d3ffee06269c30800000000000000
+      internalID: 4365718734379407601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_31
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 453
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5583940c77bdf1350800000000000000
+      internalID: 5989747336799664213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_32
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 373
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d94dbecdad8fab0800000000000000
+      internalID: -4973985146046472858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_33
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 280
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a153edc0938314fd0800000000000000
+      internalID: -2359542912085248742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_34
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 274
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b8c884a286ed9c0800000000000000
+      internalID: -3900565696441185492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_35
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 31
+        width: 213
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8246e139fa1e36750800000000000000
+      internalID: 6297124848197854248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_36
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 254
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0b3acd7106fe5a0800000000000000
+      internalID: -6489862882415365929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_37
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 231
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11af40fbcc8b05340800000000000000
+      internalID: 4850579988195637777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_38
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 232
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0ea3259e986c000800000000000000
+      internalID: 55883680588685543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_39
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 160
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643e09d009f21c830800000000000000
+      internalID: 4089602232378516294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_40
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 179
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ec4929c97bf46b0800000000000000
+      internalID: -5309823552544518656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_41
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 160
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d890efe22971390800000000000000
+      internalID: -7847643095141610236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 70
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eabebcdf6ad42e0800000000000000
+      internalID: -2139870638952960373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarmLampsSimple_43
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 63
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325afaf8addd285b0800000000000000
+      internalID: -5367483875088947933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WarmLampsSimple_0: -5234804777964872756
+      WarmLampsSimple_1: 8602524403293476141
+      WarmLampsSimple_10: 2356342904446192341
+      WarmLampsSimple_11: -1238015426493542915
+      WarmLampsSimple_12: -7508721894032613245
+      WarmLampsSimple_13: 5898670851592658613
+      WarmLampsSimple_14: 1688180093198672851
+      WarmLampsSimple_15: -2238430133298026176
+      WarmLampsSimple_16: 5427370440208248462
+      WarmLampsSimple_17: -5801883248227475947
+      WarmLampsSimple_18: -4490913283502423526
+      WarmLampsSimple_19: 6896169939264510010
+      WarmLampsSimple_2: -5662852765262308984
+      WarmLampsSimple_20: -3682873528988296078
+      WarmLampsSimple_21: -860868854266625172
+      WarmLampsSimple_22: 3722315926742564952
+      WarmLampsSimple_23: -7760396467008149722
+      WarmLampsSimple_24: 4006714066617035865
+      WarmLampsSimple_25: 269575869010850296
+      WarmLampsSimple_26: 5103841523426974464
+      WarmLampsSimple_27: -3423994299573125406
+      WarmLampsSimple_28: -4009931630748233307
+      WarmLampsSimple_29: -1077705573489474050
+      WarmLampsSimple_3: 6808249601916294414
+      WarmLampsSimple_30: 4365718734379407601
+      WarmLampsSimple_31: 5989747336799664213
+      WarmLampsSimple_32: -4973985146046472858
+      WarmLampsSimple_33: -2359542912085248742
+      WarmLampsSimple_34: -3900565696441185492
+      WarmLampsSimple_35: 6297124848197854248
+      WarmLampsSimple_36: -6489862882415365929
+      WarmLampsSimple_37: 4850579988195637777
+      WarmLampsSimple_38: 55883680588685543
+      WarmLampsSimple_39: 4089602232378516294
+      WarmLampsSimple_4: 1315445703126037674
+      WarmLampsSimple_40: -5309823552544518656
+      WarmLampsSimple_41: -7847643095141610236
+      WarmLampsSimple_42: -2139870638952960373
+      WarmLampsSimple_43: -5367483875088947933
+      WarmLampsSimple_5: -8285633872306456200
+      WarmLampsSimple_6: 6572659531083662203
+      WarmLampsSimple_7: -959704545390662513
+      WarmLampsSimple_8: -8927093334749463197
+      WarmLampsSimple_9: 87424987630406612
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

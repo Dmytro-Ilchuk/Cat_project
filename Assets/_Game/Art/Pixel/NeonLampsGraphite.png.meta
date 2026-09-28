@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: 6ba765d1c6bad8648a99beba75d772cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5230496910832608128
+    second: NeonLampsGraphite_0
+  - first:
+      213: -3236150965699077939
+    second: NeonLampsGraphite_1
+  - first:
+      213: -2923991295568775627
+    second: NeonLampsGraphite_2
+  - first:
+      213: 572868985951374768
+    second: NeonLampsGraphite_3
+  - first:
+      213: 4678991715618445805
+    second: NeonLampsGraphite_4
+  - first:
+      213: -6076055301573854258
+    second: NeonLampsGraphite_5
+  - first:
+      213: 441181537533362267
+    second: NeonLampsGraphite_6
+  - first:
+      213: 4552706943917381671
+    second: NeonLampsGraphite_7
+  - first:
+      213: 7628180806363147318
+    second: NeonLampsGraphite_8
+  - first:
+      213: -7610218177139905154
+    second: NeonLampsGraphite_9
+  - first:
+      213: -3448944720843118562
+    second: NeonLampsGraphite_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NeonLampsGraphite_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 79
+        width: 698
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083a4f06a35769840800000000000000
+      internalID: 5230496910832608128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 230
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc818f1b7d1e613d0800000000000000
+      internalID: -3236150965699077939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_2
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 485
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536f94d9865eb67d0800000000000000
+      internalID: -2923991295568775627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_3
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 479
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd487abe4d33f700800000000000000
+      internalID: 572868985951374768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 366
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9de6ccc2e1fe040800000000000000
+      internalID: 4678991715618445805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 478
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbbf0245e38daba0800000000000000
+      internalID: -6076055301573854258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_6
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 527
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50032a55446f1600800000000000000
+      internalID: 441181537533362267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_7
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 526
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72856ae18d67e2f30800000000000000
+      internalID: 4552706943917381671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_8
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 357
+        width: 448
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c6abd070ebcd960800000000000000
+      internalID: 7628180806363147318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_9
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 13
+        width: 394
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dea5873e2136690800000000000000
+      internalID: -7610218177139905154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeonLampsGraphite_10
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 127
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18ef28bc03e220d0800000000000000
+      internalID: -3448944720843118562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NeonLampsGraphite_0: 5230496910832608128
+      NeonLampsGraphite_1: -3236150965699077939
+      NeonLampsGraphite_10: -3448944720843118562
+      NeonLampsGraphite_2: -2923991295568775627
+      NeonLampsGraphite_3: 572868985951374768
+      NeonLampsGraphite_4: 4678991715618445805
+      NeonLampsGraphite_5: -6076055301573854258
+      NeonLampsGraphite_6: 441181537533362267
+      NeonLampsGraphite_7: 4552706943917381671
+      NeonLampsGraphite_8: 7628180806363147318
+      NeonLampsGraphite_9: -7610218177139905154
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

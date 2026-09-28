@@ -55,6 +55,7 @@ namespace NineLives
             active = loaded;
             roomCamera.SetBounds(active.CameraBounds);
             roomCamera.GetComponent<RoomParallax>()?.SetRoom(active);
+            roomCamera.GetComponent<RoomAtmosphere>()?.SetRoom(active);
             roomCamera.GetComponent<RoomEnvironmentArt>()?.DressRoom(active);
             player.GetComponent<Health>().ResetToFull();
             player.SetInputBlocked(false);

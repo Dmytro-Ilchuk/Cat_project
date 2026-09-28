@@ -123,6 +123,7 @@ namespace NineLives
             exitSign.sortingOrder = 12;
             roomCamera.SetBounds(active.CameraBounds);
             roomCamera.GetComponent<RoomParallax>()?.SetRoom(active);
+            roomCamera.GetComponent<RoomAtmosphere>()?.SetRoom(active);
             roomCamera.GetComponent<RoomEnvironmentArt>()?.DressRoom(active);
             player.SetSpawn(active.SafeSpawn.position);
             Physics2D.SyncTransforms();

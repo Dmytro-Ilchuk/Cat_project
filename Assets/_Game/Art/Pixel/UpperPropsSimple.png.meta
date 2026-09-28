@@ -1,0 +1,1588 @@
+fileFormatVersion: 2
+guid: d2201ecbf16ab3344a1d9a20439237d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5295692295887726448
+    second: UpperPropsSimple_0
+  - first:
+      213: -337124325227793495
+    second: UpperPropsSimple_1
+  - first:
+      213: 3153720341787331869
+    second: UpperPropsSimple_2
+  - first:
+      213: 713828593445566271
+    second: UpperPropsSimple_3
+  - first:
+      213: 1863777190774558876
+    second: UpperPropsSimple_4
+  - first:
+      213: -4403434288117389764
+    second: UpperPropsSimple_5
+  - first:
+      213: 20260688841913581
+    second: UpperPropsSimple_6
+  - first:
+      213: 218964173891305951
+    second: UpperPropsSimple_7
+  - first:
+      213: 6874181328569523395
+    second: UpperPropsSimple_8
+  - first:
+      213: 6312189241079734213
+    second: UpperPropsSimple_9
+  - first:
+      213: 2946250063513433440
+    second: UpperPropsSimple_10
+  - first:
+      213: 2847284424921064935
+    second: UpperPropsSimple_11
+  - first:
+      213: -1598530749306611485
+    second: UpperPropsSimple_12
+  - first:
+      213: 4608170590651892452
+    second: UpperPropsSimple_13
+  - first:
+      213: -5004263724844329696
+    second: UpperPropsSimple_14
+  - first:
+      213: 2952039503483235442
+    second: UpperPropsSimple_15
+  - first:
+      213: -4379915431377818913
+    second: UpperPropsSimple_16
+  - first:
+      213: -3831042796839372814
+    second: UpperPropsSimple_17
+  - first:
+      213: 6023740456993671307
+    second: UpperPropsSimple_18
+  - first:
+      213: 3877405622592758405
+    second: UpperPropsSimple_19
+  - first:
+      213: -7791267071056467206
+    second: UpperPropsSimple_20
+  - first:
+      213: -8413854819193752265
+    second: UpperPropsSimple_21
+  - first:
+      213: 8271152886336713485
+    second: UpperPropsSimple_22
+  - first:
+      213: -2432567251104187972
+    second: UpperPropsSimple_23
+  - first:
+      213: 7208965762462955370
+    second: UpperPropsSimple_24
+  - first:
+      213: -3576311508168617634
+    second: UpperPropsSimple_25
+  - first:
+      213: 4562878182564321421
+    second: UpperPropsSimple_26
+  - first:
+      213: 8274188157464465922
+    second: UpperPropsSimple_27
+  - first:
+      213: 5530578298259876101
+    second: UpperPropsSimple_28
+  - first:
+      213: -3614646576304503906
+    second: UpperPropsSimple_29
+  - first:
+      213: 3092023286851573041
+    second: UpperPropsSimple_30
+  - first:
+      213: -7126618371640057104
+    second: UpperPropsSimple_31
+  - first:
+      213: -2732597169615341637
+    second: UpperPropsSimple_32
+  - first:
+      213: 5345233075055593133
+    second: UpperPropsSimple_33
+  - first:
+      213: 3819389878354999355
+    second: UpperPropsSimple_34
+  - first:
+      213: -3525460632746933513
+    second: UpperPropsSimple_35
+  - first:
+      213: -7902401352089581239
+    second: UpperPropsSimple_36
+  - first:
+      213: -2042344291741071907
+    second: UpperPropsSimple_37
+  - first:
+      213: 5999631661795299650
+    second: UpperPropsSimple_38
+  - first:
+      213: -5153089475860205459
+    second: UpperPropsSimple_39
+  - first:
+      213: 3713555031158012373
+    second: UpperPropsSimple_40
+  - first:
+      213: -6256051150834176959
+    second: UpperPropsSimple_41
+  - first:
+      213: -6052045295239950536
+    second: UpperPropsSimple_42
+  - first:
+      213: 3494924976964005325
+    second: UpperPropsSimple_43
+  - first:
+      213: 982612750032949005
+    second: UpperPropsSimple_44
+  - first:
+      213: 7466418350282037316
+    second: UpperPropsSimple_45
+  - first:
+      213: 8911318053076522859
+    second: UpperPropsSimple_46
+  - first:
+      213: -592661314587663843
+    second: UpperPropsSimple_47
+  - first:
+      213: -600680796355258782
+    second: UpperPropsSimple_48
+  - first:
+      213: -5260449051025580364
+    second: UpperPropsSimple_49
+  - first:
+      213: 4600633956576494285
+    second: UpperPropsSimple_50
+  - first:
+      213: -2383519407953205217
+    second: UpperPropsSimple_51
+  - first:
+      213: -6076136969594337046
+    second: UpperPropsSimple_52
+  - first:
+      213: -1681774822567488787
+    second: UpperPropsSimple_53
+  - first:
+      213: -3181419138706045594
+    second: UpperPropsSimple_54
+  - first:
+      213: 3787466596114625143
+    second: UpperPropsSimple_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UpperPropsSimple_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1213
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098d6d72aebe186b0800000000000000
+      internalID: -5295692295887726448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_1
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1096
+        width: 146
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a377ad563b425bf0800000000000000
+      internalID: -337124325227793495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1183
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d482511f344cb20800000000000000
+      internalID: 3153720341787331869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1157
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37f6ded25708e900800000000000000
+      internalID: 713828593445566271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1169
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90d794fa777dd910800000000000000
+      internalID: 1863777190774558876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_5
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1155
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36ecf868dbd3e2c0800000000000000
+      internalID: -4403434288117389764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_6
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1068
+        width: 98
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4b3593dfaf74000800000000000000
+      internalID: 20260688841913581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 598
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1045b81cae90300800000000000000
+      internalID: 218964173891305951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_8
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1145
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc52035f7ff56f50800000000000000
+      internalID: 6874181328569523395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1152
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf999ddba6699750800000000000000
+      internalID: 6312189241079734213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_10
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1158
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065b037a2de23e820800000000000000
+      internalID: 2946250063513433440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_11
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1158
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e52ce15916938720800000000000000
+      internalID: 2847284424921064935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_12
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1096
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e85a0db0c0e0d9e0800000000000000
+      internalID: -1598530749306611485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_13
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1100
+        width: 106
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e24530bcb283ff30800000000000000
+      internalID: 4608170590651892452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1146
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025d74ee7a84d8ab0800000000000000
+      internalID: -5004263724844329696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1142
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ce900b940c7f820800000000000000
+      internalID: 2952039503483235442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1143
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda2976fe1a6733c0800000000000000
+      internalID: -4379915431377818913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_17
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1062
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7f11fbfd665dac0800000000000000
+      internalID: -3831042796839372814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_18
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1128
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88c14ec700a89350800000000000000
+      internalID: 6023740456993671307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_19
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1124
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5826eb0dedf4fc530800000000000000
+      internalID: 3877405622592758405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_20
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1108
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa2b77f0ebdfd390800000000000000
+      internalID: -7791267071056467206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_21
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1116
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7357f36de9bfb3b80800000000000000
+      internalID: -8413854819193752265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_22
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1043
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03fb094ab909c270800000000000000
+      internalID: 8271152886336713485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_23
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 562
+        width: 626
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9bfa139f8cd3ed0800000000000000
+      internalID: -2432567251104187972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_24
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1052
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67be8d8a246b0460800000000000000
+      internalID: 7208965762462955370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_25
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1042
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51d775a1a36e5ec0800000000000000
+      internalID: -3576311508168617634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_26
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1059
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8850292889925f30800000000000000
+      internalID: 4562878182564321421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_27
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 720
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202d96a6a42d3d270800000000000000
+      internalID: 8274188157464465922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_28
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 716
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509a346f8af80cc40800000000000000
+      internalID: 5530578298259876101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_29
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 689
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93c9ce071236ddc0800000000000000
+      internalID: -3614646576304503906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_30
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 668
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13516021cc219ea20800000000000000
+      internalID: 3092023286851573041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_31
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 653
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f22f94795a291d90800000000000000
+      internalID: -7126618371640057104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_32
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 663
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7f6d62a5dd31ad0800000000000000
+      internalID: -2732597169615341637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_33
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 662
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da68b5859251e2a40800000000000000
+      internalID: 5345233075055593133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_34
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 644
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38721ebbd2310530800000000000000
+      internalID: 3819389878354999355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_35
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 642
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2ce73bb3c031fc0800000000000000
+      internalID: -3525460632746933513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_36
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 626
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9494228c6d7055290800000000000000
+      internalID: -7902401352089581239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_37
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 626
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd50abdffa228a3e0800000000000000
+      internalID: -2042344291741071907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_38
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 634
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241de708539f24350800000000000000
+      internalID: 5999631661795299650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_39
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 647
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d607c878c6c8c78b0800000000000000
+      internalID: -5153089475860205459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_40
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 642
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9b90620a2398330800000000000000
+      internalID: 3713555031158012373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_41
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 637
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cead1df9a0e29a0800000000000000
+      internalID: -6256051150834176959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_42
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 606
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f06ac7ed0d20ca0800000000000000
+      internalID: -6052045295239950536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_43
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 584
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd6498efb7708030800000000000000
+      internalID: 3494924976964005325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_44
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 610
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fcb7d0711f2ad00800000000000000
+      internalID: 982612750032949005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_45
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 620
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448d4094eeb0e9760800000000000000
+      internalID: 7466418350282037316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_46
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 585
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67d62a1e8c5bab70800000000000000
+      internalID: 8911318053076522859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_47
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 586
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12e2e7aca176c7f0800000000000000
+      internalID: -592661314587663843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_48
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 578
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26698dd8ff3f9a7f0800000000000000
+      internalID: -600680796355258782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_49
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 578
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be549a85712ff6b0800000000000000
+      internalID: -5260449051025580364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_50
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 268
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc28753553cb8df30800000000000000
+      internalID: 4600633956576494285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_51
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 0
+        width: 626
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1823b51ab90ceed0800000000000000
+      internalID: -2383519407953205217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 69
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae806b07e993daba0800000000000000
+      internalID: -6076136969594337046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_53
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 79
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de25ba495b229a8e0800000000000000
+      internalID: -1681774822567488787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 62
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6650cc3362459d3d0800000000000000
+      internalID: -3181419138706045594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperPropsSimple_55
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 41
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772f1146dc8cf8430800000000000000
+      internalID: 3787466596114625143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UpperPropsSimple_0: -5295692295887726448
+      UpperPropsSimple_1: -337124325227793495
+      UpperPropsSimple_10: 2946250063513433440
+      UpperPropsSimple_11: 2847284424921064935
+      UpperPropsSimple_12: -1598530749306611485
+      UpperPropsSimple_13: 4608170590651892452
+      UpperPropsSimple_14: -5004263724844329696
+      UpperPropsSimple_15: 2952039503483235442
+      UpperPropsSimple_16: -4379915431377818913
+      UpperPropsSimple_17: -3831042796839372814
+      UpperPropsSimple_18: 6023740456993671307
+      UpperPropsSimple_19: 3877405622592758405
+      UpperPropsSimple_2: 3153720341787331869
+      UpperPropsSimple_20: -7791267071056467206
+      UpperPropsSimple_21: -8413854819193752265
+      UpperPropsSimple_22: 8271152886336713485
+      UpperPropsSimple_23: -2432567251104187972
+      UpperPropsSimple_24: 7208965762462955370
+      UpperPropsSimple_25: -3576311508168617634
+      UpperPropsSimple_26: 4562878182564321421
+      UpperPropsSimple_27: 8274188157464465922
+      UpperPropsSimple_28: 5530578298259876101
+      UpperPropsSimple_29: -3614646576304503906
+      UpperPropsSimple_3: 713828593445566271
+      UpperPropsSimple_30: 3092023286851573041
+      UpperPropsSimple_31: -7126618371640057104
+      UpperPropsSimple_32: -2732597169615341637
+      UpperPropsSimple_33: 5345233075055593133
+      UpperPropsSimple_34: 3819389878354999355
+      UpperPropsSimple_35: -3525460632746933513
+      UpperPropsSimple_36: -7902401352089581239
+      UpperPropsSimple_37: -2042344291741071907
+      UpperPropsSimple_38: 5999631661795299650
+      UpperPropsSimple_39: -5153089475860205459
+      UpperPropsSimple_4: 1863777190774558876
+      UpperPropsSimple_40: 3713555031158012373
+      UpperPropsSimple_41: -6256051150834176959
+      UpperPropsSimple_42: -6052045295239950536
+      UpperPropsSimple_43: 3494924976964005325
+      UpperPropsSimple_44: 982612750032949005
+      UpperPropsSimple_45: 7466418350282037316
+      UpperPropsSimple_46: 8911318053076522859
+      UpperPropsSimple_47: -592661314587663843
+      UpperPropsSimple_48: -600680796355258782
+      UpperPropsSimple_49: -5260449051025580364
+      UpperPropsSimple_5: -4403434288117389764
+      UpperPropsSimple_50: 4600633956576494285
+      UpperPropsSimple_51: -2383519407953205217
+      UpperPropsSimple_52: -6076136969594337046
+      UpperPropsSimple_53: -1681774822567488787
+      UpperPropsSimple_54: -3181419138706045594
+      UpperPropsSimple_55: 3787466596114625143
+      UpperPropsSimple_6: 20260688841913581
+      UpperPropsSimple_7: 218964173891305951
+      UpperPropsSimple_8: 6874181328569523395
+      UpperPropsSimple_9: 6312189241079734213
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

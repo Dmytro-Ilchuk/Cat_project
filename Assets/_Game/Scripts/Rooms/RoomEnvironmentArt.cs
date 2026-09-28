@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -7,6 +8,7 @@ namespace NineLives
     public sealed class RoomEnvironmentArt : MonoBehaviour
     {
         [SerializeField] private Sprite wetStreetFloor;
+        [SerializeField] private Sprite streetFoundation;
         [SerializeField] private Sprite supportedPlatform;
         [SerializeField] private Texture2D hangingPlatform;
         [SerializeField] private Texture2D spikeStrip;
@@ -14,11 +16,17 @@ namespace NineLives
         [SerializeField] private Texture2D overheadProps;
         [SerializeField] private Texture2D neonLamps;
         [SerializeField] private Texture2D warmLamps;
+        [SerializeField] private Texture2D streetLitter;
+        [SerializeField] private Texture2D windDebris;
+        [SerializeField] private Texture2D infrastructureProps;
 
         private Sprite[] groundSprites;
         private Sprite[] upperSprites;
         private Sprite[] neonSprites;
         private Sprite[] warmSprites;
+        private Sprite[] litterSprites;
+        private Sprite[] windSprites;
+        private Sprite[] infrastructureSprites;
         private Sprite hangingSprite;
         private Sprite spikeSprite;
         private static Sprite puddleShape;
@@ -38,6 +46,9 @@ namespace NineLives
             upperSprites = CutGrid(overheadProps);
             neonSprites = CutGrid(neonLamps);
             warmSprites = CutGrid(warmLamps);
+            litterSprites = CutGrid(streetLitter);
+            windSprites = CutGrid(windDebris);
+            infrastructureSprites = CutGrid(infrastructureProps);
             hangingSprite = CutTransparent(hangingPlatform);
             spikeSprite = CutTransparent(spikeStrip);
         }
@@ -46,6 +57,7 @@ namespace NineLives
         {
             if (room == null || wetStreetFloor == null) return;
             int roadIndex = 0;
+            var powerAnchors = new List<Vector2>();
             foreach (var source in room.GetComponentsInChildren<SpriteRenderer>())
             {
                 string name = source.gameObject.name;
@@ -68,12 +80,19 @@ namespace NineLives
                 }
                 else if (floor)
                 {
-                    float heightScale = .7f;
+                    if (streetFoundation != null)
+                    {
+                        var baseArt = AddSprite(room.transform, "Street foundation", streetFoundation,
+                            new Vector2(bounds.center.x, bounds.max.y - 5f), Vector2.one, 0);
+                        var baseRenderer = baseArt.GetComponent<SpriteRenderer>();
+                        baseRenderer.drawMode = SpriteDrawMode.Tiled;
+                        baseRenderer.size = new Vector2(bounds.size.x, 10f);
+                    }
                     var floorArt = AddSprite(room.transform, "Wet street floor", wetStreetFloor,
-                        new Vector2(bounds.center.x, bounds.max.y - 1.09f * heightScale),
-                        new Vector2(bounds.size.x / wetStreetFloor.bounds.size.x, heightScale), 1);
-                    floorArt.GetComponent<SpriteRenderer>().flipX =
-                        (Mathf.RoundToInt(bounds.center.x / 10f) & 1) != 0;
+                        new Vector2(bounds.center.x, bounds.max.y - .1875f), Vector2.one, 1);
+                    var floorRenderer = floorArt.GetComponent<SpriteRenderer>();
+                    floorRenderer.drawMode = SpriteDrawMode.Tiled;
+                    floorRenderer.size = new Vector2(bounds.size.x, wetStreetFloor.bounds.size.y);
                 }
                 if (name == "Crate" && groundSprites != null)
                 {
@@ -97,9 +116,11 @@ namespace NineLives
                     prop.AddComponent<BoxCollider2D>().size =
                         new Vector2(vent.bounds.size.x * .85f, vent.bounds.size.y * .75f);
                 }
-                if (name != "Road") continue;
+                if (!floor) continue;
 
+                AddCityUtilityProps(room, bounds, roadIndex);
                 AddPuddles(room.transform, bounds, roadIndex);
+                AddLitter(room, bounds, roadIndex);
 
                 if (groundSprites != null)
                 {
@@ -113,17 +134,40 @@ namespace NineLives
                             (i + .5f) / count);
                         if (!ClearOfSpawn(room, x)) continue;
                         Sprite sprite = groundSprites[type];
-                        float scale = type == 2 ? .26f : .23f;
+                        float scale = type == 2 ? .4f : .23f;
                         var prop = AddSprite(room.transform, "Street prop " + type, sprite,
                             new Vector2(x, bounds.max.y + sprite.bounds.size.y * scale * .48f),
-                            Vector2.one * scale, 2);
-                        AddSolidTop(prop, type);
+                            Vector2.one * scale, type == 2 ? 1 : 2);
+                        if (type == 2) prop.GetComponent<SpriteRenderer>().color = new Color(.52f, .55f, .59f);
+                        else if (type == 3) prop.GetComponent<SpriteRenderer>().color = new Color(.54f, .58f, .63f);
+                        else AddSolidTop(prop, type);
                     }
                 }
 
-                AddStreetFixtures(room, bounds, roadIndex);
+                AddStreetFixtures(room, bounds, roadIndex,
+                    name.ToLowerInvariant().Contains("quay"), powerAnchors);
 
                 roadIndex++;
+            }
+            StreetPowerLines.Connect(room.transform, powerAnchors);
+        }
+
+        private void AddCityUtilityProps(RoomLayout room, Bounds road, int roadIndex)
+        {
+            if (infrastructureSprites == null) return;
+            int count = Mathf.Max(1, Mathf.FloorToInt(road.size.x / 9f));
+            int seed = StableHash(room.name + ":utility:" + roadIndex);
+            for (int i = 0; i < count; i++)
+            {
+                int type = ((seed & int.MaxValue) % 2 + i) % 2;
+                Sprite sprite = infrastructureSprites[type];
+                if (sprite == null) continue;
+                float x = Mathf.Lerp(road.min.x + 2f, road.max.x - 2f, (i + .5f) / count);
+                float scale = .32f;
+                var prop = AddSprite(room.transform, "Dark city utility prop " + type, sprite,
+                    new Vector2(x, road.max.y + sprite.bounds.size.y * scale * .46f),
+                    Vector2.one * scale, -4);
+                prop.GetComponent<SpriteRenderer>().color = new Color(.64f, .69f, .73f, .82f);
             }
         }
 
@@ -136,7 +180,43 @@ namespace NineLives
             return true;
         }
 
-        private void AddStreetFixtures(RoomLayout room, Bounds road, int roadIndex)
+        private void AddLitter(RoomLayout room, Bounds road, int roadIndex)
+        {
+            if (litterSprites == null || road.size.x < 5f) return;
+            var random = new System.Random(StableHash(room.name + ":litter:" + roadIndex));
+            int count = Mathf.FloorToInt(road.size.x / 4f);
+            for (int i = 0; i < count; i++)
+            {
+                float x = Mathf.Lerp(road.min.x + .7f, road.max.x - .7f,
+                    (i + .2f + (float)random.NextDouble() * .6f) / count);
+                if (!ClearOfSpawn(room, x)) continue;
+                Sprite sprite = litterSprites[random.Next(litterSprites.Length)];
+                if (sprite == null) continue;
+                float scale = .09f + (float)random.NextDouble() * .04f;
+                var litter = AddSprite(room.transform, "Street litter", sprite,
+                    new Vector2(x, road.max.y + sprite.bounds.size.y * scale * .35f),
+                    Vector2.one * scale, 2);
+                litter.GetComponent<SpriteRenderer>().color = new Color(.6f, .63f, .69f, .88f);
+            }
+            if (windSprites == null) return;
+            int flyers = Mathf.Max(2, Mathf.FloorToInt(road.size.x / 5f));
+            for (int i = 0; i < flyers; i++)
+            {
+                float left = Mathf.Lerp(road.min.x + 1f, road.max.x - 1f, i / (float)flyers);
+                float right = Mathf.Lerp(road.min.x + 1f, road.max.x - 1f, (i + 1f) / flyers);
+                float x = Mathf.Lerp(left, right, .3f + (float)random.NextDouble() * .4f);
+                int type = (random.Next(windSprites.Length) + i) % windSprites.Length;
+                Sprite sprite = windSprites[type];
+                if (sprite == null) continue;
+                var scrap = AddSprite(room.transform, "Windblown leaf, paper or newspaper", sprite,
+                    new Vector2(x, road.max.y + .07f), Vector2.one * .07f, 3);
+                scrap.GetComponent<SpriteRenderer>().color = new Color(.68f, .69f, .66f, .86f);
+                scrap.AddComponent<WindblownDebris>().Initialize(left, right, random.Next());
+            }
+        }
+
+        private void AddStreetFixtures(RoomLayout room, Bounds road, int roadIndex,
+            bool canal, List<Vector2> powerAnchors)
         {
             if (neonSprites == null || warmSprites == null || road.size.x < 7f) return;
             int seed = StableHash(room.name + ":lights:" + roadIndex);
@@ -157,18 +237,18 @@ namespace NineLives
                 }
                 if (!found) continue;
                 bool neon = count == 2 ? i == 1 : ((seed >> (i * 5)) & 3) == 0;
-                int variant = ((seed >> (i * 3 + 2)) & int.MaxValue) % 4;
+                int variant = neon ? 3 : ((seed >> (i * 3 + 2)) & int.MaxValue) % 3;
                 Sprite sprite = neon ? neonSprites[variant] : warmSprites[variant];
                 if (sprite == null) continue;
-                float height = neon
-                    ? (variant == 3 ? 1.7f : variant == 1 ? 2.5f : 3.1f)
-                    : (variant == 3 ? 1.35f : variant == 1 ? 2.7f : 3.5f);
+                float height = canal ? 5.8f : 4.8f;
                 float scale = height / sprite.bounds.size.y;
                 var fixture = new GameObject(neon ? "Grounded neon lamp" : "Grounded street lamp");
                 fixture.transform.SetParent(room.transform, false);
                 fixture.transform.position = new Vector3(x, road.max.y, 0f);
-                AddSprite(fixture.transform, "Lamp body", sprite,
-                    new Vector2(x, road.max.y + height * .5f), Vector2.one * scale, 3);
+                var body = AddSprite(fixture.transform, "Lamp body", sprite,
+                    new Vector2(x, road.max.y + height * .5f), Vector2.one * scale, 2);
+                body.GetComponent<SpriteRenderer>().color = new Color(.6f, .65f, .68f);
+                powerAnchors.Add(new Vector2(x, road.max.y + height * .88f));
 
                 Color tint = neon ? variant switch
                 {
@@ -177,11 +257,11 @@ namespace NineLives
                     3 => new Color(.32f, .85f, 1f),
                     _ => new Color(.2f, .85f, 1f)
                 } : new Color(1f, .68f, .35f);
-                float bulbY = height * (variant == 3 ? .76f : .84f);
+                float bulbY = height * .80f;
                 var halo = AddSprite(fixture.transform, "Lamp halo", HaloShape,
                     new Vector2(x, road.max.y + bulbY),
-                    Vector2.one * (neon ? 1.4f : 1.7f), 2).GetComponent<SpriteRenderer>();
-                halo.color = new Color(tint.r, tint.g, tint.b, neon ? .24f : .21f);
+                    Vector2.one * .85f, 2).GetComponent<SpriteRenderer>();
+                halo.color = new Color(tint.r, tint.g, tint.b, .08f);
                 var pool = AddSprite(fixture.transform, "Light on wet street", PuddleShape,
                     new Vector2(x, road.max.y - .22f), new Vector2(1.65f, .88f), 2)
                     .GetComponent<SpriteRenderer>();
@@ -193,9 +273,9 @@ namespace NineLives
                 var light = lightObject.GetComponent<Light2D>();
                 light.lightType = Light2D.LightType.Point;
                 light.color = tint;
-                light.intensity = neon ? .48f : .62f;
+                light.intensity = neon ? .38f : .46f;
                 light.pointLightInnerRadius = .45f;
-                light.pointLightOuterRadius = neon ? 3.1f : 3.8f;
+                light.pointLightOuterRadius = neon ? 2.6f : 2.9f;
                 lightObject.AddComponent<StreetLampPulse>().Initialize(halo, pool, neon,
                     seed + i * 23.71f);
             }
@@ -461,6 +541,9 @@ namespace NineLives
             DestroySprites(upperSprites);
             DestroySprites(neonSprites);
             DestroySprites(warmSprites);
+            DestroySprites(litterSprites);
+            DestroySprites(windSprites);
+            DestroySprites(infrastructureSprites);
             if (hangingSprite != null) Destroy(hangingSprite);
             if (spikeSprite != null) Destroy(spikeSprite);
         }
