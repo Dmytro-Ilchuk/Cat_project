@@ -25,6 +25,9 @@ namespace NineLives.Editor
                 var again = RunRoute.Build(seed, 0, rooms.Reverse().ToArray(), chunks.Reverse().ToArray());
                 if (normal.Length != 9 || hard.Length != 9 ||
                     normal[5].Room.Biome == hard[5].Room.Biome ||
+                    normal[5].FoodReward >= hard[5].FoodReward ||
+                    normal[5].DangerRank >= hard[5].DangerRank ||
+                    normal.Where(s => s.Room.Kind == RoomKind.Combat).Any(s => s.FoodReward <= 0) ||
                     normal[6].Room.StableId != hard[6].Room.StableId ||
                     normal.Where(s => s.Room.Kind == RoomKind.Combat).Select(s => s.LayoutId).Distinct().Count() != 5 ||
                     hard.Where(s => s.Room.Kind == RoomKind.Combat).Select(s => s.LayoutId).Distinct().Count() != 5 ||
@@ -67,15 +70,120 @@ namespace NineLives.Editor
             data.FindProperty("exitSprite").objectReferenceValue = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/_Game/Art/Prototype/Square.png");
             var canvas = UnityEngine.Object.FindAnyObjectByType<Canvas>();
             data.FindProperty("trialButton").objectReferenceValue = Button(canvas.transform, status.font, "Почати випробування", 0);
-            data.FindProperty("normalButton").objectReferenceValue = Button(canvas.transform, status.font, "Звичайний бій · 20 корму", -240);
-            data.FindProperty("hardButton").objectReferenceValue = Button(canvas.transform, status.font, "Складніший бій · 30 корму", 240);
+            data.FindProperty("normalButton").objectReferenceValue = Button(canvas.transform, status.font, "Звичайний бій · нагорода 20 корму", -240);
+            data.FindProperty("hardButton").objectReferenceValue = Button(canvas.transform, status.font, "Складніший бій · нагорода 30 корму", 240);
             data.ApplyModifiedPropertiesWithoutUndo();
             WirePause();
             EditorSceneManager.SaveScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene(), Scene, true);
+            RedesignRunChoices();
             var scenes = EditorBuildSettings.scenes.ToList();
             scenes.Add(new EditorBuildSettingsScene(Scene, true));
             EditorBuildSettings.scenes = scenes.ToArray();
             Debug.Log("Stage 5: playable Run scene created.");
+        }
+
+        [MenuItem("NineLives/Stage 5/Redesign Run Choices")]
+        public static void RedesignRunChoices()
+        {
+            var director = UnityEngine.Object.FindAnyObjectByType<RunDirector>();
+            if (director == null || UnityEngine.SceneManagement.SceneManager.GetActiveScene().path != Scene)
+                throw new InvalidOperationException("Open the Run scene before redesigning its choices.");
+            var data = new SerializedObject(director);
+            var status = data.FindProperty("status").objectReferenceValue as UnityEngine.UI.Text;
+            var trial = data.FindProperty("trialButton").objectReferenceValue as UnityEngine.UI.Button;
+            var normal = data.FindProperty("normalButton").objectReferenceValue as UnityEngine.UI.Button;
+            var hard = data.FindProperty("hardButton").objectReferenceValue as UnityEngine.UI.Button;
+            if (status == null || trial == null || normal == null || hard == null)
+                throw new InvalidOperationException("Run choices are not fully wired.");
+            var canvas = status.GetComponentInParent<UnityEngine.Canvas>();
+            if (canvas == null || canvas.GetComponent<UnityEngine.UI.GraphicRaycaster>() == null)
+                throw new InvalidOperationException("Run choices need an interactive Canvas.");
+
+            var frame = canvas.transform.Find("Run Decision Backdrop");
+            if (frame == null)
+            {
+                var frameObject = new GameObject("Run Decision Backdrop", typeof(RectTransform),
+                    typeof(CanvasRenderer), typeof(UnityEngine.UI.Image), typeof(UnityEngine.UI.Outline));
+                frameObject.transform.SetParent(canvas.transform, false);
+                frame = frameObject.transform;
+            }
+            frame.SetSiblingIndex(1);
+            var frameRect = (RectTransform)frame;
+            frameRect.anchorMin = frameRect.anchorMax = new Vector2(.5f, 0f);
+            frameRect.pivot = new Vector2(.5f, 0f);
+            frameRect.anchoredPosition = new Vector2(0f, 88f);
+            frameRect.sizeDelta = new Vector2(950f, 190f);
+            var background = frame.GetComponent<UnityEngine.UI.Image>();
+            background.color = new Color(.025f, .065f, .105f, .94f);
+            background.raycastTarget = false;
+            var outline = frame.GetComponent<UnityEngine.UI.Outline>();
+            outline.effectColor = new Color(.19f, .7f, .76f, .85f);
+            outline.effectDistance = new Vector2(2f, -2f);
+
+            var accent = frame.Find("Accent");
+            if (accent == null)
+            {
+                var accentObject = new GameObject("Accent", typeof(RectTransform),
+                    typeof(CanvasRenderer), typeof(UnityEngine.UI.Image));
+                accentObject.transform.SetParent(frame, false);
+                accent = accentObject.transform;
+            }
+            var accentRect = (RectTransform)accent;
+            accentRect.anchorMin = accentRect.anchorMax = new Vector2(.5f, 1f);
+            accentRect.pivot = new Vector2(.5f, 1f);
+            accentRect.anchoredPosition = new Vector2(0f, 0f);
+            accentRect.sizeDelta = new Vector2(896f, 4f);
+            var accentImage = accent.GetComponent<UnityEngine.UI.Image>();
+            accentImage.color = new Color(.18f, .82f, .85f, .9f);
+            accentImage.raycastTarget = false;
+            frame.gameObject.SetActive(false);
+            data.FindProperty("decisionBackdrop").objectReferenceValue = frame.gameObject;
+            data.ApplyModifiedPropertiesWithoutUndo();
+
+            status.rectTransform.anchoredPosition = new Vector2(0f, 92f);
+            status.rectTransform.sizeDelta = new Vector2(900f, 58f);
+            status.fontSize = 17;
+            status.alignment = TextAnchor.MiddleCenter;
+            status.color = new Color(.92f, .95f, .92f);
+            status.raycastTarget = false;
+            StyleDecisionButton(trial, 0f, new Color(.34f, .24f, .11f));
+            StyleDecisionButton(normal, -226f, new Color(.055f, .22f, .25f));
+            StyleDecisionButton(hard, 226f, new Color(.19f, .105f, .26f));
+            EditorSceneManager.MarkSceneDirty(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
+            EditorSceneManager.SaveScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
+        }
+
+        private static void StyleDecisionButton(UnityEngine.UI.Button button, float x, Color fill)
+        {
+            var rect = button.GetComponent<RectTransform>();
+            rect.anchorMin = rect.anchorMax = new Vector2(.5f, 0f);
+            rect.pivot = new Vector2(.5f, 0f);
+            rect.anchoredPosition = new Vector2(x, 118f);
+            rect.sizeDelta = new Vector2(430f, 68f);
+            var image = button.GetComponent<UnityEngine.UI.Image>();
+            image.color = fill;
+            image.raycastTarget = true;
+            var outline = button.GetComponent<UnityEngine.UI.Outline>();
+            if (outline == null) outline = button.gameObject.AddComponent<UnityEngine.UI.Outline>();
+            outline.effectColor = x < 0f ? new Color(.18f, .88f, .85f) :
+                x > 0f ? new Color(.8f, .47f, .95f) : new Color(.95f, .72f, .32f);
+            outline.effectDistance = new Vector2(2f, -2f);
+            var label = button.GetComponentInChildren<UnityEngine.UI.Text>(true);
+            label.fontSize = 18;
+            label.alignment = TextAnchor.MiddleCenter;
+            label.color = new Color(.98f, .98f, .91f);
+            label.raycastTarget = false;
+            label.horizontalOverflow = HorizontalWrapMode.Wrap;
+            label.verticalOverflow = VerticalWrapMode.Truncate;
+            label.rectTransform.offsetMin = new Vector2(12f, 4f);
+            label.rectTransform.offsetMax = new Vector2(-12f, -4f);
+            var colors = button.colors;
+            colors.normalColor = Color.white;
+            colors.highlightedColor = new Color(1.2f, 1.2f, 1.2f);
+            colors.pressedColor = new Color(.72f, .8f, .8f);
+            colors.selectedColor = Color.white;
+            colors.disabledColor = new Color(.44f, .44f, .44f, .72f);
+            button.colors = colors;
         }
 
         [MenuItem("NineLives/Stage 5/Wire Run Pause")]

@@ -11,6 +11,7 @@ namespace NineLives
         [SerializeField] private Rigidbody2D physicsBody;
 
         private float invulnerableUntil;
+        private int baseMaximumHealth;
 
         public int MaximumHealth => maximumHealth;
         public int CurrentHealth { get; private set; }
@@ -23,7 +24,16 @@ namespace NineLives
         private void Awake()
         {
             if (physicsBody == null) physicsBody = GetComponent<Rigidbody2D>();
+            baseMaximumHealth = maximumHealth;
             ResetToFull();
+        }
+
+        public void SetMaximumHealthBonus(int bonus, bool healIncrease = false)
+        {
+            int previousMaximum = maximumHealth;
+            maximumHealth = baseMaximumHealth + Mathf.Max(0, bonus);
+            CurrentHealth = Mathf.Min(maximumHealth,
+                CurrentHealth + (healIncrease ? Mathf.Max(0, maximumHealth - previousMaximum) : 0));
         }
 
         public bool TakeDamage(int amount, Vector2 knockback)

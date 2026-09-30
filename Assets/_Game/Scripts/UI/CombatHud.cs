@@ -18,6 +18,7 @@ namespace NineLives
         private int displayedFood = -1;
         private int displayedLives = -1;
         private int displayedPosition = -1;
+        private bool displayedInterlude;
         private CycleController cycle;
 
         private void OnEnable()
@@ -39,7 +40,8 @@ namespace NineLives
             var state = CycleController.Instance;
             if (playerHealth != null && (displayedHealth != playerHealth.CurrentHealth ||
                 (state != null && (displayedFood != state.Run.Food ||
-                displayedLives != state.Cycle.LivesRemaining || displayedPosition != state.Run.Position))))
+                displayedLives != state.Cycle.LivesRemaining || displayedPosition != state.Run.Position ||
+                displayedInterlude != state.Run.InInterlude))))
                 Refresh();
         }
 
@@ -63,9 +65,11 @@ namespace NineLives
             displayedFood = state.Run.Food;
             displayedLives = state.Cycle.LivesRemaining;
             displayedPosition = state.Run.Position;
+            displayedInterlude = state.Run.InInterlude;
             if (foodLabel != null) foodLabel.text = $"× {displayedFood}";
             if (livesLabel != null) livesLabel.text = $"× {displayedLives}";
-            if (mapLabel != null) mapLabel.text = $"МАРШРУТ {displayedPosition + 1}/9";
+            if (mapLabel != null) mapLabel.text = displayedInterlude
+                ? "ПЕРЕХІД" : $"МІСТО {displayedPosition + 1}/9";
             if (mapMarker != null && mapStops != null && mapStops.Length > 0)
                 mapMarker.anchoredPosition = mapStops[Mathf.Clamp(displayedPosition, 0,
                     mapStops.Length - 1)].anchoredPosition;

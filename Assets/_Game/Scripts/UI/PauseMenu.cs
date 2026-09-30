@@ -19,6 +19,8 @@ namespace NineLives
         private CycleController cycle;
         private bool confirmingAbandon;
         private bool leaving;
+        private bool upgradeAvailableOnResult;
+        private string resultHeading;
         public bool IsPaused { get; private set; }
         public bool ShowingResult { get; private set; }
 
@@ -71,14 +73,23 @@ namespace NineLives
         {
             ShowingResult = true;
             confirmingAbandon = false;
-            string heading = reason == RunEndReason.Victory ? "ПЕРЕМОГА!"
+            resultHeading = reason == RunEndReason.Victory ? "ПЕРЕМОГА!"
                 : cycle.Cycle.IsComplete ? "ІСТОРІЮ КОТА ЗАВЕРШЕНО"
                 : reason == RunEndReason.Death ? "СПРОБУ ЗАВЕРШЕНО" : "ЗАБІГ ПРИПИНЕНО";
-            title.text = $"{heading}\nЖиття: {cycle.Cycle.LivesRemaining} / 9   Спогади: {cycle.Cycle.Memories}";
             resumeButton.GetComponentInChildren<UnityEngine.UI.Text>().text = cycle.Cycle.IsComplete ? "Новий кіт" : "Наступна спроба";
-            restartButton.gameObject.SetActive(false);
+            upgradeAvailableOnResult = reason != RunEndReason.Victory && !cycle.Cycle.IsComplete;
+            RefreshResultUpgrade();
             menuButton.gameObject.SetActive(true);
             SetOverlay(true);
+        }
+
+        private void RefreshResultUpgrade()
+        {
+            title.text = $"{resultHeading}\nЖиття: {cycle.Cycle.LivesRemaining} / 9   Спогади: {cycle.Cycle.Memories}";
+            restartButton.gameObject.SetActive(upgradeAvailableOnResult && !cycle.HasResilience);
+            restartButton.interactable = cycle.Cycle.Memories >= CycleController.ResilienceCost;
+            restartButton.GetComponentInChildren<UnityEngine.UI.Text>().text =
+                "Міцність I · 2 Спогади · +10 HP";
         }
 
         public void Resume()
@@ -93,7 +104,12 @@ namespace NineLives
 
         public void Restart()
         {
-            if (ShowingResult || leaving) return;
+            if (leaving) return;
+            if (ShowingResult)
+            {
+                if (upgradeAvailableOnResult && cycle.TryBuyResilience()) RefreshResultUpgrade();
+                return;
+            }
             if (confirmingAbandon)
             {
                 cycle.CompleteRun(RunEndReason.Abandoned);

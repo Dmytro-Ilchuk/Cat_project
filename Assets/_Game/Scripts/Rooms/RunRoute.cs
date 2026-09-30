@@ -9,6 +9,8 @@ namespace NineLives
         public RoomDefinition Room;
         public int ChunkSeed;
         public string LayoutId;
+        public int FoodReward;
+        public int DangerRank;
     }
 
     public static class RunRoute
@@ -44,7 +46,17 @@ namespace NineLives
                     if (!used.Contains(layoutId) || result.Take(i).Any(s => s.LayoutId == layoutId))
                         throw new InvalidOperationException("Not enough unique combat layouts for the route.");
                 }
-                result[i] = new RouteStep { Room = room, ChunkSeed = chunkSeed, LayoutId = layoutId };
+                int danger = room.Difficulty + (i == 5 && branch == 1 ? 1 : 0);
+                result[i] = new RouteStep
+                {
+                    Room = room,
+                    ChunkSeed = chunkSeed,
+                    LayoutId = layoutId,
+                    DangerRank = danger,
+                    FoodReward = room.Kind == RoomKind.Boss ? 40 : room.Kind == RoomKind.Combat
+                        ? 15 + room.Difficulty * 5 + (i == 5 && branch == 1 ? 5 : 0)
+                        : 0
+                };
             }
             return result;
         }

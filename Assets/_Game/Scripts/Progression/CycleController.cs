@@ -6,6 +6,8 @@ namespace NineLives
     [DisallowMultipleComponent]
     public sealed class CycleController : MonoBehaviour
     {
+        public const string ResilienceUpgradeId = "resilience-1";
+        public const int ResilienceCost = 2;
         public static CycleController Instance { get; private set; }
 
         public ProfileState Profile { get; private set; }
@@ -83,6 +85,38 @@ namespace NineLives
             if (amount <= 0 || Cycle.IsComplete) return;
             Cycle.Memories += amount;
             StateChanged?.Invoke();
+        }
+
+        public bool HasResilience => Cycle.PurchasedUpgradeIds.Contains(ResilienceUpgradeId);
+
+        public bool TryBuyResilience()
+        {
+            if (Cycle.IsComplete || HasResilience || Cycle.Memories < ResilienceCost) return false;
+            Cycle.Memories -= ResilienceCost;
+            Cycle.PurchasedUpgradeIds.Add(ResilienceUpgradeId);
+            StateChanged?.Invoke();
+            return true;
+        }
+
+        public void AddFood(int amount)
+        {
+            if (!Run.IsActive || amount <= 0) return;
+            Run.Food += amount;
+            StateChanged?.Invoke();
+        }
+
+        public bool TrySpendFood(int amount)
+        {
+            if (!Run.TrySpendFood(amount)) return false;
+            StateChanged?.Invoke();
+            return true;
+        }
+
+        public bool ContinueToNextLocation(int? seed = null)
+        {
+            if (!Run.ContinueToNextLocation(seed ?? Environment.TickCount)) return false;
+            StateChanged?.Invoke();
+            return true;
         }
     }
 }
