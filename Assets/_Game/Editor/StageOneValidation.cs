@@ -22,14 +22,19 @@ namespace NineLives.Editor
             Require(Application.unityVersion == "6000.6.1f1", "Use Unity 6000.6.1f1.");
             Require(PlayerSettings.productName == "NineLives", "Product name changed.");
             Require(EditorSettings.serializationMode == SerializationMode.ForceText, "Enable Force Text.");
-            Require(VersionControlSettings.mode == "Visible Meta Files", "Enable Visible Meta Files.");
+            Require(VersionControlSettings.mode == "Visible Meta Files" || VersionControlSettings.mode == "Unity Version Control",
+                "Enable Visible Meta Files or Unity Version Control.");
             Require(PlayerSettings.GetScriptingBackend(NamedBuildTarget.WebGL) == ScriptingImplementation.IL2CPP, "Expected Web IL2CPP backend.");
             var pipeline = GraphicsSettings.defaultRenderPipeline as UniversalRenderPipelineAsset;
             Require(pipeline != null && pipeline.scriptableRenderer.GetType().Name == "Renderer2D", "Expected URP 2D Renderer.");
-            string[] scenes = { "Assets/_Game/Scenes/Bootstrap.unity", "Assets/_Game/Scenes/MainMenu.unity", "Assets/_Game/Scenes/Tests/PlatformTest.unity" };
+            string[] scenes = { "Assets/_Game/Scenes/Bootstrap.unity", "Assets/_Game/Scenes/MainMenu.unity", "Assets/_Game/Scenes/Run.unity" };
             Require(EditorBuildSettings.scenes.Where(s => s.enabled).Select(s => s.path).SequenceEqual(scenes), "Build scenes/order changed.");
-            var profile = BuildProfile.GetAllBuildProfiles().Single(p => p.name == "Web Development");
-            Require(profile.GetScenesForBuild().Where(s => s.enabled).Select(s => s.path).SequenceEqual(scenes), "Profile scenes/order changed.");
+            foreach (var name in new[] { "Web Development", "Windows Development" })
+            {
+                var profile = BuildProfile.GetAllBuildProfiles().Single(p => p.name == name);
+                Require(profile.GetScenesForBuild().Where(s => s.enabled).Select(s => s.path).SequenceEqual(scenes),
+                    name + " scenes/order changed.");
+            }
             var input = AssetDatabase.LoadAssetAtPath<InputActionAsset>("Assets/_Game/Settings/NineLives.inputactions");
             Require(input != null && InputSystem.actions == input, "Project input asset is not NineLives.");
             foreach (var action in new[] { "Move", "Jump", "Attack", "Dash", "Hiss", "Interact", "Pause" })

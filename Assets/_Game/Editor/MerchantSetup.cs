@@ -1,6 +1,5 @@
 using System;
 using UnityEditor;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -70,16 +69,8 @@ namespace NineLives.Editor
             }
             finally { UnityEngine.Object.DestroyImmediate(root); }
 
-            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(PrefabPath);
-            var director = UnityEngine.Object.FindAnyObjectByType<RunDirector>();
-            if (director == null || prefab == null)
-                throw new InvalidOperationException("Run Director or merchant prefab is missing.");
-            var data = new SerializedObject(director);
-            data.FindProperty("merchantPrefab").objectReferenceValue = prefab;
-            data.ApplyModifiedPropertiesWithoutUndo();
-            EditorSceneManager.MarkSceneDirty(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
-            EditorSceneManager.SaveScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
             AssetDatabase.SaveAssets();
+            Debug.Log("Merchant prefab updated. The linear campaign does not use merchants.");
         }
     }
 }

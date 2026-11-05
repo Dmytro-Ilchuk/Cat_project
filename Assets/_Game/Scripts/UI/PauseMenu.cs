@@ -73,11 +73,19 @@ namespace NineLives
         {
             ShowingResult = true;
             confirmingAbandon = false;
-            resultHeading = reason == RunEndReason.Victory ? "ПЕРЕМОГА!"
-                : cycle.Cycle.IsComplete ? "ІСТОРІЮ КОТА ЗАВЕРШЕНО"
+            if (reason == RunEndReason.Victory)
+            {
+                title.text = "ПЕРЕМОГА!\nКіт дістався додому.";
+                resumeButton.GetComponentInChildren<UnityEngine.UI.Text>().text = "Зіграти ще";
+                restartButton.gameObject.SetActive(false);
+                menuButton.gameObject.SetActive(true);
+                SetOverlay(true);
+                return;
+            }
+            resultHeading = cycle.Cycle.IsComplete ? "ІСТОРІЮ КОТА ЗАВЕРШЕНО"
                 : reason == RunEndReason.Death ? "СПРОБУ ЗАВЕРШЕНО" : "ЗАБІГ ПРИПИНЕНО";
             resumeButton.GetComponentInChildren<UnityEngine.UI.Text>().text = cycle.Cycle.IsComplete ? "Новий кіт" : "Наступна спроба";
-            upgradeAvailableOnResult = reason != RunEndReason.Victory && !cycle.Cycle.IsComplete;
+            upgradeAvailableOnResult = !cycle.Cycle.IsComplete;
             RefreshResultUpgrade();
             menuButton.gameObject.SetActive(true);
             SetOverlay(true);

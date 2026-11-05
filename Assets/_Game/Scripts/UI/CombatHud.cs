@@ -69,7 +69,7 @@ namespace NineLives
             if (foodLabel != null) foodLabel.text = $"× {displayedFood}";
             if (livesLabel != null) livesLabel.text = $"× {displayedLives}";
             if (mapLabel != null) mapLabel.text = displayedInterlude
-                ? "ПЕРЕХІД" : $"МІСТО {displayedPosition + 1}/9";
+                ? "ПЕРЕХІД" : $"МІСТО {displayedPosition + 1}/{RunRoute.RoomCount}";
             if (mapMarker != null && mapStops != null && mapStops.Length > 0)
                 mapMarker.anchoredPosition = mapStops[Mathf.Clamp(displayedPosition, 0,
                     mapStops.Length - 1)].anchoredPosition;
