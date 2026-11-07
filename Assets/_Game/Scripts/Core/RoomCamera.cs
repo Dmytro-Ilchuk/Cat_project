@@ -8,7 +8,7 @@ namespace NineLives
     {
         [SerializeField] private Transform target;
         [SerializeField] private Rect room = new Rect(-9, -2, 52, 14);
-        [SerializeField] private Vector2 offset = new Vector2(0, 2);
+        [SerializeField] private Vector2 offset = new Vector2(0, 3.5f);
         [SerializeField] private float horizontalSmoothTime = .18f;
         [SerializeField] private float verticalSmoothTime = .4f;
         [SerializeField] private float jumpDeadZone = 1.15f;
@@ -26,8 +26,7 @@ namespace NineLives
 
         public void SetBounds(Bounds bounds)
         {
-            // Leave vertical breathing room even when the authored camera box is shorter than the view.
-            room = new Rect(bounds.min.x, bounds.min.y - 1f, bounds.size.x, bounds.size.y + 5f);
+            room = new Rect(bounds.min.x, bounds.min.y, bounds.size.x, bounds.size.y);
             snapNextFrame = true;
             velocity = Vector2.zero;
         }
@@ -46,6 +45,7 @@ namespace NineLives
             float halfWidth = pixels.refResolutionX / (2f * pixels.assetsPPU);
             float halfHeight = pixels.refResolutionY / (2f * pixels.assetsPPU);
             Vector2 desired = (Vector2)target.position + offset;
+            desired.x += (player != null ? player.FacingDirection : 1) * 1.25f;
             desired.x = room.width <= halfWidth * 2 ? room.center.x : Mathf.Clamp(desired.x, room.xMin + halfWidth, room.xMax - halfWidth);
             desired.y = room.height <= halfHeight * 2 ? room.center.y : Mathf.Clamp(desired.y, room.yMin + halfHeight, room.yMax - halfHeight);
             if (snapNextFrame)

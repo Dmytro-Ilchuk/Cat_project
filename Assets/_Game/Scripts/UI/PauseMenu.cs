@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace NineLives
 {
@@ -10,17 +11,14 @@ namespace NineLives
     {
         [SerializeField] private PlayerController player;
         [SerializeField] private GameObject panel;
-        [SerializeField] private UnityEngine.UI.Button resumeButton;
-        [SerializeField] private UnityEngine.UI.Button restartButton;
-        [SerializeField] private UnityEngine.UI.Button menuButton;
-        [SerializeField] private UnityEngine.UI.Text title;
+        [SerializeField] private Button resumeButton;
+        [SerializeField] private Button restartButton;
+        [SerializeField] private Button menuButton;
+        [SerializeField] private Text title;
         private InputAction pause;
         private InputActionMap gameplay;
         private CycleController cycle;
-        private bool confirmingAbandon;
         private bool leaving;
-        private bool upgradeAvailableOnResult;
-        private string resultHeading;
         public bool IsPaused { get; private set; }
         public bool ShowingResult { get; private set; }
 
@@ -29,17 +27,9 @@ namespace NineLives
             gameplay = InputSystem.actions.FindActionMap("Gameplay", true);
             pause = gameplay.FindAction("Pause", true).Clone();
             pause.Enable();
-            gameplay.Enable();
             panel.SetActive(false);
             cycle = CycleController.Ensure();
             cycle.RunCompleted += ShowResult;
-        }
-
-        private void Start()
-        {
-            // Direct Play in PlatformTest starts a run too.
-            if (cycle.Cycle.IsComplete) cycle.StartNewCat();
-            if (!cycle.Run.IsActive) cycle.StartRun();
         }
 
         private void Update()
@@ -50,12 +40,11 @@ namespace NineLives
         public void SetPaused(bool paused)
         {
             if (ShowingResult || leaving) return;
-            confirmingAbandon = false;
-            title.text = "ПАУЗА";
-            resumeButton.GetComponentInChildren<UnityEngine.UI.Text>().text = "Продовжити";
-            restartButton.GetComponentInChildren<UnityEngine.UI.Text>().text = "Завершити забіг";
+            title.text = "ПАУЗА\nПрогрес секції збережено";
+            resumeButton.GetComponentInChildren<Text>().text = "Продовжити";
+            restartButton.GetComponentInChildren<Text>().text = "Повторити секцію";
             restartButton.gameObject.SetActive(true);
-            menuButton.gameObject.SetActive(false);
+            menuButton.gameObject.SetActive(true);
             SetOverlay(paused);
         }
 
@@ -71,70 +60,43 @@ namespace NineLives
 
         private void ShowResult(RunEndReason reason)
         {
+            if (leaving) return;
             ShowingResult = true;
-            confirmingAbandon = false;
-            if (reason == RunEndReason.Victory)
-            {
-                title.text = "ПЕРЕМОГА!\nКіт дістався додому.";
-                resumeButton.GetComponentInChildren<UnityEngine.UI.Text>().text = "Зіграти ще";
-                restartButton.gameObject.SetActive(false);
-                menuButton.gameObject.SetActive(true);
-                SetOverlay(true);
-                return;
-            }
-            resultHeading = cycle.Cycle.IsComplete ? "ІСТОРІЮ КОТА ЗАВЕРШЕНО"
-                : reason == RunEndReason.Death ? "СПРОБУ ЗАВЕРШЕНО" : "ЗАБІГ ПРИПИНЕНО";
-            resumeButton.GetComponentInChildren<UnityEngine.UI.Text>().text = cycle.Cycle.IsComplete ? "Новий кіт" : "Наступна спроба";
-            upgradeAvailableOnResult = !cycle.Cycle.IsComplete;
-            RefreshResultUpgrade();
+            bool victory = reason == RunEndReason.Victory;
+            title.text = victory ? "ПЕРЕМОГА!\nКіт дістався додому." : "СПРОБУЙ ЩЕ\nСекція почнеться з безпечної точки";
+            resumeButton.GetComponentInChildren<Text>().text = victory ? "Зіграти ще" : "Повторити секцію";
+            restartButton.gameObject.SetActive(false);
             menuButton.gameObject.SetActive(true);
             SetOverlay(true);
-        }
-
-        private void RefreshResultUpgrade()
-        {
-            title.text = $"{resultHeading}\nЖиття: {cycle.Cycle.LivesRemaining} / 9   Спогади: {cycle.Cycle.Memories}";
-            restartButton.gameObject.SetActive(upgradeAvailableOnResult && !cycle.HasResilience);
-            restartButton.interactable = cycle.Cycle.Memories >= CycleController.ResilienceCost;
-            restartButton.GetComponentInChildren<UnityEngine.UI.Text>().text =
-                "Міцність I · 2 Спогади · +10 HP";
         }
 
         public void Resume()
         {
             if (leaving) return;
             if (!ShowingResult) { SetPaused(false); return; }
-            if (cycle.Cycle.IsComplete) cycle.StartNewCat();
-            if (!cycle.StartRun()) return;
-            leaving = true;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            bool victory = cycle.Cycle.IsVictory;
+            if (victory) cycle.StartNewCat();
+            ReloadSection(!victory);
         }
 
         public void Restart()
         {
-            if (leaving) return;
-            if (ShowingResult)
-            {
-                if (upgradeAvailableOnResult && cycle.TryBuyResilience()) RefreshResultUpgrade();
-                return;
-            }
-            if (confirmingAbandon)
-            {
-                cycle.CompleteRun(RunEndReason.Abandoned);
-                return;
-            }
-            SetPaused(true);
-            confirmingAbandon = true;
-            title.text = "ПРИПИНИТИ ЗАБІГ?\nБуде втрачено одне життя";
-            resumeButton.GetComponentInChildren<UnityEngine.UI.Text>().text = "Скасувати";
-            restartButton.GetComponentInChildren<UnityEngine.UI.Text>().text = "Так, завершити";
+            if (!leaving) ReloadSection(true);
+        }
+
+        private void ReloadSection(bool fromSave)
+        {
+            leaving = true;
+            if (cycle.Run.IsActive) cycle.CompleteRun(RunEndReason.Abandoned);
+            if (!cycle.StartRun(continueFromSave: fromSave)) { leaving = false; return; }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         public void MainMenu()
         {
             if (leaving) return;
-            if (!ShowingResult) { Restart(); return; }
             leaving = true;
+            if (cycle.Run.IsActive) cycle.CompleteRun(RunEndReason.Abandoned);
             SceneManager.LoadScene("MainMenu");
         }
 

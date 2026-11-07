@@ -22,6 +22,9 @@ namespace NineLives
         private readonly HashSet<Health> hitTargets = new HashSet<Health>();
         private Health health;
         private PlayerController controller;
+        private Collider2D bodyCollider;
+        private int groundMask;
+        private int enemyMask;
         private InputAction attackAction;
         private InputAction hissAction;
         private float nextClawTime;
@@ -37,6 +40,9 @@ namespace NineLives
         {
             health = GetComponent<Health>();
             controller = GetComponent<PlayerController>();
+            bodyCollider = GetComponent<Collider2D>();
+            groundMask = LayerMask.GetMask("Ground");
+            enemyMask = LayerMask.GetMask("Enemy");
             var gameplay = InputSystem.actions.FindActionMap("Gameplay", true);
             attackAction = gameplay.FindAction("Attack", true).Clone();
             hissAction = gameplay.FindAction("Hiss", true).Clone();
@@ -83,10 +89,10 @@ namespace NineLives
             {
                 Vector2 attackDirection = Vector2.right * controller.FacingDirection;
                 Vector2 centre = (Vector2)transform.position + attackDirection * clawRange;
-                foreach (var hit in Physics2D.OverlapCircleAll(centre, clawRadius))
+                foreach (var hit in Physics2D.OverlapCircleAll(centre, clawRadius, enemyMask))
                 {
                     var target = hit.GetComponentInParent<Health>();
-                    if (target == null || target == health || !hitTargets.Add(target)) continue;
+                    if (target == null || target == health || !CanReach(hit) || !hitTargets.Add(target)) continue;
                     target.TakeDamage(clawDamage, attackDirection * 5f + Vector2.up * 1.5f);
                 }
                 yield return null;
@@ -101,14 +107,20 @@ namespace NineLives
             Vector2 direction = Vector2.right * controller.FacingDirection;
             CombatVfx.Slash((Vector2)transform.position + direction * .9f, controller.FacingDirection);
             CombatVfx.Burst((Vector2)transform.position + direction, new Color(.35f, .9f, 1), 8, 3);
-            foreach (var hit in Physics2D.OverlapCircleAll(transform.position, hissRange))
+            foreach (var hit in Physics2D.OverlapCircleAll(transform.position, hissRange, enemyMask))
             {
                 var rat = hit.GetComponentInParent<RatController>();
-                if (rat == null) continue;
+                if (rat == null || !CanReach(hit)) continue;
                 Vector2 toTarget = ((Vector2)rat.transform.position - (Vector2)transform.position).normalized;
                 if (Vector2.Angle(direction, toTarget) <= hissAngle * 0.5f)
                     rat.ApplyHiss(direction * hissForce, hissControlDuration);
             }
+        }
+
+        private bool CanReach(Collider2D target)
+        {
+            Vector2 origin = bodyCollider.bounds.center;
+            return !Physics2D.Linecast(origin, target.ClosestPoint(origin), groundMask);
         }
 
         private void OnDestroy()

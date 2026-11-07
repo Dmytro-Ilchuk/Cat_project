@@ -14,11 +14,17 @@ namespace NineLives
         [SerializeField] private Sprite foreground;
         [SerializeField] private Sprite nightSky;
         [SerializeField] private Sprite lowerForeground;
+        [SerializeField] private Sprite streetBackdrop;
+        [SerializeField] private Sprite roofBackdrop;
+        [SerializeField] private Sprite canalBackdrop;
+        private readonly SpriteRenderer[] panoramas = new SpriteRenderer[3];
+        private Sprite panorama;
+        private float panoramaY;
 
         private readonly SpriteRenderer[,] tiles = new SpriteRenderer[3, 3];
         private readonly SpriteRenderer[] lowerTiles = new SpriteRenderer[9];
         private readonly float[] factors = { .12f, .35f, .62f };
-        private readonly float[] bottomY = { -1.1f, -2.1f, -5.6f };
+        private readonly float[] bottomY = { -2f, -1f, -.25f };
         private float lowerBottomY = -3.1f;
         private static Sprite roofCable;
 
@@ -34,6 +40,14 @@ namespace NineLives
         public void SetRoom(RoomLayout room)
         {
             if (room == null) return;
+            if (streetBackdrop != null)
+            {
+                bool canal = room.name.ToLowerInvariant().Contains("canal");
+                panorama = canal ? canalBackdrop : room.name.ToLowerInvariant().Contains("roof") ? roofBackdrop : streetBackdrop;
+                if (panorama == null) throw new System.InvalidOperationException("Campaign background missing.");
+                panoramaY = room.SafeSpawn.position.y - 1f + (canal ? 6.1f : 3.5f);
+                foreach (var renderer in panoramas) renderer.sprite = panorama;
+            }
             lowerBottomY = room.SafeSpawn.position.y - 4f;
             foreach (var renderer in room.GetComponentsInChildren<SpriteRenderer>())
             {
@@ -46,6 +60,18 @@ namespace NineLives
         private void Awake()
         {
             GetComponent<Camera>().backgroundColor = new Color(.018f, .025f, .043f);
+            if (streetBackdrop != null)
+            {
+                for (int i = 0; i < panoramas.Length; i++)
+                {
+                    var go = new GameObject("Generated city panorama " + i, typeof(SpriteRenderer));
+                    go.transform.SetParent(transform, false);
+                    panoramas[i] = go.GetComponent<SpriteRenderer>();
+                    panoramas[i].sortingOrder = -9;
+                    panoramas[i].color = new Color(.82f, .86f, .95f);
+                }
+                return;
+            }
             if (nightSky != null)
             {
                 var sky = new GameObject("Clouded night sky", typeof(SpriteRenderer));
@@ -105,6 +131,17 @@ namespace NineLives
 
         private void PositionTiles()
         {
+            if (streetBackdrop != null)
+            {
+                if (panorama == null) return;
+                float width = panorama.bounds.size.x;
+                int middle = Mathf.RoundToInt(transform.position.x * .65f / width);
+                for (int i = 0; i < panoramas.Length; i++)
+                    panoramas[i].transform.position = new Vector3(
+                        Mathf.Round(((middle + i - 1) * width + transform.position.x * .35f) * 16f) / 16f,
+                        panoramaY, 0);
+                return;
+            }
             Sprite[] art = { distantCity, buildings, foreground };
             for (int layer = 0; layer < art.Length; layer++)
             {

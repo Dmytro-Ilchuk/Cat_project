@@ -122,10 +122,8 @@ namespace NineLives.Editor
             var data = new SerializedObject(hud);
             data.FindProperty("healthLabel").objectReferenceValue =
                 root.Find("Health Panel/Health Value").GetComponent<UnityEngine.UI.Text>();
-            data.FindProperty("foodLabel").objectReferenceValue =
-                root.Find("Food Panel/Food Value").GetComponent<UnityEngine.UI.Text>();
-            data.FindProperty("livesLabel").objectReferenceValue =
-                root.Find("Lives Panel/Lives Value").GetComponent<UnityEngine.UI.Text>();
+            root.Find("Food Panel").gameObject.SetActive(false);
+            root.Find("Lives Panel").gameObject.SetActive(false);
             data.FindProperty("mapLabel").objectReferenceValue =
                 root.Find("Route Panel/Route Value").GetComponent<UnityEngine.UI.Text>();
             var hearts = data.FindProperty("hearts");

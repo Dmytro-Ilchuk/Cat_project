@@ -60,6 +60,8 @@ namespace NineLives.Editor
             var background = InputSystem.settings.backgroundBehavior;
             var editorInput = InputSystem.settings.editorInputBehaviorInPlayMode;
             var keyboard = InputSystem.AddDevice<Keyboard>();
+            bool hadSave = PlayerPrefs.HasKey(CycleController.CheckpointKey);
+            int savedPosition = PlayerPrefs.GetInt(CycleController.CheckpointKey);
             try
             {
                 InputSystem.settings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
@@ -105,6 +107,9 @@ namespace NineLives.Editor
             catch (Exception error) { Debug.LogException(error); }
             finally
             {
+                if (hadSave) PlayerPrefs.SetInt(CycleController.CheckpointKey, savedPosition);
+                else PlayerPrefs.DeleteKey(CycleController.CheckpointKey);
+                PlayerPrefs.Save();
                 InputSystem.RemoveDevice(keyboard);
                 InputSystem.settings.backgroundBehavior = background;
                 InputSystem.settings.editorInputBehaviorInPlayMode = editorInput;

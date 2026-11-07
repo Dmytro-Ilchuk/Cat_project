@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Reflection;
 using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
@@ -10,87 +12,170 @@ namespace NineLives.Editor
     {
         private static bool running;
 
-        [MenuItem("NineLives/Stage 4/Check full cycle (Play Mode)")]
+        [MenuItem("NineLives/Campaign/Check Checkpoints and Walls (Play Mode)")]
         private static async void FromMenu()
         {
             try { Debug.Log(await RunAsync()); }
             catch (Exception error) { Debug.LogException(error); }
         }
 
-        // Uses the current in-memory test cycle; stop Play Mode afterwards.
         public static async Task<string> RunAsync()
         {
-            if (running || !EditorApplication.isPlaying || SceneManager.GetActiveScene().name != "PlatformTest")
-                throw new InvalidOperationException("Enter Play Mode in PlatformTest and run once.");
+            if (running || !EditorApplication.isPlaying || SceneManager.GetActiveScene().name != "MainMenu")
+                throw new InvalidOperationException("Start Bootstrap and run this check from MainMenu in Play Mode.");
             running = true;
-            void Check(bool ok, string message)
-            {
-                if (!ok) throw new InvalidOperationException("Stage 4: " + message);
-            }
-            async Task Reload(PauseMenu old, bool startNext = true)
-            {
-                if (startNext) old.Resume();
-                else SceneManager.LoadScene("PlatformTest");
-                for (int i = 0; i < 200; i++)
-                {
-                    await Task.Delay(25);
-                    if (old == null && UnityEngine.Object.FindAnyObjectByType<PauseMenu>() != null) return;
-                }
-                throw new Exception("Next run did not load.");
-            }
+            bool hadSave = PlayerPrefs.HasKey(CycleController.CheckpointKey);
+            int oldSave = PlayerPrefs.GetInt(CycleController.CheckpointKey);
             try
             {
-                await Reload(UnityEngine.Object.FindAnyObjectByType<PauseMenu>(), false);
+                Check(UnityEngine.Object.FindAnyObjectByType<MainMenu>().transform.Find("Main buttons/Continue Button") != null,
+                    "Continue button missing from scene");
                 var cycle = CycleController.Ensure();
-                cycle.StartNewCat();
-                cycle.StartRun();
-                cycle.Profile.UnlockedItemIds.Add("cycle-check");
-                var profile = cycle.Profile;
-                cycle.AddMemories(12);
-                cycle.Cycle.PurchasedUpgradeIds.Add("test-upgrade");
-                for (int lives = 9; lives > 0; lives--)
+                PlayerPrefs.SetInt(CycleController.CheckpointKey, -3);
+                Check(cycle.SavedPosition == 0, "negative saved index not clamped");
+                PlayerPrefs.SetInt(CycleController.CheckpointKey, 900);
+                Check(cycle.SavedPosition == RunRoute.RoomCount - 1, "oversized saved index not clamped");
+                bool rejected = false;
+                try { cycle.SaveCheckpoint(RunRoute.RoomCount); }
+                catch (ArgumentOutOfRangeException) { rejected = true; }
+                Check(rejected, "invalid checkpoint accepted");
+                cycle.SaveCheckpoint(2);
+                UnityEngine.Object.FindAnyObjectByType<MainMenu>().Continue();
+                await WaitForRun();
+                Check(cycle.Run.Position == 2, "Continue did not load saved section");
+                int enemyCount = UnityEngine.Object.FindAnyObjectByType<RoomLayout>().GetComponentsInChildren<RatController>().Length;
+                Check(enemyCount > 0, "test room has no enemies");
+                for (int attempt = 0; attempt < 11; attempt++)
                 {
-                    var menu = UnityEngine.Object.FindAnyObjectByType<PauseMenu>();
-                    menu.SetPaused(true);
+                    var room = UnityEngine.Object.FindAnyObjectByType<RoomLayout>();
                     var player = UnityEngine.Object.FindAnyObjectByType<PlayerController>();
-                    var hp = player.GetComponent<Health>();
-                    Check(hp.CurrentHealth == hp.MaximumHealth, "fresh run HP");
-                    Check(UnityEngine.Object.FindObjectsByType<RatController>().Length == 2, "enemies restored");
-                    cycle.Run.Food = 3;
-                    cycle.Run.BoonIds.Add("test-boon");
-                    hp.TakeDamage(999, Vector2.zero);
-                    Check(menu.ShowingResult && Time.timeScale == 0, "death result freezes gameplay");
-                    Check(cycle.Cycle.LivesRemaining == lives - 1, "one life lost");
-                    Check(!cycle.CompleteRun(RunEndReason.Death), "duplicate death rejected");
-                    Check(cycle.Run.Food == 0 && cycle.Run.BoonIds.Count == 0, "temporary state cleared");
-                    Check(cycle.Cycle.Memories == 12 && cycle.Cycle.PurchasedUpgradeIds.Count == 1, "cycle progress retained");
-                    menu.SetPaused(false);
-                    player.SetInputBlocked(false);
-                    Check(player.InputBlocked && Time.timeScale == 0, "dead player stays blocked");
-                    if (lives == 1) Check(cycle.Cycle.IsComplete && !cycle.StartRun(), "zero lives closes cycle");
-                    await Reload(menu);
+                    var health = player.GetComponent<Health>();
+                    var pause = UnityEngine.Object.FindAnyObjectByType<PauseMenu>();
+                    Check(health.CurrentHealth == health.MaximumHealth, "retry HP not full");
+                    Check(Mathf.Abs(player.transform.position.x - room.SafeSpawn.position.x) < .05f,
+                        "retry did not use SafeSpawn");
+                    var enemies = room.GetComponentsInChildren<RatController>();
+                    Check(enemies.Length == enemyCount, "retry changed enemy count");
+                    foreach (var enemy in enemies)
+                        Check(enemy.GetComponent<Health>().CurrentHealth == enemy.GetComponent<Health>().MaximumHealth,
+                            "enemy damage survived retry");
+                    Check(UnityEngine.Object.FindObjectsByType<FoodDrop>().Length == 0, "old food/shop rewards spawned");
+                    var damagedEnemy = enemies[0].GetComponent<Health>();
+                    damagedEnemy.TakeDamage(1, Vector2.zero);
+                    pause.SetPaused(false);
+                    health.ResetToFull();
+                    Check(health.TakeDamage(999, Vector2.zero), "test death rejected");
+                    Check(pause.ShowingResult && !cycle.Run.IsActive && cycle.SavedPosition == 2 && cycle.Run.Position == 2,
+                        "death lost section or failed to show retry");
+                    Check(!cycle.CompleteRun(RunEndReason.Death), "duplicate death accepted");
+                    pause.Resume();
+                    await Wait(() => pause == null);
+                    await WaitForRun();
                 }
-                Check(cycle.Cycle.LivesRemaining == 9 && cycle.Cycle.Memories == 0 && cycle.Cycle.PurchasedUpgradeIds.Count == 0, "new cat resets power");
-                Check(cycle.Profile == profile && profile.UnlockedItemIds.Contains("cycle-check"), "profile survives");
-                var pause = UnityEngine.Object.FindAnyObjectByType<PauseMenu>();
-                pause.Restart();
-                Check(cycle.Run.IsActive && cycle.Cycle.LivesRemaining == 9, "abandon needs confirmation");
-                pause.Resume();
-                Check(cycle.Run.IsActive && !pause.ShowingResult, "cancel abandonment");
-                pause.Restart();
-                pause.Restart();
-                Check(pause.ShowingResult && cycle.Cycle.LivesRemaining == 8, "confirmed abandonment loses one life");
-                await Reload(pause);
-                Check(cycle.CompleteRun(RunEndReason.Victory) && cycle.Cycle.IsVictory && cycle.Cycle.IsComplete && cycle.Cycle.LivesRemaining == 8, "early victory preserves remaining lives");
-                pause = UnityEngine.Object.FindAnyObjectByType<PauseMenu>();
-                Check(pause.ShowingResult, "victory result");
-                pause.MainMenu();
-                for (int i = 0; i < 200 && UnityEngine.Object.FindAnyObjectByType<MainMenu>() == null; i++) await Task.Delay(25);
-                Check(SceneManager.GetActiveScene().name == "MainMenu" && Time.timeScale == 1, "return to menu restores time");
-                profile.UnlockedItemIds.Remove("cycle-check");
-                return "Stage 4 PASS: nine deaths, duplicate death, fresh runs, reset/profile, pause guard, abandonment, victory, menu.";
+                UnityEngine.Object.FindAnyObjectByType<PauseMenu>().MainMenu();
+                await Wait(() => SceneManager.GetActiveScene().name == "MainMenu");
+                UnityEngine.Object.Destroy(cycle.gameObject);
+                await Task.Delay(40);
+                cycle = CycleController.Ensure();
+                Check(cycle.HasCheckpoint && cycle.SavedPosition == 2, "fresh controller lost persisted progress");
+                UnityEngine.Object.FindAnyObjectByType<MainMenu>().Continue();
+                await WaitForRun();
+                Check(cycle.Run.Position == 2, "fresh session Continue started the wrong room");
+                await CheckWalls();
+                UnityEngine.Object.FindAnyObjectByType<PauseMenu>().MainMenu();
+                await Wait(() => SceneManager.GetActiveScene().name == "MainMenu");
+                UnityEngine.Object.FindAnyObjectByType<MainMenu>().Play();
+                await WaitForRun();
+                Check(cycle.Run.Position == 0 && cycle.SavedPosition == 0, "New game did not reset progress");
+                Check(cycle.CompleteRun(RunEndReason.Victory) && !cycle.HasCheckpoint, "victory did not clear checkpoint");
+                UnityEngine.Object.FindAnyObjectByType<PauseMenu>().MainMenu();
+                await Wait(() => SceneManager.GetActiveScene().name == "MainMenu");
+                return "Campaign checkpoint PASS: 11 deaths, SafeSpawn, full player/enemy HP, persistent Continue, New game, victory; claw blocked by wall and damages exposed target.";
             }
-            finally { running = false; }
+            finally
+            {
+                if (hadSave) PlayerPrefs.SetInt(CycleController.CheckpointKey, oldSave);
+                else PlayerPrefs.DeleteKey(CycleController.CheckpointKey);
+                PlayerPrefs.Save();
+                running = false;
+            }
+        }
+
+        private static async Task CheckWalls()
+        {
+            var player = UnityEngine.Object.FindAnyObjectByType<PlayerController>();
+            var pause = UnityEngine.Object.FindAnyObjectByType<PauseMenu>();
+            pause.SetPaused(false);
+            player.SetSpawn(new Vector2(0, 30));
+            var body = player.GetComponent<Rigidbody2D>();
+            var previousType = body.bodyType;
+            body.bodyType = RigidbodyType2D.Kinematic;
+            body.linearVelocity = Vector2.zero;
+            Physics2D.SyncTransforms();
+            Vector2 origin = player.GetComponent<Collider2D>().bounds.center;
+            Vector2 direction = Vector2.right * player.FacingDirection;
+            var target = new GameObject("Wall regression target", typeof(BoxCollider2D), typeof(Health));
+            var wall = new GameObject("Wall regression obstacle", typeof(BoxCollider2D));
+            try
+            {
+                target.layer = LayerMask.NameToLayer("Enemy");
+                target.transform.position = origin + direction * 1.2f;
+                target.GetComponent<BoxCollider2D>().size = new Vector2(.5f, .7f);
+                wall.layer = LayerMask.NameToLayer("Ground");
+                wall.transform.position = origin + direction * .65f;
+                wall.GetComponent<BoxCollider2D>().size = new Vector2(.2f, 2f);
+                Physics2D.SyncTransforms();
+                var combat = player.GetComponent<PlayerCombat>();
+                var claw = typeof(PlayerCombat).GetMethod("ClawAttack", BindingFlags.Instance | BindingFlags.NonPublic);
+                var reach = typeof(PlayerCombat).GetMethod("CanReach", BindingFlags.Instance | BindingFlags.NonPublic);
+                var health = target.GetComponent<Health>();
+                Check(!(bool)reach.Invoke(combat, new object[] { target.GetComponent<Collider2D>() }), "wall did not block reach");
+                combat.StartCoroutine((IEnumerator)claw.Invoke(combat, null));
+                await Pump(450);
+                Check(health.CurrentHealth == health.MaximumHealth, "claw hit through wall");
+                wall.SetActive(false);
+                Physics2D.SyncTransforms();
+                Check((bool)reach.Invoke(combat, new object[] { target.GetComponent<Collider2D>() }), "exposed target not reachable");
+                combat.StartCoroutine((IEnumerator)claw.Invoke(combat, null));
+                await Pump(450);
+                Check(health.CurrentHealth == health.MaximumHealth - 10, "exposed target must receive one claw hit");
+            }
+            finally
+            {
+                UnityEngine.Object.Destroy(target);
+                UnityEngine.Object.Destroy(wall);
+                body.bodyType = previousType;
+            }
+        }
+
+        private static async Task Pump(int milliseconds)
+        {
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            while (watch.ElapsedMilliseconds < milliseconds)
+            {
+                UnityEngine.Object.FindAnyObjectByType<PauseMenu>()?.SetPaused(false);
+                await Task.Delay(10);
+            }
+        }
+
+        private static Task WaitForRun() => Wait(() => SceneManager.GetActiveScene().name == "Run" &&
+            UnityEngine.Object.FindAnyObjectByType<RoomLayout>() != null &&
+            UnityEngine.Object.FindAnyObjectByType<PlayerController>()?.GetComponent<Health>().IsAlive == true);
+
+        private static async Task Wait(Func<bool> condition)
+        {
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            while (!condition())
+            {
+                if (!EditorApplication.isPlaying || watch.Elapsed.TotalSeconds > 5)
+                    throw new InvalidOperationException("Checkpoint check transition timed out.");
+                await Task.Delay(10);
+            }
+        }
+
+        private static void Check(bool condition, string message)
+        {
+            if (!condition) throw new InvalidOperationException("Campaign checkpoint: " + message);
         }
     }
 }

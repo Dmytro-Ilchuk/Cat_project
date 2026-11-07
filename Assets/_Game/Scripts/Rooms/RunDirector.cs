@@ -26,8 +26,7 @@ namespace NineLives
             InputSystem.actions.FindActionMap("Gameplay", true).Enable();
             interact = InputSystem.actions.FindAction("Gameplay/Interact", true);
             var cycle = CycleController.Ensure();
-            if (cycle.Cycle.IsComplete) cycle.StartNewCat();
-            if (!cycle.Run.IsActive) cycle.StartRun();
+            if (!cycle.Run.IsActive) cycle.StartRun(continueFromSave: true);
             run = cycle.Run;
             route = RunRoute.Build(rooms);
             Load();
@@ -95,6 +94,7 @@ namespace NineLives
                     if (i % 2 == 1) rat.SetAttackStyle(RatAttackStyle.Spit);
                 }
             }
+            CycleController.Instance.SaveCheckpoint(run.Position);
             Refresh();
         }
 

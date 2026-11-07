@@ -9,6 +9,7 @@ namespace NineLives
     {
         [SerializeField] private Button quitButton;
         [SerializeField] private Button playButton;
+        [SerializeField] private Button continueButton;
         [SerializeField] private GameObject mainButtons;
         [SerializeField] private GameObject settingsPanel;
         [SerializeField] private GameObject creditsPanel;
@@ -22,7 +23,11 @@ namespace NineLives
 #if UNITY_WEBGL && !UNITY_EDITOR
             quitButton.gameObject.SetActive(false);
 #endif
-            EventSystem.current.SetSelectedGameObject(playButton.gameObject);
+            bool canContinue = CycleController.Ensure().HasCheckpoint;
+            continueButton.gameObject.SetActive(canContinue);
+            if (canContinue) continueButton.GetComponentInChildren<UnityEngine.UI.Text>().text =
+                $"ПРОДОВЖИТИ · {CycleController.Instance.SavedPosition + 1}/{RunRoute.RoomCount}";
+            EventSystem.current.SetSelectedGameObject(canContinue ? continueButton.gameObject : playButton.gameObject);
             var rain = GetComponentInChildren<MenuRain>(true);
             if (rain != null) rain.ConfigureStorm(270, 1.2f);
             var atmosphere = GetComponent<MenuAtmosphere>();
@@ -70,8 +75,16 @@ namespace NineLives
         public void Play()
         {
             var cycle = CycleController.Ensure();
-            if (cycle.Cycle.IsComplete) cycle.StartNewCat();
-            if (!cycle.Run.IsActive && !cycle.StartRun()) return;
+            cycle.StartNewCat();
+            cycle.SaveCheckpoint(0);
+            if (!cycle.StartRun()) return;
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Run");
+        }
+
+        public void Continue()
+        {
+            var cycle = CycleController.Ensure();
+            if (!cycle.HasCheckpoint || !cycle.StartRun(continueFromSave: true)) return;
             UnityEngine.SceneManagement.SceneManager.LoadScene("Run");
         }
 

@@ -9,6 +9,10 @@ namespace NineLives
         public const string ResilienceUpgradeId = "resilience-1";
         public const int ResilienceCost = 2;
         public static CycleController Instance { get; private set; }
+        // shortcut: the saved index assumes this route order; migrate the key when reordering rooms.
+        public const string CheckpointKey = "Campaign.Checkpoint.v1";
+        public bool HasCheckpoint => PlayerPrefs.HasKey(CheckpointKey);
+        public int SavedPosition => Mathf.Clamp(PlayerPrefs.GetInt(CheckpointKey, 0), 0, RunRoute.RoomCount - 1);
 
         public ProfileState Profile { get; private set; }
         public CycleState Cycle { get; private set; }
@@ -49,30 +53,39 @@ namespace NineLives
             StateChanged?.Invoke();
         }
 
-        public bool StartRun(int? seed = null)
+        public bool StartRun(int? seed = null, bool continueFromSave = false)
         {
-            if (Cycle.IsComplete || Run.IsActive) return false;
+            if (Run.IsActive) return false;
+            Cycle.IsComplete = false;
+            Cycle.IsVictory = false;
             Run.ClearTemporaryState();
+            Run.Position = continueFromSave ? SavedPosition : 0;
             Run.IsActive = true;
             Run.Seed = seed ?? Environment.TickCount;
             StateChanged?.Invoke();
             return true;
         }
 
+        public void SaveCheckpoint(int position)
+        {
+            if (position < 0 || position >= RunRoute.RoomCount)
+                throw new ArgumentOutOfRangeException(nameof(position));
+            PlayerPrefs.SetInt(CheckpointKey, position);
+            PlayerPrefs.Save();
+            StateChanged?.Invoke();
+        }
+
         public bool CompleteRun(RunEndReason reason)
         {
             if (!Run.IsActive) return false;
 
-            Run.ClearTemporaryState();
+            Run.IsActive = false;
             if (reason == RunEndReason.Victory)
             {
                 Cycle.IsVictory = true;
                 Cycle.IsComplete = true;
-            }
-            else
-            {
-                Cycle.LivesRemaining = Mathf.Max(0, Cycle.LivesRemaining - 1);
-                Cycle.IsComplete = Cycle.LivesRemaining == 0;
+                PlayerPrefs.DeleteKey(CheckpointKey);
+                PlayerPrefs.Save();
             }
 
             RunCompleted?.Invoke(reason);
